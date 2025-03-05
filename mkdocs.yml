@@ -1,6 +1,6 @@
-site_name: $site_name # Change this to your site name
+site_name: FEKT Notes
 site_description: $site_description
-site_url: $site_url # Change this to your site URL
+site_url: https://karolinaas.github.io/FEKT-notes/
 site_author: $site_author
 
 theme:

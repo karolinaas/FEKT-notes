@@ -1,7 +1,6 @@
 ---
 share: "true"
 ---
-
 ## Třetí přednáška z předmětu BPC-CZS
 ### Pokračování minulé přednášky - [[./CZS přednáška č.2|CZS přednáška č.2]]
 #### Vícerozměrné diskrétní signály

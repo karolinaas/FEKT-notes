@@ -1,0 +1,84 @@
+---
+share: "true"
+---
+### Druhá přednáška z předmětu BPC-ZIN
+- Smyky nad strunou - mění obálku ADSR
+	- Spiccato
+	- Házený (sautillé)
+	- Ricochet
+- Nástroje podle barvy
+	- Housle - ostré plné v barvě
+	- Violoncello
+	- Kontrabas - užší a měkký v barvě
+- První velký dirigent české filharmonie - [Václav Talich](https://cs.wikipedia.org/wiki/V%C3%A1clav_Talich)
+	- dissoval Janáčka, později obdivoval (prý, source: Jirásek (he made it the fuck up))
+- Drnkací nástroje
+	- Harfa
+		- rezonanční skříň? nezachytila jsem
+		- krk - na něm jsou ladící kolíky
+		- strun má 47 - diatonicky laděné v ces dur
+		- bílých klapek v oktávě 7 -> 47 strun děleno 7 = rozsah 7 oktáv
+		- Pedály -> je jich 7
+			- vlevo 3
+			- vpravo 4 (protože předpokládá, že hráč je pravák)
+			- slouží ke zvyšování/snižování tónů (všech oktáv)
+			- přelaďuje se i během hraní, způsobuje rozlazení harfy
+		- Ukázka: https://www.youtube.com/watch?v=TnYCW8eWqQo
+		- Ukázka 2: https://www.youtube.com/watch?v=hV2-zFh3tAU
+		- Harfa má malý výkon -> nutno s tím počítat při skladbě, aby byla slyšet mezi ostatními nástroji (není problém u solo harfy)
+		- Basové struny mají o hodně delší tón
+		- Červená struny označují oktávy (Céčka)
+		- Ukázka 3: https://www.youtube.com/watch?v=yyeuOmieaMM
+		- Pravá ruka hraje soprán (jako u klavíru) -> pravá ruka je důležitější
+		- V malé místnosti hraje líp než v sále (možnost odrazu zvuku od stěn -> zesílení)
+		- Ukázka 4: https://www.youtube.com/watch?v=evI-sCxYM3Y
+			- na začátku hrála flažolety - flažolet má jinou barvu (stejně jako na každém jiném strunném nástroji)
+		- Keltská harfa (ukázka) 26:00: https://www.youtube.com/watch?v=PfViC0fThiU
+		- Ukázka: https://www.youtube.com/watch?v=JhOhGhq0e54
+			- Playback -> nahráno ve studiu
+		- Způsoby hry:
+			- Hraje se 4 prsty (malíček jen u glissanda)
+				- arpeggio
+				- glissando
+				- nestihla jsem dopsat zbytek, bude to v prezentaci
+		- Hráč se nazývá harfenista (většinou harfenistka/harfistka) - hrozně moc sexismus :(, prej musej bejt hezký a nemluvit
+	- Mandolína
+		- je podobná houslím
+			- sopránový
+			- stejné ladění, ale zdvojené
+				- dá se se zdvojenými strunami experimentovat
+					- např. mírně rozladit, pozorovat co to dělá ve spektru
+		- Stavba nástroje:
+			- typická rezonanční skříň
+				- tvarovaná jako kapka (typicky)
+				- z tvrdého dřeva
+				- směrová charakteristika
+					- za hráčem nic (navíc hráč stíní)
+					- před hráčem nejvíc
+			- možných mnoho tvarů těla a rezonančních otvorů
+				- velikost otvorů mění formanty
+			- rozsah jako u houslí, ale jen se drnká, není smyčec -> dlouhé tóny se musí dělat tremolem
+		- Ukázka: https://youtu.be/6Vf0IT9u09k?si=vyO7chZb35WJPT-H
+		- Ukázka: https://www.youtube.com/watch?v=YeK4tAkk8H4
+			- Prý ideální nástrojová kombinace
+		- https://www.youtube.com/watch?v=Iq1UeTrW1hk
+			- snímáno mikrofonní párovou technikou
+				- použité dva mikrofony (X a Y)
+		- https://www.youtube.com/watch?v=q109UxgZJSw
+			- dobrej českej mandolinista
+			- kontrabasista nepoužívá smyčec
+	- Banjo
+		- Má 5 strun
+			- struna, který by měla být basová je actually vysoká (má kolík) -> palcem se tedy hraje soprán
+			- nejčastější ladění: g D G H d
+		- Akce pravé ruky:
+			- používají se prstýnky
+				- můžou bát skleněné nebo kovové -> nástroj hodně cinká a je to slyšet
+		- Do Česka přinesl nástroj [Marko Čermák](https://cs.wikipedia.org/wiki/Marko_%C4%8Cerm%C3%A1k) (ilustrátor rychlých šípů)
+			- je to americký nástroj (v čssr byl komunismus) -> musel poslouchat a odkoukávat, nástroj si vyrobil sám, nevěděl, že spodní prsty se musí opírat o blánu
+		- Různé banja dle ladění a polohy
+		- https://www.youtube.com/watch?v=xP5qEaVEngM
+		- https://www.youtube.com/watch?v=FDI90eA4_gU
+		- https://www.youtube.com/watch?v=c5dqcqz47mI
+		- https://www.youtube.com/watch?v=Dv4LN3P4RfQ
+- Po pauze prezentace referátů o nástrojích

@@ -1,0 +1,96 @@
+---
+share: "true"
+---
+### Druhá přednáška z předmětu BPC-ANH
+- tyčinky na rhodes piano - zase ukázal nějakou práci
+#### Doplnění [[./ANH přednáška č.1|přednášky (prezentace) č.1]]:
+- Měření binaurálních signálů
+	- Interaural Intensity Difference
+	- Interaural Time Difference
+- Bi- a mono-aurální poslech
+	- binaurální snižuje práh slyšení a zvyšuje práh hlasitosti
+	- Práh slyšitelnosti klesne o 3dB
+	- Při monoaurálním poslechu musíme zvýšit hlasitost reprodukce o 10 fonů abychom dosáhli stejné subjektivní hlasitosti jako při binaurálním poslechu
+		- fon - jednotka subjektivního slyšení
+		- výzkumy nejčastěji v lékařství, ne v hudbě
+- Rozložení nástrojů ve stereu - boky
+	- na boky umisťujeme nástroje co působí více barevně než rytmicky
+	- boky cítíme barevněji/harmoničtěji
+- Rozložení nástrojů ve stereu - střed
+	- borec je moc rychlej a jeho výklad nemá ani hlavu ani patu, tak to nemám :(
+- Stereo - rozteč a vzdálenost posluchače
+	- Poměr 1:1,21
+	- Metoda Audio Physic
+		- Podle Joachima Gerharda
+- Stereo - chyby
+	- při zvětšující vzdálenosti rozteče dochází k roztržení stereobáze - zvuk přestane vycházet z prostoru mezi reproduktory
+	- naopak je-li stereobáze (panorama) užší (posluchač je dál než je rozteč reproduktorů) bude zvukový obraz kompaktnější, slitý a ne tak expanzivní
+	- 60° je uhel nulových os
+- Vyrovnanost energie v poslechu
+	- střed by měl být co nejvíce zatížen (basy a sóla)
+	- blízké boky by měly být vybalancovány - cca stejnou energii
+	- okraje periférie moc nepřetěžovat
+	- vše se může měnit v čase - otázka kontrastu
+- Surround - poslech v okolí 360°
+	- mnohem více prostoru
+		- vlevo
+		- vpravo
+		- vzadu
+- Surround - nic nového pod sluncem?
+	- v hudební historii dávno poznatky o prostorové práci a práci s barvou existovaly
+	- Orlando di Lasso, Giovanni Pierluigi da Palestrina - kombinování zpěváků u kúru a od oltáře
+	- Karlheinz Stockhausen - Gruppen pro tři orchestry
+#### Přednáška (prezentace) č.2:
+- Alikvóty znějí současně - jako akord
+- Táhla Hammond
+	- slouží k hraní si s barvou tónu
+	- 1. harmonický
+	- 2. harmonický
+	- 3. harmonický
+	- atd...
+	- 7. harmonický je vynechán
+	- barva v čase stále stejná -> nazývá se mrtvá
+- Vyšší harmonické
+- Co lze vyčíst z harmonického spektra
+	- Vyšší harmonické od 1. do 64. se řadí do pásem
+		- od 1 do 8 - vnímáme jako barvu složenou z intervalů, každá interval má důležitou funkci
+		- od 9 do 16 - vnímáme jako klastry (shluky) složené z diatoniky, stále harmonicky
+			- které styly používají klastry?
+				- jazz - netrápí se s tím, že tam něco zní disonantně, kompenzuje se barvou
+			- klastr se vyznačuje tím, že je hodně sekund vedle sebe
+		- od 17 do 32 - vnímáme jako spojitá spektra, zvuk podobný řinčení skla a kovu, tzv. kvaziharmonicky
+			- to už jsou mikrointervaly
+			- vnímáme je jako cinkání
+		- od 33 do 46 - vnímáme jako šum, zcela neharmonicky
+- 1. Pásmo harmonických je pro nás stěžejní
+	- harmonické dělíme na:
+	- sudé - nejsou barvotvorné, podporují mohutnost a jasnost
+	- liché - vytvářejí vlastní barvu, zrnitost tónu
+- Barkové pásmo
+	- souvisí s kochleou (hlemýžděm)
+	- každý má jinačí křivku
+- 1. harmonický - fundament
+	- nemá žádnou barvu
+	- důležitý pro nosnost
+- 2. harmonický
+	- netvoří žádnou zásadní barvu
+	- zesiluje fundament, přidává mohutnost
+- 3. harmonický
+	- tvoří dutou a tupou barvu
+	- souvisí s naší hrudí, často rezonuje v hrudi, zejména u mužů
+- 4. harmonický
+	- sudý, jasnost
+- 5. harmonický
+	- tvoří nazální témbr
+- 6. harmonický
+	- tvoří jas tónu
+- 7. harmonický
+	- vytváří brysknost tónu
+- 8. tvoří jas tónu
+	- tvoří brysknost tónu
+- Nosnost tónu
+	- Yasuhisa Toyota - akustika koncertních sálů
+- Hamburg - Elbphilharmonie
+- Jonas Kaufmann - slavný německý tenor
+	- Podle něj je akustika Elbphilharmonie příšerná, prej ho tam publikum neslyšelo
+- Analýza spektra - metody

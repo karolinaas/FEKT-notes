@@ -1,7 +1,7 @@
-site_name: FEKT Notes
-site_description: $site_description
+Ksite_name: FEKT Notes
+site_description: FEKT notes site
 site_url: https://karolinaas.github.io/FEKT-notes/
-site_author: $site_author
+site_author: Karolína Šebestová
 
 theme:
     name: 'material'
@@ -11,7 +11,7 @@ theme:
     font:
         text: Karla
         code: Ubuntu Mono
-    language: $language
+    language: en
     palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
@@ -129,9 +129,9 @@ extra_css:
     - https://cdn.jsdelivr.net/gh/Enveloppe/_static@refs/heads/master/dist/styles.css
 extra:
   SEO: '_assets/meta/logo.png'
-  comments: $comments
+  comments: false
   attachments: '_assets/img/'
-  no-auto-h1: $auto_h1
+  no-auto-h1: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Enveloppe/

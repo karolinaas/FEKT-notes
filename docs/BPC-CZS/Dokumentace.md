@@ -11,7 +11,7 @@ Dokumentace k funkcím napsaných v rámci cvičení z předmětu BPC-CZS
 
 Dokumentace funkcí z druhého cvičení.
 
-### `add_zeros()`
+### add_zeros
 
 Pad row vector with zeros
 
@@ -50,7 +50,7 @@ The second argument must be a scalar value, a natural number and it must be grea
 > [!info]+ `num_of_zeros` - number of zeros
 > Number of zeros for the vector to be padded with. Must be a scalar value, a natural number and must be greater than zero. Otherwise an error is thrown.
 
-### `load_music()`
+### load_music
 
 Get sample rate and duration of audio file
 

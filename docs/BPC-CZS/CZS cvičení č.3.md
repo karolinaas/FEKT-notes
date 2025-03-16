@@ -42,7 +42,7 @@ category: BPC-CZS
 	- $\varphi$ - počáteční fáze signálu v radiánech v intervalu $\langle - \pi ; \pi \rangle$
 - V Matlabu je potřeba nejdříve zadefinovat časovou osu jako:
 
-	<center><pre>t = (0:N -1) / fs</pre></center>
+	<center><pre><code>t = (0:N - 1) / fs</code></pre></center>
 	
 	- `N` - počet vzorků
 	- `fs` - vzorkovací kmitočet

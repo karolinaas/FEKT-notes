@@ -782,14 +782,15 @@
 <li><span class="arithmatex">\(n\)</span> - diskrétní index času</li>
 <li><span class="arithmatex">\(T_s\)</span> - vzorkovací perioda</li>
 <li><span class="arithmatex">\(\varphi\)</span> - počáteční fáze signálu v radiánech v intervalu <span class="arithmatex">\(\langle - \pi ; \pi \rangle\)</span></li>
-<li>V Matlabu je potřeba nejdříve zadefinovat časovou osu jako:<br/>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="o">&lt;</span><span class="n">center</span><span class="o">&gt;</span><span class="n">t</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="n">N</span><span class="w"> </span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">fs</span><span class="o">&lt;/</span><span class="n">center</span><span class="o">&gt;</span>
-</code></pre></div></li>
+<li>V Matlabu je potřeba nejdříve zadefinovat časovou osu jako:</li>
+</ul>
+<p><center><pre>t = (0:N -1) / fs</pre></center></p>
+<ul>
 <li><code>N</code> - počet vzorků</li>
 <li><code>fs</code> - vzorkovací kmitočet</li>
 <li>Takto zadefinovaná časová osa je vektor hodnot s rozestupem definovaným vzorkovací periodou <span class="arithmatex">\(T_s\)</span></li>
 <li>Je možné nahradit <code>(0:N-1)</code> pomocí <code>(0:(duration*fs)-1)</code>. Takto dostáváme časový vektor definovaný pomocí délky trvání signálu v sekundách <code>duration</code> a vzorkovacího kmitočtu <code>fs</code>.</li>
-<li>v Matlabu můžeme vygenerovat signály jako: <br/>
+<li>Poté můžeme vygenerovat signály v Matlabu jako<br/>
 <code>y_cos = A * cos(2 * pi</code></li>
 </ul>
 </li>

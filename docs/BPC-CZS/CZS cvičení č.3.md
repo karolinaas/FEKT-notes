@@ -42,14 +42,16 @@ category: BPC-CZS
 	- $\varphi$ - počáteční fáze signálu v radiánech v intervalu $\langle - \pi ; \pi \rangle$
 - V Matlabu je potřeba nejdříve zadefinovat časovou osu jako:
 
-	<center><pre><code>t = (0:N - 1) / fs</code></pre></center>
+	<center><pre><code >t = (0:N - 1) / fs</code></pre></center>
 	
 	- `N` - počet vzorků
 	- `fs` - vzorkovací kmitočet
 - Takto zadefinovaná časová osa je vektor hodnot s rozestupem definovaným vzorkovací periodou $T_s$
 - Je možné nahradit `(0:N-1)` pomocí `(0:(duration*fs)-1)`. Takto dostáváme časový vektor definovaný pomocí délky trvání signálu v sekundách `duration` a vzorkovacího kmitočtu `fs`.
-- Poté můžeme vygenerovat signály v Matlabu jako
-  `y_cos = A * cos(2 * pi`
+- Poté můžeme vygenerovat signály v Matlabu jako:
+<center><pre><code >y_cos = A * cos(2 * pi * f * t + phi)
+y_sin = A * sin(2 * pi * f * t + phi)</code></pre></center>
+
 
 ### Kvantování signálu
 

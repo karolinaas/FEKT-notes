@@ -790,8 +790,9 @@
 <li><code>fs</code> - vzorkovací kmitočet</li>
 <li>Takto zadefinovaná časová osa je vektor hodnot s rozestupem definovaným vzorkovací periodou <span class="arithmatex">\(T_s\)</span></li>
 <li>Je možné nahradit <code>(0:N-1)</code> pomocí <code>(0:(duration*fs)-1)</code>. Takto dostáváme časový vektor definovaný pomocí délky trvání signálu v sekundách <code>duration</code> a vzorkovacího kmitočtu <code>fs</code>.</li>
-<li>Poté můžeme vygenerovat signály v Matlabu jako<br/>
-<code>y_cos = A * cos(2 * pi</code></li>
+<li>Poté můžeme vygenerovat signály v Matlabu jako:<br/>
+<center><pre><code>y_cos = A * cos(2 * pi * f * t + phi)<br/>
+y_sin = A * sin(2 * pi * f * t + phi)</code></pre></center></li>
 </ul>
 </li>
 </ul>

@@ -97,8 +97,8 @@ plugins:
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true
-      locale: fr
-      custom_format: "%A %d %B %Y"
+      locale: cs
+      custom_format: "%A %-d.%-m.%Y %-H:%M:%S"
       enable_creation_date: true
   - ezlinks:
       wikilinks: true
@@ -117,6 +117,7 @@ hooks:
   - overrides/hooks/on_post_page.py
 extra_javascript:
   - _static/js/mathjax.js
+  - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
   - _static/js/snippets.js
   - https://cdn.jsdelivr.net/gh/Enveloppe/_static@refs/heads/master/dist/index.js

@@ -31,9 +31,9 @@ category: BPC-CZS
 
 - Průběhy $\cos$ a $\sin$ jsou v diskrétní podobě zadefinovány jako:
 
-	$y_{\cos} [n] = A \cdot \cos (2 \pi f n T_s + \varphi)$
+	$$y_{\cos} [n] = A \cdot \cos (2 \pi f n T_s + \varphi)$$
 	
-	$y_{\sin} [n] = A \cdot \sin (2 \pi f n T_s + \varphi)$
+	$$y_{\sin} [n] = A \cdot \sin (2 \pi f n T_s + \varphi)$$
 	
 	- $A$ - amplituda (maximální výchylka)
 	- $f$ - frekvence signálu v Hz
@@ -41,13 +41,14 @@ category: BPC-CZS
 	- $T_s$ - vzorkovací perioda
 	- $\varphi$ - počáteční fáze signálu v radiánech v intervalu $\langle - \pi ; \pi \rangle$
 - V Matlabu je potřeba nejdříve zadefinovat časovou osu jako:
-	```
-	t = (0:N -1) / fs
+	```matlab
+	<center>t = (0:N -1) / fs</center>
 	```
 	- `N` - počet vzorků
 	- `fs` - vzorkovací kmitočet
 - Takto zadefinovaná časová osa je vektor hodnot s rozestupem definovaným vzorkovací periodou $T_s$
-- v Matlabu můžeme vygenerovat signály jako:
+- Je možné nahradit `(0:N-1)` pomocí `(0:(duration*fs)-1)`. Takto dostáváme časový vektor definovaný pomocí délky trvání signálu v sekundách `duration` a vzorkovacího kmitočtu `fs`.
+- v Matlabu můžeme vygenerovat signály jako: 
   `y_cos = A * cos(2 * pi`
 
 ### Kvantování signálu

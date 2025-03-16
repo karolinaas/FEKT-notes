@@ -30,8 +30,10 @@ category: BPC-CZS
 ### Generování harmonických průběhů v Matlabu
 
 - Průběhy $\cos$ a $\sin$ jsou v diskrétní podobě zadefinovány jako
+
 	$$y_{\cos} [n] = A \cdot \cos (2 \pi f n T_s + \varphi)$$
 	$$y_{\sin} [n] = A \cdot \sin (2 \pi f n T_s + \varphi)$$
+	
 	- $A$ - amplituda (maximální výchylka)
 	- $f$ - frekvence signálu v Hz
 	- $n$ - diskrétní index času

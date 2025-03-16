@@ -9,15 +9,15 @@ Dokumentace k funkcím napsaných v rámci cvičení z předmětu BPC-CZS
 
 ## [[./CZS cvičení č.2|Funkce z cvičení č.2]]
 
+Funkce:
+
 ### `add_zeros()`
 
 Pad row vector with zeros
 
 #### Syntax
 
-```matlab
-row_vector = add_zeros(<a>input_vector</a>, num_of_zeros)
-```
+`row_vector = add_zeros(input_vector, num_of_zeros)`
 
 #### Description
 
@@ -54,9 +54,7 @@ Get sample rate and duration of audio file
 
 #### Syntax
 
-```matlab
-[sample_rate, duration] = load_music(path_to_wave_file)
-```
+`[sample_rate, duration] = load_music(path_to_wave_file)`
 
 #### Description
 
@@ -88,3 +86,6 @@ This function takes path to audio file and return the audio file's sample rate i
 ---
 
 ## [[./CZS cvičení č.3|Funkce z cvičení č.3]]
+
+Funkce:
+

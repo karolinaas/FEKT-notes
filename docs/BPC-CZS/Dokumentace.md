@@ -52,7 +52,7 @@ Get sample rate and duration of audio file
 
 #### Syntax
 
-`[sample_rate, duration] = load_music(path_to_wave_file)`
+<pre><code>[sample_rate, duration] = load_music(path_to_wave_file)</code></pre>
 
 #### Description
 
@@ -87,18 +87,44 @@ This function takes path to audio file and return the audio file's sample rate i
 
 ### generate_sine
 
-
+Generate sinusoidal signal
 
 #### Syntax
 
-
+<pre><code>[t, y] = generate_sine(duration, A, phi, fs, f)</code></pre>
 
 #### Description
 
+This function takes signal duration, amplitude, initial phase, sample rate and signal frequency to generate a sinusoidal signal.
 
+Returns signal timescale and sample data.
 
 #### Examples
 
-
+> [!example]+ Generate sinusoidal signal
+> ```matlab
+> duration = 1;
+> A = 1;
+> phi = 0;
+> fs_continuous = 192000;
+> f = 10;
+>
+> [t_continuous, y_continuous] = generate_sine(duration, A, phi, fs_continuous, f);
+> ```
 
 #### Input Arguments
+
+> [!info]+ `duration` - signal duration
+> Duration of the signal in seconds.
+
+> [!info]+ `A` - amplitude ($A$)
+> Amplitude (maximum deviation) of the signal.
+
+> [!info]+ `phi` - initial phase ($\varphi$)
+> Initial phase of the signal in radians.
+
+> [!info]+ `fs` - sample rate ($f_s$)
+> Sampling frequency of the signal in Hertz.
+
+> [!info]+ `f` - signal frequency ($f$)
+> Frequency of the signal itself in Hertz.

@@ -15,8 +15,8 @@ Pad row vector with zeros
 
 #### Syntax
 
-```matlab
-row_vector = add_zeros(input_row_vector, num_of_zeros)
+```
+row_vector = add_zeros(<a>input_vector</a>, num_of_zeros)
 ```
 
 #### Description

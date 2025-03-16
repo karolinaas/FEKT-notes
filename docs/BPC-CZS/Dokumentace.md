@@ -7,7 +7,7 @@ Dokumentace k funkcím napsaných v rámci cvičení z předmětu BPC-CZS
 
 ---
 
-## [[./CZS cvičení č.2|Funkce z cvičení č.2]]
+## [[./CZS cvičení č.2#Dobrovolné zadání 1|Funkce z cvičení č.2]]
 
 ### add_zeros
 
@@ -15,7 +15,7 @@ Pad row vector with zeros
 
 #### Syntax
 
-`row_vector = add_zeros(input_vector, num_of_zeros)`
+<pre><code>row_vector = add_zeros(input_vector, num_of_zeros)</code></pre>
 
 #### Description
 
@@ -84,3 +84,21 @@ This function takes path to audio file and return the audio file's sample rate i
 ---
 
 ## [[./CZS cvičení č.3|Funkce z cvičení č.3]]
+
+### generate_sine
+
+
+
+#### Syntax
+
+
+
+#### Description
+
+
+
+#### Examples
+
+
+
+#### Input Arguments

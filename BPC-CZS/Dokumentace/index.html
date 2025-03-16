@@ -922,7 +922,7 @@
 <h4 id="load_music">load_music<a class="headerlink" href="#load_music" title="Permanent link">¶</a></h4>
 <p>Get sample rate and duration of audio file</p>
 <h5 id="syntax_1">Syntax<a class="headerlink" href="#syntax_1" title="Permanent link">¶</a></h5>
-<p><code>[sample_rate, duration] = load_music(path_to_wave_file)</code></p>
+<pre><code>[sample_rate, duration] = load_music(path_to_wave_file)</code></pre>
 <h5 id="description_1">Description<a class="headerlink" href="#description_1" title="Permanent link">¶</a></h5>
 <p>This function takes path to audio file and return the audio file’s sample rate in Herz and duration in seconds. It then also plots the waveform of the file.</p>
 <h5 id="examples_1">Examples<a class="headerlink" href="#examples_1" title="Permanent link">¶</a></h5>
@@ -948,10 +948,45 @@
 <hr/>
 <h3 id="funkce-z-cviceni-c3"><a href="../CZS%20cvi%C4%8Den%C3%AD%20%C4%8D.3/" title="Funkce z cvičení č.3">Funkce z cvičení č.3</a><a class="headerlink" href="#funkce-z-cviceni-c3" title="Permanent link">¶</a></h3>
 <h4 id="generate_sine">generate_sine<a class="headerlink" href="#generate_sine" title="Permanent link">¶</a></h4>
+<p>Generate sinusoidal signal</p>
 <h5 id="syntax_2">Syntax<a class="headerlink" href="#syntax_2" title="Permanent link">¶</a></h5>
+<pre><code>[t, y] = generate_sine(duration, A, phi, fs, f)</code></pre>
 <h5 id="description_2">Description<a class="headerlink" href="#description_2" title="Permanent link">¶</a></h5>
+<p>This function takes signal duration, amplitude, initial phase, sample rate and signal frequency to generate a sinusoidal signal.</p>
+<p>Returns signal timescale and sample data.</p>
 <h5 id="examples_2">Examples<a class="headerlink" href="#examples_2" title="Permanent link">¶</a></h5>
+<details class="example" open="open">
+<summary>Generate sinusoidal signal</summary>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="nb">duration</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<a href="#__codelineno-4-2" id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="n">A</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<a href="#__codelineno-4-3" id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="n">phi</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a href="#__codelineno-4-4" id="__codelineno-4-4" name="__codelineno-4-4"></a><span class="n">fs_continuous</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">192000</span><span class="p">;</span>
+<a href="#__codelineno-4-5" id="__codelineno-4-5" name="__codelineno-4-5"></a><span class="n">f</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span>
+<a href="#__codelineno-4-6" id="__codelineno-4-6" name="__codelineno-4-6"></a>
+<a href="#__codelineno-4-7" id="__codelineno-4-7" name="__codelineno-4-7"></a><span class="p">[</span><span class="n">t_continuous</span><span class="p">,</span><span class="w"> </span><span class="n">y_continuous</span><span class="p">]</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">generate_sine</span><span class="p">(</span><span class="nb">duration</span><span class="p">,</span><span class="w"> </span><span class="n">A</span><span class="p">,</span><span class="w"> </span><span class="n">phi</span><span class="p">,</span><span class="w"> </span><span class="n">fs_continuous</span><span class="p">,</span><span class="w"> </span><span class="n">f</span><span class="p">);</span>
+</code></pre></div>
+</details>
 <h5 id="input-arguments_2">Input Arguments<a class="headerlink" href="#input-arguments_2" title="Permanent link">¶</a></h5>
+<details class="info" open="open">
+<summary><code>duration</code> - signal duration</summary>
+<p>Duration of the signal in seconds.</p>
+</details>
+<details class="info" open="open">
+<summary><code>A</code> - amplitude (<span class="arithmatex">\(A\)</span>)</summary>
+<p>Amplitude (maximum deviation) of the signal.</p>
+</details>
+<details class="info" open="open">
+<summary><code>phi</code> - initial phase (<span class="arithmatex">\(\varphi\)</span>)</summary>
+<p>Initial phase of the signal in radians.</p>
+</details>
+<details class="info" open="open">
+<summary><code>fs</code> - sample rate (<span class="arithmatex">\(f_s\)</span>)</summary>
+<p>Sampling frequency of the signal in Hertz.</p>
+</details>
+<details class="info" open="open">
+<summary><code>f</code> - signal frequency (<span class="arithmatex">\(f\)</span>)</summary>
+<p>Frequency of the signal itself in Hertz.</p>
+</details>
 <!-- Source file information -->
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->

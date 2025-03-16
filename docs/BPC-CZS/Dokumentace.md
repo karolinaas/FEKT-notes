@@ -31,8 +31,19 @@ The second argument must be a scalar value, a natural number and it must be grea
 > ```matlab
 > add_zeros([1 2 3 4], 2)
 > ```
+> Output:
+> ```
+> row_vector = 
+>	1 0 0 2 0 0 3 0 0 4 0 0
+> ```
 
 #### Input Arguments
+
+> [!info]- `input_row_vector` - input row vector
+> Input row vector. Must be a row vector, otherwise an error is thrown.
+
+> [!info]- `num_of_zeros` - number of zeros
+> Number of zeros for the vector to be padded with. Must be a scalar value, a natural number and must be greater than zero. Otherwise an error is thrown.
 
 ### load_music()
 

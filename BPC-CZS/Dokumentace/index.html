@@ -825,10 +825,22 @@
 <h4 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">¶</a></h4>
 <details class="example">
 <summary>Pad row vector with zeros</summary>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">add_zeros</span><span class="p">([</span><span class="mi">1</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="mi">4</span><span class="p">],</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span>
-</code></pre></div>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="n">add_zeros</span><span class="p">([</span><span class="mi">1</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="mi">4</span><span class="p">],</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span>
+</code></pre></div><br/>
+Output:<br/>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>row_vector = 
+<a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a>	1 0 0 2 0 0 3 0 0 4 0 0
+</code></pre></div></p>
 </details>
 <h4 id="input-arguments">Input Arguments<a class="headerlink" href="#input-arguments" title="Permanent link">¶</a></h4>
+<details class="info">
+<summary><code>input_row_vector</code> - input row vector</summary>
+<p>Input row vector. Must be a row vector, otherwise an error is thrown.</p>
+</details>
+<details class="info">
+<summary><code>num_of_zeros</code> - number of zeros</summary>
+<p>Number of zeros for the vector to be padded with. Must be a scalar value, a natural number and must be greater than zero. Otherwise an error is thrown.</p>
+</details>
 <h3 id="load_music">load_music()<a class="headerlink" href="#load_music" title="Permanent link">¶</a></h3>
 <h4 id="syntax_1">Syntax<a class="headerlink" href="#syntax_1" title="Permanent link">¶</a></h4>
 <h4 id="description_1">Description<a class="headerlink" href="#description_1" title="Permanent link">¶</a></h4>

@@ -2,7 +2,9 @@
 share: "true"
 category: BPC-CZS
 ---
+
 ### Druhá přednáška z předmětu BPC-CZS
+
 - Zkouška potenciálně v elearningu formou ABCD (ne úplně triviální)
 	- Příklady, např. spočítat korelaci a vybrat správnou odpověď z 8 možností
 - V matlabu pozor, indexujeme od jedničky, ne od nuly
@@ -21,8 +23,14 @@ category: BPC-CZS
 		- v komplexním případě využíváme Eulerova vztahu $e^{j \theta} = \cos \theta + j \cdot \sin \theta$ 
 	- Rampová posloupnost
 - Klasifikace jednorozměrných diskrétních signálů
-	- Energie signálu $$E = \sum_{n = - \infty}^{n} |s[n]|^2$$
-	- Střední hodnota výkonu $$P = \lim_{n \to \infty} \frac{1}{2 N + 1} \sum_{n = - \infty}^{n} |s[n]|^2$$
+	- Energie signálu
+	
+	$$E = \sum_{n = - \infty}^{n} |s[n]|^2$$
+	
+	- Střední hodnota výkonu
+	
+	$$P = \lim_{n \to \infty} \frac{1}{2 N + 1} \sum_{n = - \infty}^{n} |s[n]|^2$$
+	
 		- Na testu se může vyskytnout příklad, kde bude potřeba spočítat limitu
 	- Periodický signál (periodicita)
 		- periodicita harmonických funkcí je vázána na celistvé násobky $2 \pi$

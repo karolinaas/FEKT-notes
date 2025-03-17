@@ -12,10 +12,13 @@ https://www.mathworks.com/help/matlab/matlab_env/open-github-repositories-in-mat
 V konzoli matlabu lze používat některé unixové příkazy
 
 Přednášky:
+
 - [[./CZS přednáška č.1|CZS přednáška č.1]] - [[10.02.2025|10.02.2025]]
 - [[./CZS přednáška č.2|CZS přednáška č.2]] - 17.02.2025
 - [[./CZS přednáška č.3|CZS přednáška č.3]] - 24.02.2025
+
 Cvičení:
+
 - [[./CZS cvičení č.2|CZS cvičení č.2]] - [[19.02.2025|19.02.2025]]
 - [[./CZS cvičení č.3|CZS cvičení č.3]] - 26.02.2025
 - 

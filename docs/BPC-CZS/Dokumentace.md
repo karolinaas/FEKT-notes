@@ -178,24 +178,35 @@ Two quantization types are supported:
 
 ### calculate_sqnr
 
-
+Calculate Signal to Quantization Noise Ratio
 
 #### Syntax
 
-<pre><code></code></pre>
+<pre><code>sqnr = calculate_sqnr(signal, noise)</code></pre>
 
 #### Description
 
+This function takes a signal and quantization noise signal. It then calculates and returns Signal to Quantization Noise Ratio ($SQNR$) in decibels (dB).
 
+The following formulae are used:
+
+$$SQNR_{\text{dB}} = 10 \log \left( \frac{P_{\text{signal}}}{P_{\text{noise}}} \right)$$
+
+$$P = \frac{1}{N} \sum^N_{n=1} x \left[ n \right]^2$$
+
+Signal power $P$ is calculated using `mean` Matlab function.
 
 #### Examples
 
-> [!example]+ 
+> [!example]+ Calculate $SQNR_{\text{dB}}$
 > ```matlab
-> 
+> sqnr = calculate_sqnr(y_sine, noise)
 > ```
 
 #### Input Arguments
 
-> [!info]+ 
-> 
+> [!info]+ `signal` - input signal
+> Sampled input signal.
+
+> [!info]+ `noise` - input noise signal
+> Sampled quantization noise of the input signal.

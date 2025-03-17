@@ -55,10 +55,27 @@ y_sin = A * sin(2 * pi * f * t + phi)</code></pre></center>
 
 ### Kvantování signálu
 
-
+- Pro číslicové zpracování signálu je nutné navzorkované hodnoty signálu kvantovat na konečný počet kvantizačních úrovní (hladin).
+- Počet kvantizačních úrovní $L$ je dán tzv. bitovou hloubkou $B$ jako $L = 2^B$.
+- V Matlabu jsou signály reprezentovány typem double a po načtení audio souborů jsou hodnoty automaticky převedeny do rozsahu $\langle −1 ; 1 \rangle$ (full scale), a tak není potřeba kvantizaci řešit. Pro názornost však můžeme kvantování nasimulovat.
 
 #### Kvantizační šum, odstup od kvantizačního šumu
 
+- Díky kvantizaci (hodnoty signálu jsou zaokrouhlovány na nejbližší úrovně) vzniká chyba - tzv. kvantizační šum, který klesá s rostoucí bitovou hloubkou.
+- Můžeme definovat SQNR (Signal to Quantization Noise Ratio) v decibelech, což je odstup užitečného signálu od kvantizačního šumu definovaný jako:
 
+	$$SQNR_{\text{dB}} = 10 \log \left( \frac{P_{\text{signal}}}{P_{\text{noise}}} \right)$$
+
+	- $P$ - výkon
+- Výkon libovolného diskrétního signálu (i kvantizačního šumu) můžeme v praxi spočítat jako:
+
+	$$P = \frac{1}{N} \sum^N_{n=1} x \left[ n \right]^2$$
+
+- Pro sinusový signál je také často uváděn přibližný vztah:
+
+	$$SQNR_{\text{dB}} \approx 6,02 \cdot B + 1,76$$
 
 ### Samostatné úkoly
+
+1. Vyzkoušejte funkci pro kvantování signálu na načteném audio souboru (pomocí `audioread`) a výsledek kvantizace si poslechněte.
+2. Pokuste se implementovat funkci s názvem `calculate_sqnr`, která bude vracet odstup signálu od kvantizačního šumu (skalární hodnota). Funkci implementujte dle vzorce z prezentace. Můžete využít built-in MATLAB funkci `mean`. Vstupními argumenty budou původní signál a signál kvantizačního šumu.

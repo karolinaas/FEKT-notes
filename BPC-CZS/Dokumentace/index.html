@@ -483,6 +483,84 @@
 </ul>
 </nav>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#quantize_signal">
+<span class="md-ellipsis">
+      quantize_signal
+    </span>
+</a>
+<nav aria-label="quantize_signal" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_3">
+<span class="md-ellipsis">
+      Syntax
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#description_3">
+<span class="md-ellipsis">
+      Description
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_3">
+<span class="md-ellipsis">
+      Examples
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#input-arguments_3">
+<span class="md-ellipsis">
+      Input Arguments
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#calculate_sqnr">
+<span class="md-ellipsis">
+      calculate_sqnr
+    </span>
+</a>
+<nav aria-label="calculate_sqnr" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_4">
+<span class="md-ellipsis">
+      Syntax
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#description_4">
+<span class="md-ellipsis">
+      Description
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_4">
+<span class="md-ellipsis">
+      Examples
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#input-arguments_4">
+<span class="md-ellipsis">
+      Input Arguments
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
 </ul>
 </nav>
 </li>
@@ -860,6 +938,84 @@
 </ul>
 </nav>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#quantize_signal">
+<span class="md-ellipsis">
+      quantize_signal
+    </span>
+</a>
+<nav aria-label="quantize_signal" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_3">
+<span class="md-ellipsis">
+      Syntax
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#description_3">
+<span class="md-ellipsis">
+      Description
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_3">
+<span class="md-ellipsis">
+      Examples
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#input-arguments_3">
+<span class="md-ellipsis">
+      Input Arguments
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#calculate_sqnr">
+<span class="md-ellipsis">
+      calculate_sqnr
+    </span>
+</a>
+<nav aria-label="calculate_sqnr" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#syntax_4">
+<span class="md-ellipsis">
+      Syntax
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#description_4">
+<span class="md-ellipsis">
+      Description
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples_4">
+<span class="md-ellipsis">
+      Examples
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#input-arguments_4">
+<span class="md-ellipsis">
+      Input Arguments
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
 </ul>
 </nav>
 </li>
@@ -901,7 +1057,7 @@
 -->
 <h1>Dokumentace</h1>
 <!-- Page content -->
-<p>Dokumentace k funkcím napsaných v rámci cvičení z předmětu BPC-CZS</p>
+<p>Dokumentace k funkcím napsaných v rámci cvičení z předmětu <a href="../" title="BPC-CZS">BPC-CZS</a></p>
 <hr/>
 <h3 id="funkce-z-cviceni-c2"><a href="../CZS%20cvi%C4%8Den%C3%AD%20%C4%8D.2/" title="Funkce z cvičení č.2">Funkce z cvičení č.2</a><a class="headerlink" href="#funkce-z-cviceni-c2" title="Permanent link">¶</a></h3>
 <h4 id="add_zeros">add_zeros<a class="headerlink" href="#add_zeros" title="Permanent link">¶</a></h4>
@@ -1001,6 +1157,55 @@
 <details class="info" open="open">
 <summary><code>f</code> - signal frequency (<span class="arithmatex">\(f\)</span>)</summary>
 <p>Frequency of the signal itself in Hertz.</p>
+</details>
+<h4 id="quantize_signal">quantize_signal<a class="headerlink" href="#quantize_signal" title="Permanent link">¶</a></h4>
+<p>Quantize a signal</p>
+<h5 id="syntax_3">Syntax<a class="headerlink" href="#syntax_3" title="Permanent link">¶</a></h5>
+<pre><code>[y_quantized, quant_levels] = quantize_signal(x, B, quant_type)</code></pre>
+<h5 id="description_3">Description<a class="headerlink" href="#description_3" title="Permanent link">¶</a></h5>
+<p>This function takes a signal to be quantized, bit depth and quantization type to be used and returns quantized signal together with quantization levels.</p>
+<p>Two quantization types are supported:</p>
+<ul>
+<li>Mid-Rise</li>
+<li>Mid-Tread</li>
+</ul>
+<h5 id="examples_3">Examples<a class="headerlink" href="#examples_3" title="Permanent link">¶</a></h5>
+<details class="example" open="open">
+<summary>Quantize a signal a using Mid-Rise method</summary>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-5-1" id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="p">[</span><span class="n">y_midrise</span><span class="p">,</span><span class="w"> </span><span class="o">~</span><span class="p">]</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">quantize_signal</span><span class="p">(</span><span class="n">x_quant</span><span class="p">,</span><span class="w"> </span><span class="n">bits</span><span class="p">,</span><span class="w"> </span><span class="s">"mid_rise"</span><span class="p">);</span>
+</code></pre></div>
+</details>
+<details class="example" open="open">
+<summary>Quantize a signal a using Mid-Tread method</summary>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-6-1" id="__codelineno-6-1" name="__codelineno-6-1"></a><span class="p">[</span><span class="n">y_midtread</span><span class="p">,</span><span class="w"> </span><span class="o">~</span><span class="p">]</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">quantize_signal</span><span class="p">(</span><span class="n">x_quant</span><span class="p">,</span><span class="w"> </span><span class="n">bits</span><span class="p">,</span><span class="w"> </span><span class="s">"mid_tread"</span><span class="p">);</span>
+</code></pre></div>
+</details>
+<h5 id="input-arguments_3">Input Arguments<a class="headerlink" href="#input-arguments_3" title="Permanent link">¶</a></h5>
+<details class="info" open="open">
+<summary><code>x</code> - input signal</summary>
+<p>Signal before quantization.</p>
+</details>
+<details class="info" open="open">
+<summary><code>B</code> - bit depth</summary>
+<p>Finite number of quantization levels.</p>
+</details>
+<details class="info" open="open">
+<summary><code>quant_type</code> - type of quantization</summary>
+<p>Can be either <code>mid_rise</code> or <code>mid_tread</code>.</p>
+</details>
+<h4 id="calculate_sqnr">calculate_sqnr<a class="headerlink" href="#calculate_sqnr" title="Permanent link">¶</a></h4>
+<h5 id="syntax_4">Syntax<a class="headerlink" href="#syntax_4" title="Permanent link">¶</a></h5>
+<pre><code></code></pre>
+<h5 id="description_4">Description<a class="headerlink" href="#description_4" title="Permanent link">¶</a></h5>
+<h5 id="examples_4">Examples<a class="headerlink" href="#examples_4" title="Permanent link">¶</a></h5>
+<details class="example" open="open">
+<summary>Example</summary>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-7-1" id="__codelineno-7-1" name="__codelineno-7-1"></a>
+</code></pre></div>
+</details>
+<h5 id="input-arguments_4">Input Arguments<a class="headerlink" href="#input-arguments_4" title="Permanent link">¶</a></h5>
+<details class="info" open="open">
+<summary>Info</summary>
 </details>
 <!-- Source file information -->
 <!-- taken from 

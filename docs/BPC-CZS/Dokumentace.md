@@ -7,7 +7,7 @@ Dokumentace k funkcím napsaných v rámci cvičení z předmětu BPC-CZS
 
 ---
 
-## [Funkce z cvičení č.2](./CZS%20cvi%C4%8Den%C3%AD%20%C4%8D.2.md#dobrovolné-zadání-1)
+## [[./CZS cvičení č.2#Dobrovolné zadání 1|Funkce z cvičení č.2]]
 
 ### add_zeros
 
@@ -83,7 +83,7 @@ This function takes path to audio file and return the audio file's sample rate i
 
 ---
 
-## [Funkce z cvičení č.3](./CZS%20cvi%C4%8Den%C3%AD%20%C4%8D.3.md)
+## [[./CZS cvičení č.3|Funkce z cvičení č.3]]
 
 ### generate_sine
 
@@ -103,7 +103,7 @@ The function uses the following formula:
 
 $$y_{\sin} [n] = A \cdot \sin (2 \pi f n T_s + \varphi)$$
 
-For more information refer to [relevant notes](./CZS%20cvi%C4%8Den%C3%AD%20%C4%8D.3.md#generování-harmonických-průběhů-v-matlabu).
+For more information refer to [[./CZS cvičení č.3#Generování harmonických průběhů v Matlabu|relevant notes]].
 
 #### Examples
 

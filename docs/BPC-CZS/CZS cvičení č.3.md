@@ -6,12 +6,12 @@ category: BPC-CZS
 ## Třetí cvičení z předmětu BPC-CZS
 
 **Body cvičení:**
-1. [[CZS cvičení č.3#Vzorkování signálů|Vzorkování signálů]]
-	- [[CZS cvičení č.3#Vzorkovací teorém|Vzorkovací teorém]]
-2. [[CZS cvičení č.3#Generování harmonických průběhů v Matlabu|Generování harmonických průběhů v Matlabu]]
-3. [[CZS cvičení č.3#Kvantování signálu|Kvantování signálu]]
-	- [[CZS cvičení č.3#Kvantizační šum, odstup od kvantizačního šumu|Kvantizační šum, odstup od kvantizačního šumu]]
-4. [[CZS cvičení č.3#Samostatné úkoly|Samostatné úkoly]]
+1. [Vzorkování signálů](CZS%20cvi%C4%8Den%C3%AD%20%C4%8D.3.md#vzorkování-signálů)
+	- [Vzorkovací teorém](CZS%20cvi%C4%8Den%C3%AD%20%C4%8D.3.md#vzorkovací-teorém)
+2. [Generování harmonických průběhů v Matlabu](CZS%20cvi%C4%8Den%C3%AD%20%C4%8D.3.md#generování-harmonických-průběhů-v-matlabu)
+3. [Kvantování signálu](CZS%20cvi%C4%8Den%C3%AD%20%C4%8D.3.md#kvantování-signálu)
+	- [Kvantizační šum, odstup od kvantizačního šumu](CZS%20cvi%C4%8Den%C3%AD%20%C4%8D.3.md#kvantizační-šum,-odstup-od-kvantizačního-šumu)
+4. [Samostatné úkoly](CZS%20cvi%C4%8Den%C3%AD%20%C4%8D.3.md#samostatné-úkoly)
 
 ### Vzorkování signálů
 

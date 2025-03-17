@@ -29,7 +29,9 @@ $$s [m,n] = s_1 [m] \cdot s_2 [n]$$
 
 $$s [m,n] = C \cdot \cos [\omega_1 m + \varphi_1] \cdot \cos [\omega_1 m + \varphi_1]$$
 
-$$\omega_1 = \frac{2 \cdot \pi}{T_1}$$ $$\omega_2 = \frac{2 \cdot \pi}{T_2}$$
+$$\omega_1 = \frac{2 \cdot \pi}{T_1}$$
+
+$$\omega_2 = \frac{2 \cdot \pi}{T_2}$$
 
 ### Organizace testu ve cvičení
 

@@ -1194,18 +1194,29 @@
 <p>Can be either <code>mid_rise</code> or <code>mid_tread</code>.</p>
 </details>
 <h4 id="calculate_sqnr">calculate_sqnr<a class="headerlink" href="#calculate_sqnr" title="Permanent link">¶</a></h4>
+<p>Calculate Signal to Quantization Noise Ratio</p>
 <h5 id="syntax_4">Syntax<a class="headerlink" href="#syntax_4" title="Permanent link">¶</a></h5>
-<pre><code></code></pre>
+<pre><code>sqnr = calculate_sqnr(signal, noise)</code></pre>
 <h5 id="description_4">Description<a class="headerlink" href="#description_4" title="Permanent link">¶</a></h5>
+<p>This function takes a signal and quantization noise signal. It then calculates and returns Signal to Quantization Noise Ratio (<span class="arithmatex">\(SQNR\)</span>) in decibels (dB).</p>
+<p>The following formulae are used:</p>
+<div class="arithmatex">\[SQNR_{\text{dB}} = 10 \log \left( \frac{P_{\text{signal}}}{P_{\text{noise}}} \right)\]</div>
+<div class="arithmatex">\[P = \frac{1}{N} \sum^N_{n=1} x \left[ n \right]^2\]</div>
+<p>Signal power <span class="arithmatex">\(P\)</span> is calculated using <code>mean</code> Matlab function.</p>
 <h5 id="examples_4">Examples<a class="headerlink" href="#examples_4" title="Permanent link">¶</a></h5>
 <details class="example" open="open">
-<summary>Example</summary>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-7-1" id="__codelineno-7-1" name="__codelineno-7-1"></a>
+<summary>Calculate <span class="arithmatex">\(SQNR_{\text{dB}}\)</span></summary>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-7-1" id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="n">sqnr</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">calculate_sqnr</span><span class="p">(</span><span class="n">y_sine</span><span class="p">,</span><span class="w"> </span><span class="n">noise</span><span class="p">)</span>
 </code></pre></div>
 </details>
 <h5 id="input-arguments_4">Input Arguments<a class="headerlink" href="#input-arguments_4" title="Permanent link">¶</a></h5>
 <details class="info" open="open">
-<summary>Info</summary>
+<summary><code>signal</code> - input signal</summary>
+<p>Sampled input signal.</p>
+</details>
+<details class="info" open="open">
+<summary><code>noise</code> - input noise signal</summary>
+<p>Sampled quantization noise of the input signal.</p>
 </details>
 <!-- Source file information -->
 <!-- taken from 

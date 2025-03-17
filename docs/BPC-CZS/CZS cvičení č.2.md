@@ -3,7 +3,7 @@ share: "true"
 category: BPC-CZS
 ---
 
-## Druhé cvičení z předmětu BPC-CZS
+## Druhé cvičení z předmětu [[./index|BPC-CZS]]
 
 ### Úvod do Matlabu, 2. část
 

@@ -8,7 +8,7 @@ Dokumentace k funkcím napsaných v rámci cvičení z předmětu BPC-CZS
 ---
 
 
-## [[./CZS cvičení č.2#Dobrovolné zadání 1|Funkce z cvičení č.2]]
+## [[./CZS cvičení č.2|Funkce z cvičení č.2]]
 
 
 ### add_zeros

@@ -3,7 +3,7 @@ share: "true"
 category: BPC-CZS
 ---
 
-## Třetí cvičení z předmětu BPC-CZS
+## Třetí cvičení z předmětu [[./index|BPC-CZS]]
 
 **Body cvičení:**
 1. [[CZS cvičení č.3#Vzorkování signálů|Vzorkování signálů]]

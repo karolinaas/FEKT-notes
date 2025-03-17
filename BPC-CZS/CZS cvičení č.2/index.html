@@ -1106,6 +1106,7 @@
 <li>předem stanovené vstupní parametry a výstupní parametry</li>
 <li>pokud je funkce jednoduchá, tak může výt vhodné udělat z ní anonymní (lambda funkci) pokud není nutný samostatný .m soubor</li>
 <li>značí se zavináčem @(), v závorce jsou vstupní parametry</li>
+<li></li>
 </ul>
 <h5 id="funkce">Funkce<a class="headerlink" href="#funkce" title="Permanent link">¶</a></h5>
 <ul>
@@ -1115,14 +1116,14 @@
 </ul>
 <hr/>
 <p>Pro alokaci matic budeme používat <code>zeros()</code>, t.j. alokace pomocí nul. Ne vždy (v některých specifických příkladech) to však může být vhodné, takže je možné alokovat i pomocí něčeho jiného (na tento případ pravděpodobně nenarazíme).</p>
-<p>Tento for loop zapíše vždycky <code>i</code> na diagonálu:<br/>
+<p>Tento for loop zapíše vždycky <code>i</code> na diagonálu:</p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">A</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">zeros</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">)</span><span class="w"> </span><span class="c">% nulová matice s rozměrem 3x3</span>
 <a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>
 <a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="k">for</span><span class="w"> </span><span class="nb">i</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">1</span><span class="p">:</span><span class="nb">length</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
 <a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="w">	</span><span class="n">A</span><span class="p">(</span><span class="nb">i</span><span class="p">,</span><span class="w"> </span><span class="nb">i</span><span class="p">)</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">i</span><span class="p">;</span>
 <a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="w">	</span><span class="nb">disp</span><span class="p">(</span><span class="nb">i</span><span class="p">);</span>
 <a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="k">end</span>
-</code></pre></div></p>
+</code></pre></div>
 <p>Pokud matice mění velikost, tak se alokuje nulami (v podstatě pomocí funkce <code>zeros()</code>)<br/>
 Matici je potřeba alokovat dřív než s ní budeme v cyklu pracovat</p>
 <ul>
@@ -1130,23 +1131,23 @@ Matici je potřeba alokovat dřív než s ní budeme v cyklu pracovat</p>
 <li>z důvodu rychlosti - přístup do již alokované paměti je mnohem, mnohem rychlejší než alokace nové paměti</li>
 </ul>
 <p>Znak <code>:</code> v matlabu znamená <em>pro všechna</em> nebo <em>všechna</em>, t.j. <em>všechny řádky</em> nebo <em>všechny sloupce</em></p>
-<p>Tento loop bude vždy přepisovat <code>A</code> (o rozměru 1x1) novou hodnotou <code>i</code>:<br/>
+<p>Tento loop bude vždy přepisovat <code>A</code> (o rozměru 1x1) novou hodnotou <code>i</code>:</p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="c">% Matice A není alokovaná</span>
 <a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a>
 <a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="k">for</span><span class="w"> </span><span class="nb">i</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span>
 <a href="#__codelineno-1-4" id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="w">	</span><span class="n">A</span><span class="p">(:,</span><span class="w"> </span><span class="p">:)</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">i</span><span class="p">;</span><span class="w"> </span><span class="c">% dvojtečky v indexech matice</span>
 <a href="#__codelineno-1-5" id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="w">	</span><span class="nb">disp</span><span class="p">(</span><span class="nb">i</span><span class="p">);</span>
 <a href="#__codelineno-1-6" id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="k">end</span>
-</code></pre></div></p>
-<p>Tento loop má již alokovanou matici, kterou rozšíří o další řádek a prvek na souřadnici 2x2 (neustále se odkazuje na stejnou souřadnici) bude přepisovat na hodnotu indexu <code>i</code>:<br/>
+</code></pre></div>
+<p>Tento loop má již alokovanou matici, kterou rozšíří o další řádek a prvek na souřadnici 2x2 (neustále se odkazuje na stejnou souřadnici) bude přepisovat na hodnotu indexu <code>i</code>:</p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>A = [1 2 3];
 <a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a>
 <a href="#__codelineno-2-3" id="__codelineno-2-3" name="__codelineno-2-3"></a>for i = 1:3
 <a href="#__codelineno-2-4" id="__codelineno-2-4" name="__codelineno-2-4"></a>	A(2, 2) = i;
 <a href="#__codelineno-2-5" id="__codelineno-2-5" name="__codelineno-2-5"></a>end
-</code></pre></div></p>
+</code></pre></div>
 <p>Funkce <code>size()</code> v tomto případě vrací dvě hodnoty.<br/>
-For cyklus sečte všechny řádky do jednoho.<br/>
+For cyklus sečte všechny řádky do jednoho.</p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="n">A</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">2</span><span class="w"> </span><span class="s">2</span><span class="w"> </span><span class="s">2</span><span class="p">;</span><span class="w"> </span><span class="n">3</span><span class="w"> </span><span class="s">3</span><span class="w"> </span><span class="s">3]</span><span class="p">;</span>
 <a href="#__codelineno-3-2" id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="n">f</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">100</span><span class="p">;</span><span class="w"> </span><span class="mi">200</span><span class="p">;</span><span class="w"> </span><span class="mi">300</span><span class="p">];</span>
 <a href="#__codelineno-3-3" id="__codelineno-3-3" name="__codelineno-3-3"></a>
@@ -1157,8 +1158,8 @@ For cyklus sečte všechny řádky do jednoho.<br/>
 <a href="#__codelineno-3-8" id="__codelineno-3-8" name="__codelineno-3-8"></a><span class="k">for</span><span class="w"> </span><span class="nb">i</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">1</span><span class="p">:</span><span class="n">N</span>
 <a href="#__codelineno-3-9" id="__codelineno-3-9" name="__codelineno-3-9"></a><span class="w">	</span><span class="n">Z</span><span class="p">(:,</span><span class="w"> </span><span class="nb">i</span><span class="p">)</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="nb">i</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">A</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="nb">i</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">A</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="nb">i</span><span class="p">);</span>
 <a href="#__codelineno-3-10" id="__codelineno-3-10" name="__codelineno-3-10"></a><span class="k">end</span>
-</code></pre></div></p>
-<p>V každém sloupci <code>Z</code> se sečtou všechny sloupce <code>A</code>.<br/>
+</code></pre></div>
+<p>V každém sloupci <code>Z</code> se sečtou všechny sloupce <code>A</code>.</p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="n">A</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">2</span><span class="w"> </span><span class="s">2</span><span class="w"> </span><span class="s">2</span><span class="p">;</span><span class="w"> </span><span class="n">3</span><span class="w"> </span><span class="s">3</span><span class="w"> </span><span class="s">3]</span><span class="p">;</span>
 <a href="#__codelineno-4-2" id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="n">f</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">100</span><span class="p">;</span><span class="w"> </span><span class="mi">200</span><span class="p">;</span><span class="w"> </span><span class="mi">300</span><span class="p">];</span>
 <a href="#__codelineno-4-3" id="__codelineno-4-3" name="__codelineno-4-3"></a>
@@ -1169,24 +1170,24 @@ For cyklus sečte všechny řádky do jednoho.<br/>
 <a href="#__codelineno-4-8" id="__codelineno-4-8" name="__codelineno-4-8"></a><span class="k">for</span><span class="w"> </span><span class="nb">i</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">1</span><span class="p">:</span><span class="n">N</span>
 <a href="#__codelineno-4-9" id="__codelineno-4-9" name="__codelineno-4-9"></a><span class="w">	</span><span class="n">Z</span><span class="p">(:,</span><span class="w"> </span><span class="nb">i</span><span class="p">)</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="p">(:,</span><span class="w"> </span><span class="nb">i</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">A</span><span class="p">(:,</span><span class="w"> </span><span class="nb">i</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">A</span><span class="p">(:,</span><span class="w"> </span><span class="nb">i</span><span class="p">);</span>
 <a href="#__codelineno-4-10" id="__codelineno-4-10" name="__codelineno-4-10"></a><span class="k">end</span>
-</code></pre></div></p>
+</code></pre></div>
 <p>Někdy je vhodné alokovat matici pomocí funkce <code>NaN()</code>, za účelem debugu - je vidět, které hodnoty matice nebyly přepsány.</p>
 <p><strong>While loop</strong> - výraz se vyhodnotí a tělo smyčky se opakuje dokud podmínka nevrátí <code>false</code>.<br/>
-Syntaxe: <br/>
+Syntaxe: </p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-5-1" id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="k">while</span><span class="w"> </span><span class="n">expression</span>
 <a href="#__codelineno-5-2" id="__codelineno-5-2" name="__codelineno-5-2"></a><span class="w">	</span><span class="n">statements</span>
 <a href="#__codelineno-5-3" id="__codelineno-5-3" name="__codelineno-5-3"></a><span class="k">end</span>
-</code></pre></div></p>
+</code></pre></div>
 <p>Dokud je <code>n</code> menší než 3 tak se vypíše <code>n</code>.<br/>
 Kdyby ve <code>while</code> loopu nebyla aktualizace podmínky, tak cyklus bude nekonečný.<br/>
-V tom případě zabijeme program pomocí <code>CTRL+C</code>.<br/>
+V tom případě zabijeme program pomocí <code>CTRL+C</code>.</p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-6-1" id="__codelineno-6-1" name="__codelineno-6-1"></a><span class="n">n</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
 <a href="#__codelineno-6-2" id="__codelineno-6-2" name="__codelineno-6-2"></a><span class="k">while</span><span class="w"> </span><span class="n">v</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">3</span>
 <a href="#__codelineno-6-3" id="__codelineno-6-3" name="__codelineno-6-3"></a><span class="w">	</span><span class="nb">disp</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
 <a href="#__codelineno-6-4" id="__codelineno-6-4" name="__codelineno-6-4"></a><span class="w">	</span><span class="n">n</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
-</code></pre></div></p>
+</code></pre></div>
 <p><strong>Podmínky</strong> - nutno dávat pozor na pořadí<br/>
-Syntaxe podmínek:<br/>
+Syntaxe podmínek:</p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-7-1" id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="k">if</span><span class="w"> </span><span class="n">expression1</span>
 <a href="#__codelineno-7-2" id="__codelineno-7-2" name="__codelineno-7-2"></a><span class="w">	</span><span class="n">statements</span>
 <a href="#__codelineno-7-3" id="__codelineno-7-3" name="__codelineno-7-3"></a><span class="k">elseif</span><span class="w"> </span><span class="n">expression2</span>
@@ -1194,7 +1195,7 @@ Syntaxe podmínek:<br/>
 <a href="#__codelineno-7-5" id="__codelineno-7-5" name="__codelineno-7-5"></a><span class="k">else</span>
 <a href="#__codelineno-7-6" id="__codelineno-7-6" name="__codelineno-7-6"></a><span class="w">	</span><span class="n">statements</span>
 <a href="#__codelineno-7-7" id="__codelineno-7-7" name="__codelineno-7-7"></a><span class="k">end</span>
-</code></pre></div></p>
+</code></pre></div>
 <p><strong>Switch</strong><br/>
 Syntaxe:<br/>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-8-1" id="__codelineno-8-1" name="__codelineno-8-1"></a><span class="k">switch</span><span class="w"> </span><span class="n">variable</span>
@@ -1219,17 +1220,21 @@ Syntaxe:<br/>
 </ul>
 <hr/>
 <h4 id="dobrovolne-zadani-1">Dobrovolné zadání 1<a class="headerlink" href="#dobrovolne-zadani-1" title="Permanent link">¶</a></h4>
-<p>Vytvořte funkci, která na vstupu dostane řádkový vektor a jako druhý argument kladný integer, který reprezentuje počet nul, které vloží za každou hodnotu vektoru.<br/>
-<strong>Prototyp:</strong><br/>
+<p>Vytvořte funkci, která na vstupu dostane řádkový vektor a jako druhý argument kladný integer, který reprezentuje počet nul, které vloží za každou hodnotu vektoru.</p>
+<p><strong>Prototyp:</strong><br/>
     Vstup: <code>add_zeros([1 2 3 4], 2)</code><br/>
-    Výstup: <code>1 0 0 2 0 0 3 0 0 4 0 0</code><br/>
-- ověřit, že se jedná o řádkový vektor pomocí funkce error:<br/>
+    Výstup: <code>1 0 0 2 0 0 3 0 0 4 0 0</code></p>
+<ul>
+<li>ověřit, že se jedná o řádkový vektor pomocí funkce error:</li>
+</ul>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-11-1" id="__codelineno-11-1" name="__codelineno-11-1"></a><span class="k">if</span><span class="w"> </span><span class="o">~</span><span class="nb">isrow</span><span class="p">(</span><span class="n">input_vector</span><span class="p">)</span>
 <a href="#__codelineno-11-2" id="__codelineno-11-2" name="__codelineno-11-2"></a><span class="w">	</span><span class="nb">error</span><span class="p">(</span><span class="s">"První argument musí být řádkový vektor!"</span><span class="p">)</span>
 <a href="#__codelineno-11-3" id="__codelineno-11-3" name="__codelineno-11-3"></a><span class="k">end</span>
-</code></pre></div><br/>
-- Druhý argument musí být skalár, nesmí být vektor (v matlabu existuje funkce pro ověření, najít pomocí help) a zároveň musí být větší než nula.<br/>
-- Řešit pomocí for cyklu</p>
+</code></pre></div>
+<ul>
+<li>Druhý argument musí být skalár, nesmí být vektor (v matlabu existuje funkce pro ověření, najít pomocí help) a zároveň musí být větší než nula.</li>
+<li>Řešit pomocí for cyklu</li>
+</ul>
 <h4 id="dobrovolne-zadani-2">Dobrovolné zadání 2<a class="headerlink" href="#dobrovolne-zadani-2" title="Permanent link">¶</a></h4>
 <p>Vytvořte funkci load_music, jejiž vstupní argument je cesta k nahrávce (.wav soubor) a výstupními argumenty jsou: vzorkovací frekvence a délka trvání nahrávky v sekundách. Funkce také zobrazí graf (Figure 1) hodnoty vzorků v čase (tzv. waveform).</p>
 <!-- Source file information -->
@@ -1240,7 +1245,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <small>
 <!-- mkdocs-git-revision-date-localized-plugin -->
 <u>Last update</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">16. března 2025</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">17. března 2025</span>
 <!-- mkdocs-git-revision-date-plugin -->
 <br/>
 <u>Created</u> :

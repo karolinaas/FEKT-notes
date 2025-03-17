@@ -801,8 +801,33 @@ y_sin = A * sin(2 * pi * f * t + phi)</code></pre></center></li>
 </li>
 </ul>
 <h4 id="kvantovani-signalu">Kvantování signálu<a class="headerlink" href="#kvantovani-signalu" title="Permanent link">¶</a></h4>
+<ul>
+<li>Pro číslicové zpracování signálu je nutné navzorkované hodnoty signálu kvantovat na konečný počet kvantizačních úrovní (hladin).</li>
+<li>Počet kvantizačních úrovní <span class="arithmatex">\(L\)</span> je dán tzv. bitovou hloubkou <span class="arithmatex">\(B\)</span> jako <span class="arithmatex">\(L = 2^B\)</span>.</li>
+<li>V Matlabu jsou signály reprezentovány typem double a po načtení audio souborů jsou hodnoty automaticky převedeny do rozsahu <span class="arithmatex">\(\langle −1 ; 1 \rangle\)</span> (full scale), a tak není potřeba kvantizaci řešit. Pro názornost však můžeme kvantování nasimulovat.</li>
+</ul>
 <h5 id="kvantizacni-sum-odstup-od-kvantizacniho-sumu">Kvantizační šum, odstup od kvantizačního šumu<a class="headerlink" href="#kvantizacni-sum-odstup-od-kvantizacniho-sumu" title="Permanent link">¶</a></h5>
+<ul>
+<li>Díky kvantizaci (hodnoty signálu jsou zaokrouhlovány na nejbližší úrovně) vzniká chyba - tzv. kvantizační šum, který klesá s rostoucí bitovou hloubkou.</li>
+<li>
+<p>Můžeme definovat SQNR (Signal to Quantization Noise Ratio) v decibelech, což je odstup užitečného signálu od kvantizačního šumu definovaný jako:</p>
+<div class="arithmatex">\[SQNR_{\text{dB}} = 10 \log \left( \frac{P_{\text{signal}}}{P_{\text{noise}}} \right)\]</div>
+<ul>
+<li><span class="arithmatex">\(P\)</span> - výkon</li>
+<li>Výkon libovolného diskrétního signálu (i kvantizačního šumu) můžeme v praxi spočítat jako:</li>
+</ul>
+<div class="arithmatex">\[P = \frac{1}{N} \sum^N_{n=1} x \left[ n \right]^2\]</div>
+</li>
+<li>
+<p>Pro sinusový signál je také často uváděn přibližný vztah:</p>
+<div class="arithmatex">\[SQNR_{\text{dB}} \approx 6,02 \cdot B + 1,76\]</div>
+</li>
+</ul>
 <h4 id="samostatne-ukoly">Samostatné úkoly<a class="headerlink" href="#samostatne-ukoly" title="Permanent link">¶</a></h4>
+<ol>
+<li>Vyzkoušejte funkci pro kvantování signálu na načteném audio souboru (pomocí <code>audioread</code>) a výsledek kvantizace si poslechněte.</li>
+<li>Pokuste se implementovat funkci s názvem <code>calculate_sqnr</code>, která bude vracet odstup signálu od kvantizačního šumu (skalární hodnota). Funkci implementujte dle vzorce z prezentace. Můžete využít built-in MATLAB funkci <code>mean</code>. Vstupními argumenty budou původní signál a signál kvantizačního šumu.</li>
+</ol>
 <!-- Source file information -->
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->

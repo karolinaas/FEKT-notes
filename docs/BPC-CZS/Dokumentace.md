@@ -7,7 +7,7 @@ Dokumentace k funkcím napsaných v rámci cvičení z předmětu BPC-CZS
 
 ---
 
-## [[./CZS cvičení č.2#Dobrovolné zadání 1|Funkce z cvičení č.2]]
+## [Funkce z cvičení č.2](./CZS%20cvi%C4%8Den%C3%AD%20%C4%8D.2.md#dobrovolné-zadání-1)
 
 ### add_zeros
 
@@ -83,7 +83,7 @@ This function takes path to audio file and return the audio file's sample rate i
 
 ---
 
-## [[./CZS cvičení č.3|Funkce z cvičení č.3]]
+## [Funkce z cvičení č.3](./CZS%20cvi%C4%8Den%C3%AD%20%C4%8D.3.md)
 
 ### generate_sine
 
@@ -98,6 +98,12 @@ Generate sinusoidal signal
 This function takes signal duration, amplitude, initial phase, sample rate and signal frequency to generate a sinusoidal signal.
 
 Returns signal timescale and sample data.
+
+The function uses the following formula:
+
+$$y_{\sin} [n] = A \cdot \sin (2 \pi f n T_s + \varphi)$$
+
+For more information refer to [relevant notes](./CZS%20cvi%C4%8Den%C3%AD%20%C4%8D.3.md#generování-harmonických-průběhů-v-matlabu).
 
 #### Examples
 

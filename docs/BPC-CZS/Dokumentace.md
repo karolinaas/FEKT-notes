@@ -3,7 +3,7 @@ share: "true"
 category: BPC-CZS
 ---
 
-Dokumentace k funkcím napsaných v rámci cvičení z předmětu BPC-CZS
+Dokumentace k funkcím napsaných v rámci cvičení z předmětu [[./index|BPC-CZS]]
 
 ---
 
@@ -136,3 +136,66 @@ For more information refer to [[./CZS cvičení č.3#Generování harmonických 
 
 > [!info]+ `f` - signal frequency ($f$)
 > Frequency of the signal itself in Hertz.
+
+### quantize_signal
+
+Quantize a signal
+
+#### Syntax
+
+<pre><code>[y_quantized, quant_levels] = quantize_signal(x, B, quant_type)</code></pre>
+
+#### Description
+
+This function takes a signal to be quantized, bit depth and quantization type to be used and returns quantized signal together with quantization levels.
+
+Two quantization types are supported:
+- Mid-Rise
+- Mid-Tread
+
+#### Examples
+
+> [!example]+ Quantize a signal a using Mid-Rise method
+> ```matlab
+> [y_midrise, ~] = quantize_signal(x_quant, bits, "mid_rise");
+> ```
+
+> [!example]+ Quantize a signal a using Mid-Tread method
+> ```matlab
+> [y_midtread, ~] = quantize_signal(x_quant, bits, "mid_tread");
+> ```
+
+#### Input Arguments
+
+> [!info]+ `x` - input signal
+> Signal before quantization.
+
+> [!info]+ `B` - bit depth
+> Finite number of quantization levels.
+
+> [!info]+ `quant_type` - type of quantization
+> Can be either `mid_rise` or `mid_tread`.
+
+### calculate_sqnr
+
+
+
+#### Syntax
+
+<pre><code></code></pre>
+
+#### Description
+
+
+
+#### Examples
+
+> [!example]+ 
+> ```matlab
+> 
+> ```
+
+#### Input Arguments
+
+> [!info]+ 
+> 

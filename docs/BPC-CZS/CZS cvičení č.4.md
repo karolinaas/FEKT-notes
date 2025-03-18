@@ -33,8 +33,9 @@ category: BPC-CZS
 ### Zjištění linearity systému
 
 ```mermaid
-%%{init: {'theme':'forest'}}%%
 graph LR
+
+TEST[TEST]
 
 x1@{shape: text, label: "$$x_1[n]$$"}
 x2@{shape: text, label: "$$x_2[n]$$"}
@@ -51,7 +52,7 @@ trans --> y
 
 ```
 
-<pre class="mermaid-custom">
+```mermaid
 graph LR
 
 x1@{shape: text, label: "$$x_1[n]$$"}
@@ -66,7 +67,7 @@ y@{shape: text, label: "$$y[n]$$"}
 x1 --> trans1 -->|"$$y_1[n]$$"| a1 --> sum --> y
 x2 --> trans2 -->|"$$y_2[n]$$"| a2 --> sum
 
-</pre>
+```
 
 ### Diskrétní lineární konvoluce
 

@@ -39,7 +39,7 @@ x1@{shape: text, label: "$$x_1[n]$$"}
 x2@{shape: text, label: "$$x_2[n]$$"}
 a1@{shape: text, label: "$$a_1$$"}
 a2@{shape: text, label: "$$a_2$$"}
-sum(("$$\LARGE\sum$$"))
+sum(("$$\sum$$"))
 trans["$$\mathcal{T} \{ \}$$"]
 y@{shape: text, label: "$$y[n]$$"}
 
@@ -57,7 +57,7 @@ x1@{shape: text, label: "$$x_1[n]$$"}
 x2@{shape: text, label: "$$x_2[n]$$"}
 a1@{shape: text, label: "$$a_1$$"}
 a2@{shape: text, label: "$$a_2$$"}
-sum(("$$\LARGE\sum$$"))
+sum(("$$\sum$$"))
 trans1["$$\mathcal{T} \{ \}$$"]
 trans2["$$\mathcal{T} \{ \}$$"]
 y@{shape: text, label: "$$y[n]$$"}

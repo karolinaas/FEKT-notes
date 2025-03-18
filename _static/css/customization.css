@@ -1,0 +1,14 @@
+body {
+    /* Color coded headings */
+    --h1-color: #FF9AA2;
+    --h2-color: #FFB7B2;
+    --h3-color: #FFDAC1;
+    --h4-color: #E2F0CB;
+    --h5-color: #B5EAD7;
+    --h6-color: #C7CEEA;
+
+    /* Align Mermaid diagrams to center */
+    div.mermaid {
+        text-align: center;
+    }
+}

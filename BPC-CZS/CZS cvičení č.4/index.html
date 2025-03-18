@@ -820,8 +820,9 @@
 </li>
 </ul>
 <h4 id="zjisteni-linearity-systemu">Zjištění linearity systému<a class="headerlink" href="#zjisteni-linearity-systemu" title="Permanent link">¶</a></h4>
-<pre class="mermaid"><code>
-graph LR
+<pre class="mermaid"><code>graph LR
+
+TEST[TEST]
 
 x1@{shape: text, label: "$$x_1[n]$$"}
 x2@{shape: text, label: "$$x_2[n]$$"}
@@ -836,8 +837,7 @@ x2 --&gt; a2 --&gt; sum
 sum ---|"$$a_1 x_1[n] + a_2 x_2[n]$$"| trans
 trans --&gt; y
 </code></pre>
-<pre class="mermaid-custom">
-graph LR
+<pre class="mermaid"><code>graph LR
 
 x1@{shape: text, label: "$$x_1[n]$$"}
 x2@{shape: text, label: "$$x_2[n]$$"}
@@ -850,8 +850,7 @@ y@{shape: text, label: "$$y[n]$$"}
 
 x1 --&gt; trans1 --&gt;|"$$y_1[n]$$"| a1 --&gt; sum --&gt; y
 x2 --&gt; trans2 --&gt;|"$$y_2[n]$$"| a2 --&gt; sum
-
-</pre>
+</code></pre>
 <h3 id="diskretni-linearni-konvoluce">Diskrétní lineární konvoluce<a class="headerlink" href="#diskretni-linearni-konvoluce" title="Permanent link">¶</a></h3>
 <ul>
 <li>

@@ -33,16 +33,9 @@ category: BPC-CZS
 ### Zjištění linearity systému
 
 ```mermaid
----
-config:
-  forceLegacyMathML: true
----
-
 graph LR
 
-TEST[test]
-
-x1@{shape: text, label: "$$x_1[n]$$"}
+x1@{shape: text, label: "<math display="block" class="tml-display" style="display:block math;"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo form="prefix" stretchy="false">[</mo><mi>n</mi><mo form="postfix" stretchy="false">]</mo></mrow></math>"}
 x2@{shape: text, label: "$$x_2[n]$$"}
 a1@{shape: text, label: "$$a_1$$"}
 a2@{shape: text, label: "$$a_2$$"}
@@ -55,8 +48,6 @@ x2 --> a2 --> sum
 sum ---|"$$a_1 x_1[n] + a_2 x_2[n]$$"| trans
 trans --> y
 
-style x1 color:#f9f
-style TEST color:#f9f
 ```
 
 ```mermaid
@@ -75,6 +66,7 @@ x1 --> trans1 -->|"$$y_1[n]$$"| a1 --> sum --> y
 x2 --> trans2 -->|"$$y_2[n]$$"| a2 --> sum
 
 ```
+
 
 ### Diskrétní lineární konvoluce
 

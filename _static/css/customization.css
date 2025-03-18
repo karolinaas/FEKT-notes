@@ -25,7 +25,7 @@ body {
     }
 
     /* Mermaid math color */
-    .label {
-        color: #FFFFFF;
+    #__mermaid_1 span {
+        color: var(--md-mermaid-label-fg-color);
     }
 }

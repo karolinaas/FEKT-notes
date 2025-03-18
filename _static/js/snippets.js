@@ -6,3 +6,9 @@ admonition.forEach((item) => {
 		item.style.fontFamily = "var(--md-code-font)";
 	}
 });
+
+// Set Mermaid theme
+mermaid.initialize({
+  securityLevel: 'loose',
+  theme: 'dark',
+});

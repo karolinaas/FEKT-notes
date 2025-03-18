@@ -32,10 +32,8 @@ category: BPC-CZS
 
 ### Zjištění linearity systému
 
-```mermaid
+```mermaid-custom
 graph LR
-
-TEST[TEST]
 
 x1@{shape: text, label: "$$x_1[n]$$"}
 x2@{shape: text, label: "$$x_2[n]$$"}

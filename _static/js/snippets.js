@@ -10,5 +10,5 @@ admonition.forEach((item) => {
 // Set Mermaid theme
 mermaid.initialize({
   securityLevel: 'loose',
-  theme: 'dark',
+  theme: 'base',
 });

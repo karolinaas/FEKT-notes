@@ -3,9 +3,10 @@ share: "true"
 category: BPC-CZS
 ---
 
-## Třetí cvičení z předmětu [[./index|BPC-CZS]]
+Třetí cvičení z předmětu [[./index|BPC-CZS]]
 
-**Body cvičení:**
+## Základy zpracování signálu
+
 1. [[CZS cvičení č.3#Vzorkování signálů|Vzorkování signálů]]
 	- [[CZS cvičení č.3#Vzorkovací teorém|Vzorkovací teorém]]
 2. [[CZS cvičení č.3#Generování harmonických průběhů v Matlabu|Generování harmonických průběhů v Matlabu]]

@@ -3,11 +3,11 @@ share: "true"
 category: BPC-CZS
 ---
 
-## Druhé cvičení z předmětu [[./index|BPC-CZS]]
+Druhé cvičení z předmětu [[./index|BPC-CZS]]
 
-### Úvod do Matlabu, 2. část
+## Úvod do Matlabu, 2. část
 
-#### Lambda funkce
+### Lambda funkce
 
 - anonymní funkce
 - nemá samostatná .m soubor
@@ -18,7 +18,7 @@ category: BPC-CZS
 - pokud je funkce jednoduchá, tak může výt vhodné udělat z ní anonymní (lambda funkci) pokud není nutný samostatný .m soubor
 - značí se zavináčem @(), v závorce jsou vstupní parametry
 - 
-#### Funkce
+### Funkce
 
 - v Matlabu je definována jako nový .m file
 - důležité je, že, že jméno funkce se shoduje s názvem souboru

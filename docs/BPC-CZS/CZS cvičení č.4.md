@@ -32,8 +32,15 @@ category: BPC-CZS
 
 ### Zjištění linearity systému
 
-```mermaid-custom
+```mermaid
+---
+config:
+  forceLegacyMathML: true
+---
+
 graph LR
+
+TEST[test]
 
 x1@{shape: text, label: "$$x_1[n]$$"}
 x2@{shape: text, label: "$$x_2[n]$$"}
@@ -48,6 +55,8 @@ x2 --> a2 --> sum
 sum ---|"$$a_1 x_1[n] + a_2 x_2[n]$$"| trans
 trans --> y
 
+style x1 color:#f9f
+style TEST color:#f9f
 ```
 
 ```mermaid

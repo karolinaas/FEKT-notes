@@ -8,7 +8,7 @@ admonition.forEach((item) => {
 });
 
 // Set Mermaid theme
-mermaid.initialize({
+mermaid-custom.initialize({
 	securityLevel: 'loose',
 	theme: 'base',
 	themeVariables: {

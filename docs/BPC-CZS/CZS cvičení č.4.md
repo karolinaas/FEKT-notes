@@ -33,6 +33,7 @@ category: BPC-CZS
 ### Zjištění linearity systému
 
 ```mermaid
+%%{init: {'theme':'forest'}}%%
 graph LR
 
 x1@{shape: text, label: "$$x_1[n]$$"}

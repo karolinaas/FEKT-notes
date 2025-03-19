@@ -13,30 +13,38 @@ theme:
         code: Ubuntu Mono
     language: en
     palette:
+
+        # Light mode
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          primary: black
+          accent: red
+          toggle:
+            icon: material/weather-night
+            name: Switch to dark mode
     
-    # Dark mode
-    - scheme: slate
-      primary: black
-      accent: red
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+        # Dark mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          primary: black
+          accent: red
+          toggle:
+            icon: material/weather-sunny
+            name: Switch to light mode
+    
+        - pymdownx.superfences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:mermaid2.fence_mermaid_custom
+    
+        features:
+            - navigation.indexes
+            - navigation.top
+            - navigation.tabs
+            - navigation.tabs.sticky
+            - search.suggest
+            - search.highlight
 
-    # Light mode
-    - scheme: default
-      primary: black
-      accent: red
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-
-    features:
-        - navigation.indexes
-        - navigation.top
-        - navigation.tabs
-        - navigation.tabs.sticky
-        - search.suggest
-        - search.highlight
 # Extensions
 markdown_extensions:
   - footnotes
@@ -113,6 +121,9 @@ plugins:
   - callouts
   - glightbox
   - mermaid2
+      arguments:
+          theme: |
+          ^(JSON.parse(__md_get("__palette").index == 1)) ? 'dark' : 'light'
 
 hooks:
   - overrides/hooks/on_page_markdown.py

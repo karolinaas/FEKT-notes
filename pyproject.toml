@@ -19,7 +19,8 @@ dependencies = [
     "mkdocs-glightbox",
     "mkdocs-obsidian-links",
     "beautifulsoup4",
-    "babel"
+    "babel",
+    "mkdocs-mermaid2-plugin"
 ]
 
 [tool.ruff.lint]

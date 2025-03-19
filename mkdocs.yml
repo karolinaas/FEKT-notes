@@ -13,20 +13,22 @@ theme:
         code: Ubuntu Mono
     language: en
     palette:
+    
+    # Dark mode
+    - cheme: slate
       primary: black
       accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 
-      # Palette toggle for dark mode
-      - scheme: slate
-        toggle:
-          icon: material/weather-sunny
-          name: Switch to light mode
-
-      # Palette toggle for light mode
-      - scheme: default
-        toggle:
-          icon: material/weather-night 
-          name: Switch to dark mode
+    # Light mode
+    - scheme: default
+      primary: black
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
 
     features:
         - navigation.indexes

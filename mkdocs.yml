@@ -15,7 +15,7 @@ theme:
     palette:
     
     # Dark mode
-    - cheme: slate
+    - scheme: slate
       primary: black
       accent: red
       toggle:

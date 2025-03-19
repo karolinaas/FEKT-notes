@@ -115,6 +115,7 @@ plugins:
   - mermaid2:
       arguments:
           securityLevel: 'loose'
+          theme: 'base'
 
 hooks:
   - overrides/hooks/on_page_markdown.py

@@ -32,48 +32,9 @@ category: BPC-CZS
 
 ### Zjištění linearity systému
 
-```mermaid
-graph LR
+![[Pasted image 20250319160407.png | center]]
 
-TEST[<script>
-var elems = document.getElementsByTagName("math");
-for(var i = 0; i < elems.length; i++)
-{
-  elems[i].setAttribute("mathcolor", "red");
-}
-</script><b>TEST</b> TEST]
-
-x1@{shape: text, label: "$$x_1[n]$$"}
-x2@{shape: text, label: "$$x_2[n]$$"}
-a1@{shape: text, label: "$$a_1$$"}
-a2@{shape: text, label: "$$a_2$$"}
-sum(("$$\sum$$"))
-trans["$$\mathcal{T} \{ \}$$"]
-y@{shape: text, label: "$$y[n]$$"}
-
-x1 --> a1 --> sum
-x2 --> a2 --> sum
-sum ---|"$$a_1 x_1[n] + a_2 x_2[n]$$"| trans
-trans --> y
-
-```
-
-```mermaid
-graph LR
-
-x1@{shape: text, label: "$$x_1[n]$$"}
-x2@{shape: text, label: "$$x_2[n]$$"}
-a1@{shape: text, label: "$$a_1$$"}
-a2@{shape: text, label: "$$a_2$$"}
-sum(("$$\sum$$"))
-trans1["$$\mathcal{T} \{ \}$$"]
-trans2["$$\mathcal{T} \{ \}$$"]
-y@{shape: text, label: "$$y[n]$$"}
-
-x1 --> trans1 -->|"$$y_1[n]$$"| a1 --> sum --> y
-x2 --> trans2 -->|"$$y_2[n]$$"| a2 --> sum
-
-```
+![[Pasted image 20250319160449.png | center]]
 
 
 ### Diskrétní lineární konvoluce

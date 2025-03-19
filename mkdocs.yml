@@ -117,7 +117,7 @@ plugins:
   - glightbox
   - mermaid2:
       arguments:
-          securityLevel: "loose",
+          securityLevel: 'loose',
           legacyMathML: true,
           theme: |
               ^(JSON.parse(__md_get("__palette").index == 1)) ? 'dark' : 'light'

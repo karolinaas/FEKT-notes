@@ -87,7 +87,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_div_format
         - name: mermaid
           class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
       preserve_tabs: true
 
 plugins:

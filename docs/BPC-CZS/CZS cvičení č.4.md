@@ -32,9 +32,9 @@ category: BPC-CZS
 
 ### Zjištění linearity systému
 
-![[Pasted image 20250319160407.png | center]]
+![[../../_assets/img/Pasted image 20250319160407.png|Pasted image 20250319160407.png]]
 
-![[Pasted image 20250319160449.png | center]]
+![[../../_assets/img/Pasted image 20250319160449.png|Pasted image 20250319160449.png]]
 
 
 ### Diskrétní lineární konvoluce

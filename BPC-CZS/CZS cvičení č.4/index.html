@@ -354,9 +354,6 @@
     </span>
 </a>
 </li>
-</ul>
-</nav>
-</li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#diskretni-linearni-konvoluce">
 <span class="md-ellipsis">
@@ -392,6 +389,9 @@
       Kauzalita
     </span>
 </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -712,9 +712,6 @@
     </span>
 </a>
 </li>
-</ul>
-</nav>
-</li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#diskretni-linearni-konvoluce">
 <span class="md-ellipsis">
@@ -750,6 +747,9 @@
       Kauzalita
     </span>
 </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -831,46 +831,9 @@
 </li>
 </ul>
 <h4 id="zjisteni-linearity-systemu">Zjištění linearity systému<a class="headerlink" href="#zjisteni-linearity-systemu" title="Permanent link">¶</a></h4>
-<div class="mermaid">graph LR
-
-TEST[<script>
-var elems = document.getElementsByTagName("math");
-for(var i = 0; i < elems.length; i++)
-{
-  elems[i].setAttribute("mathcolor", "red");
-}
-</script><b>TEST</b> TEST]
-
-x1@{shape: text, label: "$$x_1[n]$$"}
-x2@{shape: text, label: "$$x_2[n]$$"}
-a1@{shape: text, label: "$$a_1$$"}
-a2@{shape: text, label: "$$a_2$$"}
-sum(("$$\sum$$"))
-trans["$$\mathcal{T} \{ \}$$"]
-y@{shape: text, label: "$$y[n]$$"}
-
-x1 --&gt; a1 --&gt; sum
-x2 --&gt; a2 --&gt; sum
-sum ---|"$$a_1 x_1[n] + a_2 x_2[n]$$"| trans
-trans --&gt; y
-
-</div>
-<div class="mermaid">graph LR
-
-x1@{shape: text, label: "$$x_1[n]$$"}
-x2@{shape: text, label: "$$x_2[n]$$"}
-a1@{shape: text, label: "$$a_1$$"}
-a2@{shape: text, label: "$$a_2$$"}
-sum(("$$\sum$$"))
-trans1["$$\mathcal{T} \{ \}$$"]
-trans2["$$\mathcal{T} \{ \}$$"]
-y@{shape: text, label: "$$y[n]$$"}
-
-x1 --&gt; trans1 --&gt;|"$$y_1[n]$$"| a1 --&gt; sum --&gt; y
-x2 --&gt; trans2 --&gt;|"$$y_2[n]$$"| a2 --&gt; sum
-
-</div>
-<h3 id="diskretni-linearni-konvoluce">Diskrétní lineární konvoluce<a class="headerlink" href="#diskretni-linearni-konvoluce" title="Permanent link">¶</a></h3>
+<p><span class="ezlinks_not_found ezlinks_not_found" src="../Pasted%20image%2020250319160407.png%20" title="center"> center</span></p>
+<p><span class="ezlinks_not_found ezlinks_not_found" src="../Pasted%20image%2020250319160449.png%20" title="center"> center</span></p>
+<h4 id="diskretni-linearni-konvoluce">Diskrétní lineární konvoluce<a class="headerlink" href="#diskretni-linearni-konvoluce" title="Permanent link">¶</a></h4>
 <ul>
 <li>
 <p>Definice:</p>
@@ -886,22 +849,22 @@ x2 --&gt; trans2 --&gt;|"$$y_2[n]$$"| a2 --&gt; sum
 </ul>
 </li>
 </ul>
-<h3 id="samostatne-ukoly">Samostatné úkoly<a class="headerlink" href="#samostatne-ukoly" title="Permanent link">¶</a></h3>
-<h4 id="linearita">Linearita<a class="headerlink" href="#linearita" title="Permanent link">¶</a></h4>
+<h4 id="samostatne-ukoly">Samostatné úkoly<a class="headerlink" href="#samostatne-ukoly" title="Permanent link">¶</a></h4>
+<h5 id="linearita">Linearita<a class="headerlink" href="#linearita" title="Permanent link">¶</a></h5>
 <p>Mějme systémy:</p>
 <ol>
 <li><span class="arithmatex">\(y[n] = x[n]^2\)</span></li>
 <li><span class="arithmatex">\(y[n] = -2 \cdot x[n]\)</span></li>
 </ol>
 <p>Rozhodněte, zda se jedná o <strong>lineární</strong> systémy.</p>
-<h4 id="casova-variance">Časová variance<a class="headerlink" href="#casova-variance" title="Permanent link">¶</a></h4>
+<h5 id="casova-variance">Časová variance<a class="headerlink" href="#casova-variance" title="Permanent link">¶</a></h5>
 <p>Mějme systémy:</p>
 <ol>
 <li><span class="arithmatex">\(y[n] = x[n]^2\)</span></li>
 <li><span class="arithmatex">\(y[n] = n \cdot x[n]\)</span></li>
 </ol>
 <p>Rozhodněte, zda se jedná o <strong>časově invariantní</strong> systémy.</p>
-<h4 id="kauzalita">Kauzalita<a class="headerlink" href="#kauzalita" title="Permanent link">¶</a></h4>
+<h5 id="kauzalita">Kauzalita<a class="headerlink" href="#kauzalita" title="Permanent link">¶</a></h5>
 <p>Mějme systémy:</p>
 <ol>
 <li><span class="arithmatex">\(y[n] = x[n]^2\)</span></li>
@@ -975,8 +938,5 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <script src="../../_static/js/snippets.js"></script>
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 document$.subscribe(() => { lightbox.reload() });
-</script><script src="https://unpkg.com/mermaid@9.4.3/dist/mermaid.min.js"></script><script>mermaid.initialize({
-    securityLevel: "loose",
-    theme: "base"
-});</script></body>
+</script></body>
 </html>

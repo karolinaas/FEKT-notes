@@ -831,45 +831,43 @@
 </li>
 </ul>
 <h4 id="zjisteni-linearity-systemu">Zjištění linearity systému<a class="headerlink" href="#zjisteni-linearity-systemu" title="Permanent link">¶</a></h4>
-<pre class="mermaid"><code>graph LR
-
-TEST[<script>
-var elems = document.getElementsByTagName("math");
-for(var i = 0; i < elems.length; i++)
-{
-  elems[i].setAttribute("mathcolor", "red");
-}
-</script><b>TEST</b> TEST]
-
-x1@{shape: text, label: "$$x_1[n]$$"}
-x2@{shape: text, label: "$$x_2[n]$$"}
-a1@{shape: text, label: "$$a_1$$"}
-a2@{shape: text, label: "$$a_2$$"}
-sum(("$$\sum$$"))
-trans["$$\mathcal{T} \{ \}$$"]
-y@{shape: text, label: "$$y[n]$$"}
-
-x1 --&gt; a1 --&gt; sum
-x2 --&gt; a2 --&gt; sum
-sum ---|"$$a_1 x_1[n] + a_2 x_2[n]$$"| trans
-trans --&gt; y
-
-</code></pre>
-<pre class="mermaid"><code>graph LR
-
-x1@{shape: text, label: "$$x_1[n]$$"}
-x2@{shape: text, label: "$$x_2[n]$$"}
-a1@{shape: text, label: "$$a_1$$"}
-a2@{shape: text, label: "$$a_2$$"}
-sum(("$$\sum$$"))
-trans1["$$\mathcal{T} \{ \}$$"]
-trans2["$$\mathcal{T} \{ \}$$"]
-y@{shape: text, label: "$$y[n]$$"}
-
-x1 --&gt; trans1 --&gt;|"$$y_1[n]$$"| a1 --&gt; sum --&gt; y
-x2 --&gt; trans2 --&gt;|"$$y_2[n]$$"| a2 --&gt; sum
-
-</code></pre>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>graph LR
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>
+<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>TEST[&lt;script&gt;
+<a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a>var elems = document.getElementsByTagName("math");
+<a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a>for(var i = 0; i &lt; elems.length; i++)
+<a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a>{
+<a href="#__codelineno-0-7" id="__codelineno-0-7" name="__codelineno-0-7"></a>  elems[i].setAttribute("mathcolor", "red");
+<a href="#__codelineno-0-8" id="__codelineno-0-8" name="__codelineno-0-8"></a>}
+<a href="#__codelineno-0-9" id="__codelineno-0-9" name="__codelineno-0-9"></a>&lt;/script&gt;&lt;b&gt;TEST&lt;/b&gt; TEST]
+<a href="#__codelineno-0-10" id="__codelineno-0-10" name="__codelineno-0-10"></a>
+<a href="#__codelineno-0-11" id="__codelineno-0-11" name="__codelineno-0-11"></a>x1@{shape: text, label: "$$x_1[n]$$"}
+<a href="#__codelineno-0-12" id="__codelineno-0-12" name="__codelineno-0-12"></a>x2@{shape: text, label: "$$x_2[n]$$"}
+<a href="#__codelineno-0-13" id="__codelineno-0-13" name="__codelineno-0-13"></a>a1@{shape: text, label: "$$a_1$$"}
+<a href="#__codelineno-0-14" id="__codelineno-0-14" name="__codelineno-0-14"></a>a2@{shape: text, label: "$$a_2$$"}
+<a href="#__codelineno-0-15" id="__codelineno-0-15" name="__codelineno-0-15"></a>sum(("$$\sum$$"))
+<a href="#__codelineno-0-16" id="__codelineno-0-16" name="__codelineno-0-16"></a>trans["$$\mathcal{T} \{ \}$$"]
+<a href="#__codelineno-0-17" id="__codelineno-0-17" name="__codelineno-0-17"></a>y@{shape: text, label: "$$y[n]$$"}
+<a href="#__codelineno-0-18" id="__codelineno-0-18" name="__codelineno-0-18"></a>
+<a href="#__codelineno-0-19" id="__codelineno-0-19" name="__codelineno-0-19"></a>x1 --&gt; a1 --&gt; sum
+<a href="#__codelineno-0-20" id="__codelineno-0-20" name="__codelineno-0-20"></a>x2 --&gt; a2 --&gt; sum
+<a href="#__codelineno-0-21" id="__codelineno-0-21" name="__codelineno-0-21"></a>sum ---|"$$a_1 x_1[n] + a_2 x_2[n]$$"| trans
+<a href="#__codelineno-0-22" id="__codelineno-0-22" name="__codelineno-0-22"></a>trans --&gt; y
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>graph LR
+<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a>
+<a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a>x1@{shape: text, label: "$$x_1[n]$$"}
+<a href="#__codelineno-1-4" id="__codelineno-1-4" name="__codelineno-1-4"></a>x2@{shape: text, label: "$$x_2[n]$$"}
+<a href="#__codelineno-1-5" id="__codelineno-1-5" name="__codelineno-1-5"></a>a1@{shape: text, label: "$$a_1$$"}
+<a href="#__codelineno-1-6" id="__codelineno-1-6" name="__codelineno-1-6"></a>a2@{shape: text, label: "$$a_2$$"}
+<a href="#__codelineno-1-7" id="__codelineno-1-7" name="__codelineno-1-7"></a>sum(("$$\sum$$"))
+<a href="#__codelineno-1-8" id="__codelineno-1-8" name="__codelineno-1-8"></a>trans1["$$\mathcal{T} \{ \}$$"]
+<a href="#__codelineno-1-9" id="__codelineno-1-9" name="__codelineno-1-9"></a>trans2["$$\mathcal{T} \{ \}$$"]
+<a href="#__codelineno-1-10" id="__codelineno-1-10" name="__codelineno-1-10"></a>y@{shape: text, label: "$$y[n]$$"}
+<a href="#__codelineno-1-11" id="__codelineno-1-11" name="__codelineno-1-11"></a>
+<a href="#__codelineno-1-12" id="__codelineno-1-12" name="__codelineno-1-12"></a>x1 --&gt; trans1 --&gt;|"$$y_1[n]$$"| a1 --&gt; sum --&gt; y
+<a href="#__codelineno-1-13" id="__codelineno-1-13" name="__codelineno-1-13"></a>x2 --&gt; trans2 --&gt;|"$$y_2[n]$$"| a2 --&gt; sum
+</code></pre></div>
 <h3 id="diskretni-linearni-konvoluce">Diskrétní lineární konvoluce<a class="headerlink" href="#diskretni-linearni-konvoluce" title="Permanent link">¶</a></h3>
 <ul>
 <li>
@@ -975,11 +973,5 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <script src="../../_static/js/snippets.js"></script>
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 document$.subscribe(() => { lightbox.reload() });
-</script><script type="module">import mermaid from "https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs";
-window.mermaidConfig = {default: {
-    securityLevel: "loose",
-    legacyMathML: true,
-    theme: (JSON.parse(__md_get("__palette").index == 1)) ? 'dark' : 'light',
-    startOnLoad: false
-}};</script></body>
+</script></body>
 </html>

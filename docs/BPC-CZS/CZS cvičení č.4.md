@@ -35,7 +35,7 @@ category: BPC-CZS
 ```mermaid
 graph LR
 
-x1@{shape: text, label: "<math display="block" class="tml-display" style="display:block math;"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo form="prefix" stretchy="false">[</mo><mi>n</mi><mo form="postfix" stretchy="false">]</mo></mrow></math>"}
+x1@{shape: text, label: "$$x_1[n]$$"}
 x2@{shape: text, label: "$$x_2[n]$$"}
 a1@{shape: text, label: "$$a_1$$"}
 a2@{shape: text, label: "$$a_2$$"}
@@ -85,12 +85,24 @@ x2 --> trans2 -->|"$$y_2[n]$$"| a2 --> sum
 
 #### Linearita
 
+Mějme systémy:
+1. $y[n] = x[n]^2$
+2. $y[n] = -2 \cdot x[n]$
 
+Rozhodněte, zda se jedná o **lineární** systémy.
 
 #### Časová variance
 
+Mějme systémy:
+1. $y[n] = x[n]^2$
+2. $y[n] = n \cdot x[n]$
 
+Rozhodněte, zda se jedná o **časově invariantní** systémy.
 
 #### Kauzalita
 
+Mějme systémy:
+1. $y[n] = x[n]^2$
+2. $y[n + 1] = y[n - 1] + 2x[n + 2]$
 
+Rozhodněte, zda se jedná o **lineární** systémy.

@@ -18,3 +18,10 @@ paletteSwitcher0.addEventListener("change", function () {
 paletteSwitcher1.addEventListener("change", function () {
   location.reload();
 });
+
+
+var elems = document.getElementsByTagName("math");
+for(var i = 0; i < elems.length; i++)
+{
+  elems[i].setAttribute("mathcolor","red");
+}

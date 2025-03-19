@@ -20,7 +20,8 @@ dependencies = [
     "mkdocs-obsidian-links",
     "beautifulsoup4",
     "babel",
-    "mkdocs-mermaid2-plugin"
+    "mkdocs-ezlinked-plugin",
+    "mkdocs-embed-plugins",
 ]
 
 [tool.ruff.lint]

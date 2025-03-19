@@ -833,7 +833,7 @@
 <h4 id="zjisteni-linearity-systemu">Zjištění linearity systému<a class="headerlink" href="#zjisteni-linearity-systemu" title="Permanent link">¶</a></h4>
 <pre class="mermaid"><code>graph LR
 
-x1@{shape: text, label: "&lt;math display="block" class="tml-display" style="display:block math;"&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mo form="prefix" stretchy="false"&gt;[&lt;/mo&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo form="postfix" stretchy="false"&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;/math&gt;"}
+x1@{shape: text, label: "$$x_1[n]$$"}
 x2@{shape: text, label: "$$x_2[n]$$"}
 a1@{shape: text, label: "$$a_1$$"}
 a2@{shape: text, label: "$$a_2$$"}
@@ -878,8 +878,26 @@ x2 --&gt; trans2 --&gt;|"$$y_2[n]$$"| a2 --&gt; sum
 </ul>
 <h3 id="samostatne-ukoly">Samostatné úkoly<a class="headerlink" href="#samostatne-ukoly" title="Permanent link">¶</a></h3>
 <h4 id="linearita">Linearita<a class="headerlink" href="#linearita" title="Permanent link">¶</a></h4>
+<p>Mějme systémy:</p>
+<ol>
+<li><span class="arithmatex">\(y[n] = x[n]^2\)</span></li>
+<li><span class="arithmatex">\(y[n] = -2 \cdot x[n]\)</span></li>
+</ol>
+<p>Rozhodněte, zda se jedná o <strong>lineární</strong> systémy.</p>
 <h4 id="casova-variance">Časová variance<a class="headerlink" href="#casova-variance" title="Permanent link">¶</a></h4>
+<p>Mějme systémy:</p>
+<ol>
+<li><span class="arithmatex">\(y[n] = x[n]^2\)</span></li>
+<li><span class="arithmatex">\(y[n] = n \cdot x[n]\)</span></li>
+</ol>
+<p>Rozhodněte, zda se jedná o <strong>časově invariantní</strong> systémy.</p>
 <h4 id="kauzalita">Kauzalita<a class="headerlink" href="#kauzalita" title="Permanent link">¶</a></h4>
+<p>Mějme systémy:</p>
+<ol>
+<li><span class="arithmatex">\(y[n] = x[n]^2\)</span></li>
+<li><span class="arithmatex">\(y[n + 1] = y[n - 1] + 2x[n + 2]\)</span></li>
+</ol>
+<p>Rozhodněte, zda se jedná o <strong>lineární</strong> systémy.</p>
 <!-- Source file information -->
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
@@ -888,7 +906,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <small>
 <!-- mkdocs-git-revision-date-localized-plugin -->
 <u>Last update</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">18. března 2025</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">19. března 2025</span>
 <!-- mkdocs-git-revision-date-plugin -->
 <br/>
 <u>Created</u> :

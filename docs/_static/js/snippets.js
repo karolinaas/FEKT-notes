@@ -20,8 +20,8 @@ paletteSwitcher1.addEventListener("change", function () {
 });
 
 
-var elems = document.getElementsByTagName("math");
+var elems = document.body.getElementsByTagName("math");
 for(var i = 0; i < elems.length; i++)
 {
-  elems[i].setAttribute("mathcolor","red");
+  elems[i].setAttribute("mathcolor", "red");
 }

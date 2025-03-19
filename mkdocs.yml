@@ -85,9 +85,6 @@ markdown_extensions:
         - name: folderv
           class: folderv
           format: !!python/name:pymdownx.superfences.fence_div_format
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid_custom
       preserve_tabs: true
 
 plugins:
@@ -118,9 +115,6 @@ plugins:
   - mermaid2:
       arguments:
           securityLevel: 'loose'
-          legacyMathML: true
-          theme: |
-              ^(JSON.parse(__md_get("__palette").index == 1)) ? 'dark' : 'light'
 
 hooks:
   - overrides/hooks/on_page_markdown.py

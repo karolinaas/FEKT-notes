@@ -35,6 +35,14 @@ category: BPC-CZS
 ```mermaid
 graph LR
 
+TEST[<script>
+var elems = document.getElementsByTagName("math");
+for(var i = 0; i < elems.length; i++)
+{
+  elems[i].setAttribute("mathcolor", "red");
+}
+</script><b>TEST</b> TEST]
+
 x1@{shape: text, label: "$$x_1[n]$$"}
 x2@{shape: text, label: "$$x_2[n]$$"}
 a1@{shape: text, label: "$$a_1$$"}

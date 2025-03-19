@@ -969,7 +969,8 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 document$.subscribe(() => { lightbox.reload() });
 </script><script type="module">import mermaid from "https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs";
 window.mermaidConfig = {default: {
-    legacyMathML: "true,",
+    securityLevel: "loose",
+    legacyMathML: true,
     theme: (JSON.parse(__md_get("__palette").index == 1)) ? 'dark' : 'light',
     startOnLoad: false
 }};</script></body>

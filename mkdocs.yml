@@ -125,7 +125,7 @@ plugins:
   - mermaid2:
       arguments:
           theme: |
-          ^(JSON.parse(__md_get("__palette").index == 1)) ? 'dark' : 'light'
+              ^(JSON.parse(__md_get("__palette").index == 1)) ? 'dark' : 'light'
 
 hooks:
   - overrides/hooks/on_page_markdown.py

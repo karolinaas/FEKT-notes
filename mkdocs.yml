@@ -40,13 +40,6 @@ theme:
         - search.suggest
         - search.highlight
 
-    pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid
-    
-
 # Extensions
 markdown_extensions:
   - footnotes
@@ -92,6 +85,9 @@ markdown_extensions:
         - name: folderv
           class: folderv
           format: !!python/name:pymdownx.superfences.fence_div_format
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
       preserve_tabs: true
 
 plugins:

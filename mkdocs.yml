@@ -122,7 +122,7 @@ plugins:
       tags_file: tags.md
   - callouts
   - glightbox
-  - mermaid2
+  - mermaid2:
       arguments:
           theme: |
           ^(JSON.parse(__md_get("__palette").index == 1)) ? 'dark' : 'light'

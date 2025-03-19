@@ -25,7 +25,7 @@ body {
     }
 
     /* Mermaid math color */
-    #__mermaid_1 span {
-        color: var(--md-mermaid-label-fg-color);
+    .katex {
+        color: #FFFFFF !important;
     }
 }

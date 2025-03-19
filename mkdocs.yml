@@ -116,6 +116,7 @@ plugins:
   - callouts
   - glightbox
   - mermaid2:
+      version: '9.4.3'
       arguments:
           securityLevel: 'loose'
           theme: 'base'

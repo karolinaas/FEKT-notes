@@ -2,12 +2,11 @@
 share: "true"
 category: BPC-ZIN
 ---
-## Čtvrtá přednáška z předmětu BPC-ZIN
-Navazuje na [[./ZIN přednáška č.3|přednášku č.3]]
+
 #### Strunné nástroje drnkací
 ##### Klavír
 - Český výrobce [Petrof](https://en.wikipedia.org/wiki/Petrof)
-- Rakouský řemeslný výrobce [https://en.wikipedia.org/wiki/Friedrich_Ehrbar](Ehrbar) z 19. století
+- Rakouský řemeslný výrobce [Friedrich Ehrbar](https://en.wikipedia.org/wiki/Friedrich_Ehrbar) z 19. století
 	- Používal ho [Janáček](https://cs.wikipedia.org/wiki/Leo%C5%A1_Jan%C3%A1%C4%8Dek)
 	- Janáčkův Ehrbar měl delší dozvuk
 	- Janáček nepoužíval oktávy v levé ruce (narozdíl od Smetany, který je používal hodně)

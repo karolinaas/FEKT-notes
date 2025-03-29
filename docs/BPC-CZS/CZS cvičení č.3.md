@@ -3,8 +3,6 @@ share: "true"
 category: BPC-CZS
 ---
 
-Třetí cvičení z předmětu [[./index|BPC-CZS]]
-
 ## Základy zpracování signálu
 
 1. [[CZS cvičení č.3#Vzorkování signálů|Vzorkování signálů]]

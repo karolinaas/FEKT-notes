@@ -3,7 +3,6 @@ share: "true"
 category: BPC-ZIN
 ---
 
-## Pátá přednáška z předmětu BPC-ZIN
 #### Klarinet
 #### Hoboj - oboe
 #### Fagot

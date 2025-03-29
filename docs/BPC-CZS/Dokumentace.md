@@ -3,7 +3,7 @@ share: "true"
 category: BPC-CZS
 ---
 
-Dokumentace k funkcím napsaných v rámci cvičení z předmětu [[./index|BPC-CZS]]
+Dokumentace k funkcím napsaných v rámci CZS cvičení
 
 ---
 

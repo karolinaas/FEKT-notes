@@ -2,7 +2,7 @@
 share: "true"
 category: BPC-ZIN
 ---
-### Druhé cvičení z předmětu BPC-ZIN
+
 #### Prezentace
 ##### Varhany
 - Základní informace

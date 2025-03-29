@@ -2,7 +2,7 @@
 share: "true"
 category: BPC-ZIN
 ---
-## Třetí cvičení z předmětu BPC-ZIN
+
 ### Prezentace
 #### Hammondovy varhany - David Michael Novotný
 - rozdíl oproti obyčejným varhanům - není to nástroj píšťalový ale elektricky

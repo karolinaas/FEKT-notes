@@ -3,8 +3,6 @@ share: "true"
 category: BPC-ZIN
 ---
 
-## Páté cvičení z předmětu [[ZIN cvičení č.5|ZIN cvičení č.5]]
-
 ### Prezentace
 #### Kontrabas
 - lidově basa

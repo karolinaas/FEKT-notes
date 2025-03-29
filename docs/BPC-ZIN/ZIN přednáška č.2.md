@@ -2,7 +2,7 @@
 share: "true"
 category: BPC-ZIN
 ---
-### Druhá přednáška z předmětu BPC-ZIN
+
 - Smyky nad strunou - mění obálku ADSR
 	- Spiccato
 	- Házený (sautillé)

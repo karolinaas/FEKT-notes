@@ -3,8 +3,6 @@ share: "true"
 category: BPC-CZS
 ---
 
-### Druhá přednáška z předmětu [[./index|BPC-CZS]]
-
 - Zkouška potenciálně v elearningu formou ABCD (ne úplně triviální)
 	- Příklady, např. spočítat korelaci a vybrat správnou odpověď z 8 možností
 - V matlabu pozor, indexujeme od jedničky, ne od nuly

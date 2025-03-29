@@ -3,10 +3,6 @@ share: "true"
 category: BPC-CZS
 ---
 
-První cvičení z předmětu [[./index|BPC-CZS]]
-
----
-
 ## Úvod do Matlabu, 1. část
 
 1. [[CZS cvičení č.1#Úvod|Úvod]]

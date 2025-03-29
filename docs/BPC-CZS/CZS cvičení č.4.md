@@ -3,8 +3,6 @@ share: "true"
 category: BPC-CZS
 ---
 
-Čtvrté cvičení z předmětu [[./index|BPC-CZS]]
-
 ## Vlastnosti systémů a konvoluce
 
 1. [[CZS cvičení č.4#Klíčové pojmy|Klíčové pojmy]]

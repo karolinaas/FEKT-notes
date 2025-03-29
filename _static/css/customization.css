@@ -23,4 +23,10 @@ body {
     div.mermaid {
         text-align: center;
     }
+
+    /* Center tables on the page */
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

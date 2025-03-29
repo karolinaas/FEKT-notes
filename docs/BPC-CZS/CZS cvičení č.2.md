@@ -3,26 +3,115 @@ share: "true"
 category: BPC-CZS
 ---
 
-Druhé cvičení z předmětu [[./index|BPC-CZS]]
+1. [[CZS cvičení č.2#Podmínky a cykly|Podmínky a cykly]]
+	- [[CZS cvičení č.2#For cyklus|For cyklus]]
+	- [[CZS cvičení č.2#While cyklus|While cyklus]]
+	- [[CZS cvičení č.2#Větvení programu - if podmínka|Větvení programu - if podmínka]]
+	- [[CZS cvičení č.2#Další příkazy - switch/case|Další příkazy - switch/case]]
+2. [[CZS cvičení č.2#Funkce|Funkce]]
+	- [[CZS cvičení č.2#Lambda funkce|Lambda funkce]]
+	- [[CZS cvičení č.2#Funkce|Funkce]]
+
+---
 
 ## Úvod do Matlabu, 2. část
 
-### Lambda funkce
+### Podmínky a cykly
 
-- anonymní funkce
-- nemá samostatná .m soubor
-- je tzv. jednořádková (to není nutně pravda, ale říká se jí tak)
-- definuje se tam, kde se volá
-- kus kódu, o kterém já vím, že ho budu volat víckrát
-- předem stanovené vstupní parametry a výstupní parametry
-- pokud je funkce jednoduchá, tak může výt vhodné udělat z ní anonymní (lambda funkci) pokud není nutný samostatný .m soubor
-- značí se zavináčem @(), v závorce jsou vstupní parametry
-- 
+#### For cyklus
+
+<pre style="display: flex; justify-content: center;"><code>for <i>řídící proměnná</i> = <i>pole hodnot</i>
+	<i>tělo cyklu</i>
+end</code></pre>
+
+- tělo cyklu je prováděno tolikrát, kolik hodnot obsahuje `pole hodnot`
+- při každém zahájení cyklu je do řídicí proměnné uložena další hodnota z pole
+
+> [!example]
+> ```matlab
+> for a = 0:3
+> 	disp([’ridici promenna: ’ num2str(a)]);
+> end
+> ```
+
+#### While cyklus
+
+<pre style="display: flex; justify-content: center;"><code>while <i>logická podmínka</i>
+	<i>tělo cyklu</i>
+end</code></pre>
+
+- tělo cyklu se opakuje, dokud je splněna `logická podmínka`
+
+> [!example]
+> ```matlab
+> a = 0;
+> while(a < 4)
+> 	disp([’ridici promenna: ’ num2str(a)]);
+> 	a = a + 1;
+> end
+> ```
+
+#### Větvení programu - if podmínka
+
+<pre style="display: flex; justify-content: center;"><code>if <i>logická podmínka</i>
+	<i>pokud je splněna</i>
+else
+	<i>pokud není splněna</i>
+end</code></pre>
+
+> [!example]
+> ```matlab
+> a = -2;
+> if a < 0
+> 	disp('a je zaporne');
+> else
+> 	disp('a neni zaporne');
+> end
+> ```
+
+#### Další příkazy - switch/case
+
+- Ve vícenásobném větvení (switch/case) a v tělech cyklů lze použít příkazy:
+	- `continue` - kamžité ukončení aktuální iterace cyklu a pokračování další iterací (pokud je splněna podmínka cyklu)
+	- `break` - okamžité ukončení cyklu a skok na příkaz za cyklem nebo okamžité ukončení skriptu nebo návrat z funkce
+- `disp(' ')`, `fprintf(' ')` - výpis informační zprávy do příkazového okna
+
+> [!example]
+> ```matlab
+> a = 'PZ';
+> switch a
+> 	case 'DP'
+> 		disp('navrh dolni propusti');
+> 	case 'HP'
+> 		disp('navrh horni propusti');
+> 	case {'PP', 'PZ'}
+> 		disp('navrh pasmove propusti nebo zadrze');
+> 	otherwise
+> 		disp('vsechny ostatni');
+> end
+> ```
+
 ### Funkce
 
-- v Matlabu je definována jako nový .m file
-- důležité je, že, že jméno funkce se shoduje s názvem souboru
-- výstupní argumenty musí být definovány někde uvnitř těla funkce
+#### Lambda funkce
+
+- Anonymní funkce je funkce v Matlabu, která nemá samostatný `.m` soubor a je tzv. jednořádková, píše se rovnou v daném místě kódu (definuje se tam, kde se volá)
+- Příkladem je třeba tato funkce `sqr`:
+	- `sqr = @(x) x.^2;`
+- Výstup `sqr` je závislý na vstupu `x` - zápis `@(x)` definuje vstupní hodnoty
+
+#### Funkce
+
+- Funkce jsou klíčovým prvkem programování ve většině jazyků. V Matlabu je definována jako nový `.m` file, jehož jméno se shoduje s názvem funkce:
+
+<pre style="display: flex; justify-content: center;"><code>function [outArg1,outArg2] = my_func(inArg1,inArg2)
+	CUSTOM_FUNCTION Summary of this function goes here
+	Detailed explanation goes here
+	outputArg1 = inputArg1;
+	outputArg2 = inputArg2;
+end</code></pre>
+
+- Všimněte si rozložení výstupních a vstupních argumentů, názvu funkce, závorek a klíčovým slovem `end`
 
 ---
 

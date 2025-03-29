@@ -1,0 +1,93 @@
+---
+share: "true"
+category: BPC-ZIN
+---
+
+### Prezentace
+#### Hammondovy varhany - David Michael Novotný
+- rozdíl oproti obyčejným varhanům - není to nástroj píšťalový ale elektricky
+- vynalezl jej Laurens Hammond
+- Stavba nástroje
+	- klaviatury (manuály)
+		- 5 oktáv
+		- klávesy v inverzních barvách nejsou klávesy, ale presety na změny barvy tónu
+		- táhla (drawbars)
+		- pedálnice
+			- extra černý pedál slouží na úpravu dynamiky
+		- Rotující tónová kola (tonewheel generator)
+		- Leslie reproduktor
+			- rotující reproduktor pro charakteristicý zvuk
+- gify v prezentaci, zvukové ukázky
+- zvukové efekty
+	- vibrato
+	- tremolo
+	- chorus
+	- dozvuk
+- Notový zápis
+	- první dva řádky jsou pro pravou a levou ruku a třetí řádek pro pedály
+#### Elektrická kytara
+- historie
+	- potřeba zesílit zvuk akustické kytary
+	- 50. léta -> fender a gibson
+- Leo Fender
+	- nebyl kytarista, byl opravář autorádií
+	- hrál na klavír a saxofon
+	- po zavedení značky Fender ji prodal firmě CBS
+		- po prodeji kytary začaly ztrácet na kvalitě
+		- japonské kopie začaly být lepší než korporátní originály
+	- Firma vyráběla i zesilovače
+- Typy snímačů
+	- singlecoil
+		- hodně výšek
+	- humbucker
+		- plnější zvuk
+- Ladění
+	- E standard
+- Techniky pravé ruky
+	- Alternate picking
+	- Economy picking
+	- Sweep picking
+	- Tapping
+	- Fingerpicking
+	- Palm muting
+	- Hybrid picking
+- Techniky levé ruky
+	- Legato
+	- Hammer-on
+	- Pull-off
+	- Slides
+	- Bending - spojitý zvuk, napodobuje lidský hlas
+	- Vibrato
+	- Harmonics
+- Kytarový zesilovač
+	- Lampový
+		- používá elektronky
+		- původně sloužily jen k zesílení, aby kytara byla slyšet v big bandu
+		- při vytočení na max přirozeně zkreslují, stalo se to žádaným efektem
+		- dnes se nepodobuje
+	- Tranzistorové zesilovače
+		- používá se spíše pro akusticé kytary pro čisté zesílení
+	- Nejznámější výrobci
+		- Vox
+			- britský zvuk
+		- Marshall
+			- britský zvuk
+		- Fender
+			- americký zvuk
+		- Rozdělení zvuků podle krajin je dáno tím, že byly použité trochu jiné elektronky
+- Jak kytaru nazvučit
+	- DI - zvuk postrádá charakter
+	- sejmutí zesilovače mikrofonem
+	- použití digitální simulace
+#### Modulační efekty
+- Většina modulačních efektů pracuje na principu LFO - Low Frequency Oscillator
+- Často se zaměňuje tremolo a vibrato
+	- Tremolo - mění se amplituda
+	- Vibrato - mění se frekvence
+- Flanger
+	- vznikl z hraní si s magnetofonovými pásky
+- Phaser
+	- Posouvá fázi
+
+### Zpětná vazba
+- pro strunné nástroje se věnovat pickingu a jeho notaci

@@ -2,8 +2,7 @@
 share: "true"
 category: BPC-ZIN
 ---
-## Třetí přednáška z předmětu BPC-ZIN
-- Probírali jsme na [[./ZIN přednáška č.2|ZIN přednáška č.2]] strunné nástroje smyčcové, pokračujeme v drnkacích
+
 #### Strunné nástroje drnkací
 ##### Ukulele
 - různé velikosti

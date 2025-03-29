@@ -2,7 +2,7 @@
 share: "true"
 category: BPC-ZIN
 ---
-## Čtvrté cvičení z předmětu BPC-ZIN
+
 ### Prezentace
 #### Klasická kytara - Musil Matouš
 - drnkací nástroj, typický pro klasickou hudbu, flamenco a latinskoamerickou hudbu

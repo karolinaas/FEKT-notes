@@ -12,6 +12,8 @@ category: BPC-CZS
 	- [[CZS cvičení č.3#Kvantizační šum, odstup od kvantizačního šumu|Kvantizační šum, odstup od kvantizačního šumu]]
 4. [[CZS cvičení č.3#Samostatné úkoly|Samostatné úkoly]]
 
+---
+
 ### Vzorkování signálů
 
 > Častou otázkou u státnic je prý zadefinovat rozdíl mezi spojitým signálem, diskrétním signálem a číslicovým signálem

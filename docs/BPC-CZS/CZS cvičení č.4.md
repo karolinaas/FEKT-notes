@@ -13,6 +13,8 @@ category: BPC-CZS
 	2. [[CZS cvičení č.4#Časová variance|Časová variance]]
 	3. [[CZS cvičení č.4#Kauzalita|Kauzalita]]
 
+---
+
 ### Klíčové pojmy
 
 - **Linearita systémů**

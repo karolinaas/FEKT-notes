@@ -39,8 +39,7 @@ Opakování pojmů:
 - **Okamžitá rychlost** hmotného bodu $v$ je:
 
 	$$
-	\color{gold}
-	v = \lim_{\Delta t \rightarrow 0} \frac{\Delta x}{\Delta t} = \dot{x} = \frac{dx}{dt}
+	\color{gold}v = \lim_{\Delta t \rightarrow 0} \frac{\Delta x}{\Delta t} = \dot{x} = \frac{dx}{dt}
 	$$
 
 ![[../../_assets/img/Pasted image 20250331162816.png|Pasted image 20250331162816.png]]
@@ -50,14 +49,14 @@ Opakování pojmů:
 - Z definice okamžité rychlosti vyplývá pro závislost souřadnice $x$ na čase:
 
 	$$
-	\color{gold}
+	\color{yellow}
 	v = \frac{dx}{dt} \Longrightarrow dx = v \, dt \Longrightarrow x = \int v \, dt
 	$$
 
 - V časovém intervalu $\langle t_1, \, t_2 \rangle$ proběhne hmotný bod **délku dráhy**:
 
 	$$
-	\color{gold}
+	\color{yellow}
 	s_{1,2} = \int\limits_{s_1}^{s_2} ds =  \int\limits_{s_1}^{s_2} |v| \, dt
 	$$
 
@@ -75,15 +74,19 @@ Protože $v > 0$ pro libovolné $t$, platí:
 $$
 s_{1,2} = \int\limits_{1 \, \text{s}}^{4 \, \text{s}} (12 \, \text{m} \cdot \text{s}^{-3} t^2 - 10 \, \text{m}  \cdot \text{s}^{-2} t + 3 \, \text{m} \cdot \text{s}^{-1}) \, dt =
 $$
+
 $$
 = \left[ 12\,\text{m}\cdot\text{s}^{-3} \frac{t^3}{3} -10\,\text{m}\cdot\text{s}^{-2} \frac{t^2}{2} +3\,\text{m}\cdot\text{s}^{-1} t \right] _{1\,\text{s}}^{4\,\text{s}} =
 $$
+
 $$
 = \left[ 4\,\text{m}\cdot\text{s}^{-3} t^3 -5\,\text{m}\cdot\text{s}^{-2} t^2 +3\,\text{m}\cdot\text{s}^{-1} t \right] _{1\,\text{s}}^{4\,\text{s}} =
 $$
+
 $$
 = (256\,\text{m} - 80\,\text{m} + 12\,\text{m}) - (4\,\text{m} - 5\,\text{m} + 3\,\text{m}) = 
 $$
+
 $$
 = \underline{\underline{186\,\text{m}}}
 $$

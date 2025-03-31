@@ -18,14 +18,16 @@ Opakování pojmů:
 - **Pohyb hmotného bodu** v prostoru můžeme určit **parametrickými rovnicemi**:
 
 	$$x = x(t)$$
+	
 	$$y = y(t)$$
+	
 	$$z = z(t)$$
 
 - Resp. **polohovým vektorem**:
 
 	$$\vec{r}(t) = x(t) \vec{i} + y(t) \vec{j} + z(t) \vec{k}$$
 
-![[../../_assets/img/Pasted image 20250331012220.png|Pasted image 20250331012220.png]]
+![[../_assets/img/Pasted image 20250331012220.png|Pasted image 20250331012220.png]]
 
 ### Přímočarý pohyb hmotného bodu
 
@@ -42,7 +44,7 @@ Opakování pojmů:
 	💡v = \lim_{\Delta t \rightarrow 0} \frac{\Delta x}{\Delta t} = \dot{x} = \frac{dx}{dt}
 	$$
 
-![[../../_assets/img/Pasted image 20250331162816.png|Pasted image 20250331162816.png]]
+![[../_assets/img/Pasted image 20250331162816.png|Pasted image 20250331162816.png]]
 
 #### Určení polohy z časového průběhu rychlosti $v = v(t)$
 
@@ -82,7 +84,7 @@ Opakování pojmů:
 	a_s = \frac{\Delta v}{\Delta t}
 	$$
 
-- a **okamžité zrychlení**: :smile:
+- a **okamžité zrychlení**:
 
 	$$
 	💡a = \lim_{\Delta t \rightarrow 0} \frac{\Delta v}{\Delta t} = \dot{v} = \frac{dv}{dt}
@@ -94,7 +96,7 @@ Opakování pojmů:
 	💡a = \ddot{x} = \frac{d^2 x}{dt^2}
 	$$
 
-![[../../_assets/img/Pasted image 20250331181722.png|Pasted image 20250331181722.png]]
+![[../_assets/img/Pasted image 20250331181722.png|Pasted image 20250331181722.png]]
 
 #### Určení rychlosti z časového průběhu zrychlení $a = a(t)$
 
@@ -104,4 +106,7 @@ Opakování pojmů:
 	💡a = \frac{dv}{dt} \Longrightarrow dv = a \, dt \Longrightarrow v = \int a \, dt
 	$$
 
-##### Příklad
+> [!question] Příklad
+> Souřadnice $x$ hmotného bodu pohybujícího se v ose $x$ je dána funkcí $x = 3\,\text{m}\cdot\text{s}^{-3}t^3 - 5\,\text{m}\cdot\text{s}^{-2}t^2 + 10\,\text{m}$. Určete rychlost a zrychlení hmotného bodu v čase t = 2 s.
+> > [!success] Řešení
+> > 

@@ -46,7 +46,7 @@ Opakování pojmů:
 
 ![[../_assets/img/Pasted image 20250331162816.png|Pasted image 20250331162816.png]]
 
-#### Určení polohy z časového průběhu rychlosti $v = v(t)$
+##### Určení polohy z časového průběhu rychlosti $v = v(t)$
 
 - Z definice okamžité rychlosti vyplývá pro závislost souřadnice $x$ na čase:
 
@@ -102,7 +102,7 @@ Opakování pojmů:
 
 ![[../_assets/img/Pasted image 20250331181722.png|Pasted image 20250331181722.png]]
 
-#### Určení rychlosti z časového průběhu zrychlení $a = a(t)$
+##### Určení rychlosti z časového průběhu zrychlení $a = a(t)$
 
 - Z definice okamžitého zrychlení vyplývá
 
@@ -179,3 +179,173 @@ Opakování pojmů:
 > >
 > > 	$$x_0 = x(0\,\text{s}) = \underline{\underline {79\,\text{m}}}$$
 
+#### Speciální případy přímočarého pohybu hmotného bodu
+
+##### Rovnoměrný přímočarý pohyb
+
+- Platí:
+
+	$$
+	💡v = \text{konst.}
+	$$
+
+	$$
+	💡x = \int v\,dt = vt + x_0
+	$$
+
+	- $x_0 = x(0\,\text{s})$ je integrační konstanta, která se nazývá **počáteční souřadnicí**
+
+##### Rovnoměrně zrychlený přímočarý pohyb
+
+- Platí:
+
+	$$
+	💡v = \int a\,dt = at + v_0
+	$$
+
+	$$
+	💡= \int v\,dt = \int(at + v_0)\,dt = \frac{1}{2}at^2 + v_0t + x_0
+	$$
+
+	- $v_0 = v(0\,\text{s})$ a $x_0 = x(0\,\text{s})$ jsou integrační konstanty
+	- $v_0$ se nazývá **počáteční rychlostí**
+
+### Křivočarý pohyb hmotného bodu
+
+#### Rychlost křivočarého pohybu hmotného bodu
+
+- Posune-li se v časovém intervalu $\langle t, \, t + \Delta t \rangle$ hmotný bod z bodu $M_1$ do bodu $M_2$, změní se jeho polohový vektor o přírůstek:
+
+	$$
+	\Delta\vec{r} = \vec{r}(t + \Delta t) - \vec{r}(t)
+	$$
+
+- **Střední rychlost** hmotného bodu pro jeho pohyb mezi body $M_1$ a $M_2$ je:
+
+	$$
+	\vec{v_s} = \frac{\Delta \vec r}{\Delta t}
+	$$
+
+- **Okamžitá rychlost** $\vec v$. jejíž vektorová přímka leží v tečně k trajektorii v bodě $M_1$, je:
+
+	$$
+	💡\vec v = \lim_{\Delta t \rightarrow 0} \frac{\Delta \vec r}{\Delta t} = \lim_{\Delta t \rightarrow 0} \frac{\vec{r}(t + \Delta t) - \vec{r}(t)}{\Delta t} = \frac{d \vec r}{dt}
+	$$
+
+![[../_assets/img/Pasted image 20250331214311.png|Pasted image 20250331214311.png]]
+
+- Rychlost můžeme vyjádřit jako:
+
+	$$
+	\vec v = \frac{d \vec r}{dt} = \frac{d x}{dt} \vec i + \frac{d y}{dt} \vec j + \frac{d z}{dt} \vec k = v_x \vec i +  v_y \vec j +  v_z \vec k  
+	$$
+
+- **Velikost rychlosti** je:
+
+	$$
+	v = \sqrt{v_x^2 + v_y^2 + v_z^2} = \sqrt{\left( \frac{dx}{dt} \right)^2 + \left( \frac{dy}{dt} \right)^2 + \left( \frac{dz}{dt} \right)^2}
+	$$
+
+	- $\frac{dx}{dt} = v_x$
+	- $\frac{dy}{dt} = v_y$
+	- $\frac{dz}{dt} = v_z$
+
+- **Určení souřadnic z časového průběhu rychlosti** $\vec v = \vec v(t)$
+
+	$$
+	x = \int v_x \, dt
+	$$
+
+	$$
+	y = \int v_y \, dt
+	$$
+
+	$$
+	z = \int v_z \, dt
+	$$
+
+- **Přírůstek délky dráhy** $s_{1,2}$ v časovém intervalu $\langle t_1,\,t_2\rangle$ můžeme určit vztahem:
+
+	$$
+	💡s_{1,2} = \int\limits_{s_1}^{s_2}ds = \int\limits_{t_1}^{t_2}v\,dt
+	$$
+
+#### Zrychlení křivočarého pohybu hmotného bodu
+
+- **Střední zrychlení** v časovém intervalu $\langle t,\,t + \Delta t \rangle$ je:
+
+	$$
+	\vec{a_s} = \frac{\Delta \vec v}{\Delta t}
+	$$
+
+- **Okamžité zrychlení** $\vec a$ je:
+
+	$$
+	💡\vec a = \lim_{\Delta t \rightarrow 0} \frac{\Delta \vec v}{\Delta t} = \frac{d \vec v}{d t}
+	$$
+
+- Dosazením ze vztahu pro rychlost dostáváme:
+
+	$$
+	💡\vec a = \frac{d^2 \vec r}{dt^2}
+	$$
+
+![[../_assets/img/Pasted image 20250331221645.png|Pasted image 20250331221645.png]]
+
+- Zrychlení můžeme vyjádřit vztahem:
+
+	$$
+	\vec a = \frac{d \vec v}{dt} = \frac{d v_x}{dt} \vec i + \frac{d v_y}{dt} \vec j + \frac{d v_z}{dt} \vec k = \frac{d^2 x}{dt^2} \vec i + \frac{d^2 y}{dt^2} \vec j + \frac{d^2 z}{dt^2} \vec k = a_x \vec i +  a_y \vec j +  a_z \vec k
+	$$
+
+	- $\frac{d^2 x}{dt^2} = a_x$
+	- $\frac{d^2 y}{dt^2} = a_y$
+	- $\frac{d^2 z}{dt^2} = a_z$
+
+- Veličiny $a_x$, $a_y$, $a_z$ jsou **souřadnice vektoru zrychlení**.
+- **Určení rychlosti z časového průběhu zrychlení** $\vec a = \vec a (t)$
+
+	$$
+	v_x = \int a_x \, dt
+	$$
+
+	$$
+	v_y = \int a_y \, dt
+	$$
+
+	$$
+	v_z = \int a_z \, dt
+	$$
+
+> [!question] Příklad
+> Částice o hmotnosti $m = 1,0\,\text{kg}$ se pohybuje v rovině $(x,\,y)$. Její poloha v závislosti na čase je $x = -2\,\text{m} + 0,3\,\text{m}\cdot\text{s}^{-2}t(t+1\,\text{s})$, $y=2\,\text m-3\text m \cdot \text s^{-1}t+0,2\,\text m \cdot\text s^{-3}t^3$.
+> 
+> V časovém okamžiku $t = 1\,\text s$ vypočtěte:
+> 1. polohový vektor $\vec r$, vektor okamžité rychlosti $\vec v$ a jejich velikosti $r$, $v$
+> 2. velikost síly $F$, která působí na částici
+> 3. načrtněte pravoúhlou mřížku a v ní znázorněte polohový vektor $\vec r$ a vektor rychlosti $\vec v$
+> 
+> > [!success] Řešení
+> > 1. $$\vec r = x\vec i+y\vec j=[-2\,\text{m} + 0,3\,\text{m}\cdot\text{s}^{-2}t(t+1\,\text{s})]\vec i + [2\,\text m-3\text m \cdot \text s^{-1}t+0,2\,\text m \cdot\text s^{-3}t^3]\vec j =$$
+> >
+> > 	$$=(-2\,\text{m} + 0,3\,\text{m}\cdot\text{s}^{-1}t+ 0,3\,\text{m}\cdot\text{s}^{-2}t^2)\vec i+(2\,\text m-3\text m \cdot \text s^{-1}t+0,2\,\text m \cdot\text s^{-3}t^3)\vec j$$
+> >
+> > 	$$r = |\vec r| = \sqrt{(-2\,\text{m} + 0,3\,\text{m}\cdot\text{s}^{-1}t+ 0,3\,\text{m}\cdot\text{s}^{-2}t^2)^2+(2\,\text m-3\text m \cdot \text s^{-1}t+0,2\,\text m \cdot\text s^{-3}t^3)^2}$$
+> >
+> > 	$$\vec r(1\,\text s) = \underline{\underline{(-1,4\vec i-0,8\vec j)\,\text m}}$$
+> >
+> > 	$$r(1\,\text s) = \sqrt{1,4^2+0,8^2}\,\text m=\underline{\underline{1,61\,\text m}}$$
+> >
+> > 	$$sdf$$
+> >
+> > 	$$sdf$$
+> >
+> > 	$$sdf$$
+> >
+> > 	$$sdf$$
+> >
+> > 	$$sdf$$
+> >
+> > 	$$sdf$$
+> >
+> > 	$$sdf$$

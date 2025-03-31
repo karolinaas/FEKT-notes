@@ -39,7 +39,7 @@ Opakování pojmů:
 - **Okamžitá rychlost** hmotného bodu $v$ je:
 
 	$$
-	\color{gold}v = \lim_{\Delta t \rightarrow 0} \frac{\Delta x}{\Delta t} = \dot{x} = \frac{dx}{dt}
+	\textcolor{gold}{v = \lim_{\Delta t \rightarrow 0} \frac{\Delta x}{\Delta t} = \dot{x} = \frac{dx}{dt}}
 	$$
 
 ![[../../_assets/img/Pasted image 20250331162816.png|Pasted image 20250331162816.png]]

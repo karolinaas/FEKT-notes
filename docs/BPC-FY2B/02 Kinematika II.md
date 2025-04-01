@@ -204,7 +204,7 @@ Opakování pojmů:
 	$$
 
 	$$
-	💡= \int v\,dt = \int(at + v_0)\,dt = \frac{1}{2}at^2 + v_0t + x_0
+	💡x = \int v\,dt = \int(at + v_0)\,dt = \frac{1}{2}at^2 + v_0t + x_0
 	$$
 
 	- $v_0 = v(0\,\text{s})$ a $x_0 = x(0\,\text{s})$ jsou integrační konstanty
@@ -336,16 +336,140 @@ Opakování pojmů:
 > >
 > > 	$$r(1\,\text s) = \sqrt{1,4^2+0,8^2}\,\text m=\underline{\underline{1,61\,\text m}}$$
 > >
-> > 	$$sdf$$
+> > 	$$\vec v \frac{d \vec r}{dt} = (0,3\,\text{m}\cdot\text{s}^{-1}+0,6\,\text{m}\cdot\text{s}^{-2}t)\vec i+(-3\,\text{m}\cdot\text{s}^{-1}+0,6\,\text{m}\cdot\text{s}^{-3}t^2)\vec j$$
 > >
-> > 	$$sdf$$
+> > 	$$v = |\vec v| = \sqrt{(0,3\,\text{m}\cdot\text{s}^{-1}+0,6\,\text{m}\cdot\text{s}^{-2}t)^2+(-3\,\text{m}\cdot\text{s}^{-1}+0,6\,\text{m}\cdot\text{s}^{-3}t^2)^2}$$
 > >
-> > 	$$sdf$$
+> > 	$$\vec v(1\,\text s) = \underline{\underline{(0,9\vec i-2,4\vec j)\,\text m\cdot\text s^{-1}}}$$
 > >
-> > 	$$sdf$$
+> > 	$$v(1\,\text s) = \sqrt{0,9^2-2,4^2}\,\text m\cdot\text s^{-1} = \underline{\underline{2,56\,\text m\cdot\text s^{-1}}}$$
 > >
-> > 	$$sdf$$
+> > 2. $$\vec a = \frac{d \vec v}{dt} = 0,6\,\text m \cdot\text s^{-2}\vec i + 1,2\,\text m\cdot\text s^{-3}t\vec j$$
 > >
-> > 	$$sdf$$
+> >	$$a = |\vec a| = \sqrt{(0,6\,\text m \cdot\text s^{-2})^2 + (1,2\,\text m\cdot\text s^{-3}t)^2}$$
 > >
-> > 	$$sdf$$
+> >	$$\vec a(1\,\text s) = (0,6\vec i-1,2\vec j)\,\text m\cdot\text s^{-2}$$
+> >
+> >	$$a(1\,\text s) = \sqrt{0,6^2-1,2^2)}\,\text m\cdot\text s^{-2} = 1,34\,\text m\cdot\text s^{-2}$$
+> >
+> >	$$\vec F = m\vec a = m(0,6\,\text m \cdot\text s^{-2}\vec i + 1,2\,\text m\cdot\text s^{-3}t\vec j)$$
+> >
+> >	$$\vec F (1\,\text s) = m(0,6\vec i-1,2\vec j)\,\text m\cdot\text s^{-2} = (0,6\vec i-1,2\vec j)\,\text N$$
+> >
+> >	$$F(1\,\text s) = ma(1\,\text s) = \underline{\underline{1,34\,\text N}}$$
+> >
+> > 3. ![[../_assets/img/Pasted image 20250401084237.png|Pasted image 20250401084237.png]]
+
+### Pohyb po kružnici
+
+- **Úhlová souřadnice** $\varphi$
+- **Úhlová rychlost**
+
+	$$
+	💡\omega = \frac{d\varphi}{dt}
+	$$
+
+- **Úhlové zrychlení**
+
+	$$
+	💡\varepsilon = \frac{d^2\varphi}{dt^2} = \frac{d\omega}{dt}
+	$$
+
+![[../_assets/img/Pasted image 20250401085045.png|Pasted image 20250401085045.png]]
+
+- **Polohový vektor** $\vec r$ hmotného bodu vyjádříme pomocí průvodiče $r$ a úhlu $\varphi$
+- Platí:
+
+	$$
+	\vec r = x\vec i+y\vec j = r \cos\varphi\vec i+r\sin\varphi\vec j
+	$$
+
+- Pro **rychlost** $\vec v$ platí:
+
+	$$
+	\vec v = \frac{d\vec r}{dt} = -r\frac{d\varphi}{dt}\sin\varphi\vec i + r\frac{d\varphi}{dt}\cos\varphi\vec j
+	$$
+
+- Vektor $\vec v$ leží v tečně k trajektorii v daném bodě
+- Pro **velikost rychlosti** platí:
+
+	$$
+	💡v = \sqrt{v_x^2+v_y^2} = \sqrt{(-r\omega\sin\varphi)^2+(r\omega\cos\varphi)^2} = r|\omega|
+	$$
+
+- **Zrychlení** $\vec a$ hmotného bodu při kruhovém pohybu určíme jako:
+
+	$$
+	\vec a = \frac{d\vec v}{dt} = -r \left[ \frac{d^2\varphi}{dt^2}\sin\varphi+ \left( \frac{d\varphi}{dt} \right)^2\cos\varphi \right] \vec i + r \left[ \frac{d^2\varphi}{dt^2}\cos\varphi+ \left( \frac{d\varphi}{dt} \right)^2\sin\varphi \right] \vec j
+	$$
+
+- Pomocí definičních vztahů pro úhlovou rychlost a zrychlení můžeme vyjádřit $\vec a$ vztahem:
+
+	$$
+	\vec a = -r(\varepsilon\sin\varphi+\omega^2\cos\varphi)\vec i + r(\varepsilon\cos\varphi+\omega^2\sin\varphi)\vec j
+	$$
+
+- Zrychlení $\vec a$ lze rozložit na **složku tečnou** $\vec{a_t}$ **normálovou** $\vec{a_n}$:
+
+	$$
+	\vec a = \vec{a_t} +\vec{a_n} = \vec{a_t}\vec v^0 + \vec{a_n}\vec n^0
+	$$
+
+	- $a_t$, $a_n$ jsou souřadnice vektorů tečného a normálového zrychlení
+	- $\vec v^0$, $\vec n^0$ jsou jednotkové vektory ve směru vektoru rychlosti a normály
+- Pro tečnou složku zrychlení platí při uvážení pro velikost rychlosti:
+
+	$$
+	💡a_t = \frac{dv}{dt} = \frac{d}{dt}(r|\omega|) = \pm r\varepsilon
+	$$
+
+	- horní znaménko platí tehdy, je-li $\omega > 0$
+	- dolní znaménko platí při $\omega < 0$
+- Pro souřadnici $a_n$ platí:
+
+	$$
+	a_n = \frac{v^2}{r} = \frac{r^2\omega^2}{r} = r\omega^2
+	$$
+
+- Z předchozích rovnic vyplývá, že **velikost zrychlení** $a$ je:
+
+	$$
+	a = \sqrt{a_t^2+a_n^2} = r \sqrt{\varepsilon^2+\omega^4}
+	$$
+
+![[../_assets/img/Pasted image 20250401101207.png|Pasted image 20250401101207.png]]
+
+##### Vyjádření úhlových veličin pomocí vektorů
+
+$$
+💡\vec\omega = \frac{d\vec\varphi}{dt}
+$$
+
+$$
+💡\vec\varepsilon = \frac{d\vec\omega}{dt}
+$$
+
+$$
+\vec v = \vec\omega\times\vec r
+$$
+
+$$
+\vec{a_t} = \vec\varepsilon\times\vec r
+$$
+
+$$
+\vec{a_n} = \vec\omega\times\vec v
+$$
+
+![[../_assets/img/Pasted image 20250401101844.png|Pasted image 20250401101844.png]]
+
+> [!question] Příklad
+> Těleso rotuje kolem pevné osy úhlovou rychlostí $\omega = 10\,\text{rad}\cdot\text s^{-1} + 2\,\text{rad}\cdot\text{s}^{-2}t$.
+> 
+> Pro bod tělesa ve vzdálenosti $r = 0,2\,\text{m}$ od osy určete:
+> 1. Počáteční úhlovou rychlost.
+> 2. Úhlové zrychlení.
+> 3. Úhel otočení v intervalu $t \in \langle 0,\,5\,\text{s} \rangle$.
+> 4. Obvodovou rychlost v čase $5\,\text s$.
+> 5. Tečné zrychlení v čase $5\,\text s$.
+> 6. Normálové zrychlení v čase $5\,\text s$.

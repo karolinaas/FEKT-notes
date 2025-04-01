@@ -536,6 +536,24 @@
 </ul>
 </nav>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pohyb-po-kruznici">
+<span class="md-ellipsis">
+      Pohyb po kružnici
+    </span>
+</a>
+<nav aria-label="Pohyb po kružnici" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#vyjadreni-uhlovych-velicin-pomoci-vektoru">
+<span class="md-ellipsis">
+      Vyjádření úhlových veličin pomocí vektorů
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
 </ul>
 </nav>
 </li>
@@ -996,6 +1014,24 @@
 </ul>
 </nav>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pohyb-po-kruznici">
+<span class="md-ellipsis">
+      Pohyb po kružnici
+    </span>
+</a>
+<nav aria-label="Pohyb po kružnici" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#vyjadreni-uhlovych-velicin-pomoci-vektoru">
+<span class="md-ellipsis">
+      Vyjádření úhlových veličin pomocí vektorů
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
 </ul>
 </nav>
 </li>
@@ -1224,7 +1260,7 @@ a_s = \frac{\Delta v}{\Delta t}
 💡v = \int a\,dt = at + v_0
 \]</div>
 <div class="arithmatex">\[
-💡= \int v\,dt = \int(at + v_0)\,dt = \frac{1}{2}at^2 + v_0t + x_0
+💡x = \int v\,dt = \int(at + v_0)\,dt = \frac{1}{2}at^2 + v_0t + x_0
 \]</div>
 <ul>
 <li><span class="arithmatex">\(v_0 = v(0\,\text{s})\)</span> a <span class="arithmatex">\(x_0 = x(0\,\text{s})\)</span> jsou integrační konstanty</li>
@@ -1360,16 +1396,137 @@ v_z = \int a_z \, dt
 <div class="arithmatex">\[r = |\vec r| = \sqrt{(-2\,\text{m} + 0,3\,\text{m}\cdot\text{s}^{-1}t+ 0,3\,\text{m}\cdot\text{s}^{-2}t^2)^2+(2\,\text m-3\text m \cdot \text s^{-1}t+0,2\,\text m \cdot\text s^{-3}t^3)^2}\]</div>
 <div class="arithmatex">\[\vec r(1\,\text s) = \underline{\underline{(-1,4\vec i-0,8\vec j)\,\text m}}\]</div>
 <div class="arithmatex">\[r(1\,\text s) = \sqrt{1,4^2+0,8^2}\,\text m=\underline{\underline{1,61\,\text m}}\]</div>
-<div class="arithmatex">\[sdf\]</div>
-<div class="arithmatex">\[sdf\]</div>
-<div class="arithmatex">\[sdf\]</div>
-<div class="arithmatex">\[sdf\]</div>
-<div class="arithmatex">\[sdf\]</div>
-<div class="arithmatex">\[sdf\]</div>
-<div class="arithmatex">\[sdf\]</div>
+<div class="arithmatex">\[\vec v \frac{d \vec r}{dt} = (0,3\,\text{m}\cdot\text{s}^{-1}+0,6\,\text{m}\cdot\text{s}^{-2}t)\vec i+(-3\,\text{m}\cdot\text{s}^{-1}+0,6\,\text{m}\cdot\text{s}^{-3}t^2)\vec j\]</div>
+<div class="arithmatex">\[v = |\vec v| = \sqrt{(0,3\,\text{m}\cdot\text{s}^{-1}+0,6\,\text{m}\cdot\text{s}^{-2}t)^2+(-3\,\text{m}\cdot\text{s}^{-1}+0,6\,\text{m}\cdot\text{s}^{-3}t^2)^2}\]</div>
+<div class="arithmatex">\[\vec v(1\,\text s) = \underline{\underline{(0,9\vec i-2,4\vec j)\,\text m\cdot\text s^{-1}}}\]</div>
+<div class="arithmatex">\[v(1\,\text s) = \sqrt{0,9^2-2,4^2}\,\text m\cdot\text s^{-1} = \underline{\underline{2,56\,\text m\cdot\text s^{-1}}}\]</div>
+</li>
+<li>
+<div class="arithmatex">\[\vec a = \frac{d \vec v}{dt} = 0,6\,\text m \cdot\text s^{-2}\vec i + 1,2\,\text m\cdot\text s^{-3}t\vec j\]</div>
+<div class="arithmatex">\[a = |\vec a| = \sqrt{(0,6\,\text m \cdot\text s^{-2})^2 + (1,2\,\text m\cdot\text s^{-3}t)^2}\]</div>
+<div class="arithmatex">\[\vec a(1\,\text s) = (0,6\vec i-1,2\vec j)\,\text m\cdot\text s^{-2}\]</div>
+<div class="arithmatex">\[a(1\,\text s) = \sqrt{0,6^2-1,2^2)}\,\text m\cdot\text s^{-2} = 1,34\,\text m\cdot\text s^{-2}\]</div>
+<div class="arithmatex">\[\vec F = m\vec a = m(0,6\,\text m \cdot\text s^{-2}\vec i + 1,2\,\text m\cdot\text s^{-3}t\vec j)\]</div>
+<div class="arithmatex">\[\vec F (1\,\text s) = m(0,6\vec i-1,2\vec j)\,\text m\cdot\text s^{-2} = (0,6\vec i-1,2\vec j)\,\text N\]</div>
+<div class="arithmatex">\[F(1\,\text s) = ma(1\,\text s) = \underline{\underline{1,34\,\text N}}\]</div>
+</li>
+<li>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/Pasted%20image%2020250401084237.png"><img alt="Pasted image 20250401084237.png" src="../../_assets/img/Pasted%20image%2020250401084237.png" title="Pasted image 20250401084237.png"/></a></p>
 </li>
 </ol>
 </div>
+</div>
+<h4 id="pohyb-po-kruznici">Pohyb po kružnici<a class="headerlink" href="#pohyb-po-kruznici" title="Permanent link">¶</a></h4>
+<ul>
+<li><strong>Úhlová souřadnice</strong> <span class="arithmatex">\(\varphi\)</span></li>
+<li>
+<p><strong>Úhlová rychlost</strong></p>
+<div class="arithmatex">\[
+💡\omega = \frac{d\varphi}{dt}
+\]</div>
+</li>
+<li>
+<p><strong>Úhlové zrychlení</strong></p>
+<div class="arithmatex">\[
+💡\varepsilon = \frac{d^2\varphi}{dt^2} = \frac{d\omega}{dt}
+\]</div>
+</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/Pasted%20image%2020250401085045.png"><img alt="Pasted image 20250401085045.png" src="../../_assets/img/Pasted%20image%2020250401085045.png" title="Pasted image 20250401085045.png"/></a></p>
+<ul>
+<li><strong>Polohový vektor</strong> <span class="arithmatex">\(\vec r\)</span> hmotného bodu vyjádříme pomocí průvodiče <span class="arithmatex">\(r\)</span> a úhlu <span class="arithmatex">\(\varphi\)</span></li>
+<li>
+<p>Platí:</p>
+<div class="arithmatex">\[
+\vec r = x\vec i+y\vec j = r \cos\varphi\vec i+r\sin\varphi\vec j
+\]</div>
+</li>
+<li>
+<p>Pro <strong>rychlost</strong> <span class="arithmatex">\(\vec v\)</span> platí:</p>
+<div class="arithmatex">\[
+\vec v = \frac{d\vec r}{dt} = -r\frac{d\varphi}{dt}\sin\varphi\vec i + r\frac{d\varphi}{dt}\cos\varphi\vec j
+\]</div>
+</li>
+<li>
+<p>Vektor <span class="arithmatex">\(\vec v\)</span> leží v tečně k trajektorii v daném bodě</p>
+</li>
+<li>
+<p>Pro <strong>velikost rychlosti</strong> platí:</p>
+<div class="arithmatex">\[
+💡v = \sqrt{v_x^2+v_y^2} = \sqrt{(-r\omega\sin\varphi)^2+(r\omega\cos\varphi)^2} = r|\omega|
+\]</div>
+</li>
+<li>
+<p><strong>Zrychlení</strong> <span class="arithmatex">\(\vec a\)</span> hmotného bodu při kruhovém pohybu určíme jako:</p>
+<div class="arithmatex">\[
+\vec a = \frac{d\vec v}{dt} = -r \left[ \frac{d^2\varphi}{dt^2}\sin\varphi+ \left( \frac{d\varphi}{dt} \right)^2\cos\varphi \right] \vec i + r \left[ \frac{d^2\varphi}{dt^2}\cos\varphi+ \left( \frac{d\varphi}{dt} \right)^2\sin\varphi \right] \vec j
+\]</div>
+</li>
+<li>
+<p>Pomocí definičních vztahů pro úhlovou rychlost a zrychlení můžeme vyjádřit <span class="arithmatex">\(\vec a\)</span> vztahem:</p>
+<div class="arithmatex">\[
+\vec a = -r(\varepsilon\sin\varphi+\omega^2\cos\varphi)\vec i + r(\varepsilon\cos\varphi+\omega^2\sin\varphi)\vec j
+\]</div>
+</li>
+<li>
+<p>Zrychlení <span class="arithmatex">\(\vec a\)</span> lze rozložit na <strong>složku tečnou</strong> <span class="arithmatex">\(\vec{a_t}\)</span> <strong>normálovou</strong> <span class="arithmatex">\(\vec{a_n}\)</span>:</p>
+<div class="arithmatex">\[
+\vec a = \vec{a_t} +\vec{a_n} = \vec{a_t}\vec v^0 + \vec{a_n}\vec n^0
+\]</div>
+<ul>
+<li><span class="arithmatex">\(a_t\)</span>, <span class="arithmatex">\(a_n\)</span> jsou souřadnice vektorů tečného a normálového zrychlení</li>
+<li><span class="arithmatex">\(\vec v^0\)</span>, <span class="arithmatex">\(\vec n^0\)</span> jsou jednotkové vektory ve směru vektoru rychlosti a normály</li>
+<li>Pro tečnou složku zrychlení platí při uvážení pro velikost rychlosti:</li>
+</ul>
+<div class="arithmatex">\[
+💡a_t = \frac{dv}{dt} = \frac{d}{dt}(r|\omega|) = \pm r\varepsilon
+\]</div>
+<ul>
+<li>horní znaménko platí tehdy, je-li <span class="arithmatex">\(\omega &gt; 0\)</span></li>
+<li>dolní znaménko platí při <span class="arithmatex">\(\omega &lt; 0\)</span></li>
+<li>Pro souřadnici <span class="arithmatex">\(a_n\)</span> platí:</li>
+</ul>
+<div class="arithmatex">\[
+a_n = \frac{v^2}{r} = \frac{r^2\omega^2}{r} = r\omega^2
+\]</div>
+</li>
+<li>
+<p>Z předchozích rovnic vyplývá, že <strong>velikost zrychlení</strong> <span class="arithmatex">\(a\)</span> je:</p>
+<div class="arithmatex">\[
+a = \sqrt{a_t^2+a_n^2} = r \sqrt{\varepsilon^2+\omega^4}
+\]</div>
+</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/Pasted%20image%2020250401101207.png"><img alt="Pasted image 20250401101207.png" src="../../_assets/img/Pasted%20image%2020250401101207.png" title="Pasted image 20250401101207.png"/></a></p>
+<h6 id="vyjadreni-uhlovych-velicin-pomoci-vektoru">Vyjádření úhlových veličin pomocí vektorů<a class="headerlink" href="#vyjadreni-uhlovych-velicin-pomoci-vektoru" title="Permanent link">¶</a></h6>
+<div class="arithmatex">\[
+💡\vec\omega = \frac{d\vec\varphi}{dt}
+\]</div>
+<div class="arithmatex">\[
+💡\vec\varepsilon = \frac{d\vec\omega}{dt}
+\]</div>
+<div class="arithmatex">\[
+\vec v = \vec\omega\times\vec r
+\]</div>
+<div class="arithmatex">\[
+\vec{a_t} = \vec\varepsilon\times\vec r
+\]</div>
+<div class="arithmatex">\[
+\vec{a_n} = \vec\omega\times\vec v
+\]</div>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/Pasted%20image%2020250401101844.png"><img alt="Pasted image 20250401101844.png" src="../../_assets/img/Pasted%20image%2020250401101844.png" title="Pasted image 20250401101844.png"/></a></p>
+<div class="admonition question">
+<p class="admonition-title">Příklad</p>
+<p>Těleso rotuje kolem pevné osy úhlovou rychlostí <span class="arithmatex">\(\omega = 10\,\text{rad}\cdot\text s^{-1} + 2\,\text{rad}\cdot\text{s}^{-2}t\)</span>.</p>
+<p>Pro bod tělesa ve vzdálenosti <span class="arithmatex">\(r = 0,2\,\text{m}\)</span> od osy určete:</p>
+<ol>
+<li>Počáteční úhlovou rychlost.</li>
+<li>Úhlové zrychlení.</li>
+<li>Úhel otočení v intervalu <span class="arithmatex">\(t \in \langle 0,\,5\,\text{s} \rangle\)</span>.</li>
+<li>Obvodovou rychlost v čase <span class="arithmatex">\(5\,\text s\)</span>.</li>
+<li>Tečné zrychlení v čase <span class="arithmatex">\(5\,\text s\)</span>.</li>
+<li>Normálové zrychlení v čase <span class="arithmatex">\(5\,\text s\)</span>.</li>
+</ol>
 </div>
 <!-- Source file information -->
 <!-- taken from 
@@ -1379,7 +1536,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <small>
 <!-- mkdocs-git-revision-date-localized-plugin -->
 <u>Last update</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">31. března 2025</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">1. dubna 2025</span>
 <!-- mkdocs-git-revision-date-plugin -->
 <br/>
 <u>Created</u> :

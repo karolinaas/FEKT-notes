@@ -543,6 +543,13 @@
     </span>
 </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#potencialni-energie">
+<span class="md-ellipsis">
+      Potenciální energie
+    </span>
+</a>
+</li>
 </ul>
 </nav>
 </li>
@@ -994,6 +1001,13 @@
     </span>
 </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#potencialni-energie">
+<span class="md-ellipsis">
+      Potenciální energie
+    </span>
+</a>
+</li>
 </ul>
 </nav>
 </li>
@@ -1067,9 +1081,9 @@
 </ul>
 <h4 id="newtonovy-pohybove-zakony">Newtonovy pohybové zákony<a class="headerlink" href="#newtonovy-pohybove-zakony" title="Permanent link">¶</a></h4>
 <ol>
-<li>💡Každé těleso setrvává ve stavu klidu nebo rovnoměrného přímočarého pohybu, pokud není nuceno vnějšími silami tento stav měnit.</li>
-<li>💡Časová změna hybnosti je úměrná vnější síle a má s ní stejný směr.</li>
-<li>💡Každá akce způsobuje vždy stejně velikou reakci opačného směru, čili vzájemná působení dvou těles jsou stejně veliká a opačného směru.</li>
+<li><mark>💡Každé těleso setrvává ve stavu klidu nebo rovnoměrného přímočarého pohybu, pokud není nuceno vnějšími silami tento stav měnit.</mark></li>
+<li><mark>💡Časová změna hybnosti je úměrná vnější síle a má s ní stejný směr.</mark></li>
+<li><mark>💡Každá akce způsobuje vždy stejně velikou reakci opačného směru, čili vzájemná působení dvou těles jsou stejně veliká a opačného směru.</mark></li>
 </ol>
 <h5 id="druhy-pohybovy-zakon-zakon-sily-v-inercialnich-vztaznych-soustavach">Druhý pohybový zákon (Zákon síly) v inerciálních vztažných soustavách<a class="headerlink" href="#druhy-pohybovy-zakon-zakon-sily-v-inercialnich-vztaznych-soustavach" title="Permanent link">¶</a></h5>
 <ul>
@@ -1409,9 +1423,18 @@ W=\int\limits_{v_1}^{v_2}mv\,dv=m\left[\frac{v^2}{2}\right]_{v_1}^{v_2}=\frac{1}
 \]</div>
 </li>
 <li>
-<p><mark>Kinetická energie tělesa závisí na volbě vztažné souřadnicové soustavy (různé rychlosti).</mark></p>
+<p>Kinetická energie tělesa závisí na volbě vztažné souřadnicové soustavy (různé rychlosti).</p>
 </li>
 </ul>
+<h5 id="potencialni-energie">Potenciální energie<a class="headerlink" href="#potencialni-energie" title="Permanent link">¶</a></h5>
+<ul>
+<li>Zvolme potenciální energii hmotného bodu v silovém poli vektoru <span class="arithmatex">\(\vec{F_i}\)</span> v bodě daném polohovým vektorem <span class="arithmatex">\(\vec{r_0}\)</span> rovnu <span class="arithmatex">\(E_{p0} = 0\)</span>.</li>
+<li>Potom je potenciální energie hmotného bodu v bodě o polohovém vektoru <span class="arithmatex">\(\vec r\)</span> dána prací <span class="arithmatex">\(W\)</span> síly <span class="arithmatex">\(-\vec{F_i}\)</span> po zvolené libovolné trajektorii mezi těmito body.</li>
+<li>Je-li vnější síla <span class="arithmatex">\(\vec{F_v}\)</span> stále v rovnováze s vnitřní silou <span class="arithmatex">\(\vec{F_i}\)</span>, tj. <span class="arithmatex">\(\vec{F_v}=-\vec{F_i}\)</span>, je změna kinetické energie hmotného bodu nulová (výslednice <span class="arithmatex">\(\vec{F}\)</span> působící na hmotný bod je nulová) a práce síly <span class="arithmatex">\(\vec{F_v}\)</span> tedy udává pouze potenciální energii.</li>
+</ul>
+<div class="arithmatex">\[
+    E_p(\vec{r})=W=\int\limits_{\vec{r_0}}^{\vec r}\left(-\vec{F_i}\right)\,d\vec r=\int\limits_{\vec{r}}^{\vec r_0}\vec{F_i}\,d\vec r=\int\limits_{\vec{r_0}}^{\vec r}\vec{F_v}\,d\vec r
+\]</div>
 <!-- Source file information -->
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->

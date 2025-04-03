@@ -424,5 +424,5 @@ $$
 - Často časový průběh nárazové síly nahrazujeme střední nárazovou silou:
 
 	$$
-	\bbox[olive]{\int_0^1 f(x)\;dx}
+	\require{color} \left.x\right|_{x\gets\colorbox{olive}{$+2+h$}}
 	$$

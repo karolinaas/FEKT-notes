@@ -384,5 +384,45 @@ Tato rovnice se nazývá **první pohybovou rovnicí**. Tato rovnice platí jen 
 - Je-li vnější síla $\vec{F_v}$ stále v rovnováze s vnitřní silou $\vec{F_i}$, tj. $\vec{F_v}=-\vec{F_i}$, je změna kinetické energie hmotného bodu nulová (výslednice $\vec{F}$ působící na hmotný bod je nulová) a práce síly $\vec{F_v}$ tedy udává pouze potenciální energii.
 
 $$
-	E_p(\vec{r})=W=\int\limits_{\vec{r_0}}^{\vec r}\left(-\vec{F_i}\right)\,d\vec r=\int\limits_{\vec{r}}^{\vec r_0}\vec{F_i}\,d\vec r=\int\limits_{\vec{r_0}}^{\vec r}\vec{F_v}\,d\vec r
+	💡E_p(\vec{r})=W=\int\limits_{\vec{r_0}}^{\vec r}\left(-\vec{F_i}\right)\,d\vec r=\int\limits_{\vec{r}}^{\vec r_0}\vec{F_i}\,d\vec r=\int\limits_{\vec{r_0}}^{\vec r}\vec{F_v}\,d\vec r
 $$
+
+- ==💡Potenciální energie hmotného bodu v daném místě silového pole je dána prací vnější síly, která je stále v rovnováze s vnitřní silou, při posuvu hmotného bodu po dané trajektorii z místa nulové potenciální energie do daného bodu.==
+- ==💡Potenciální energie hmotného bodu v daném místě silového pole je dána prací vnitřní síly (silového pole) při posuvu hmotného bodu z daného místa do místa nulové potenciální energie po zvolené trajektorii.==
+
+### Impulz síly (časový účinek síly) - obecná definice
+
+- Působí-li na hmotný bod výsledná síla $\vec F$, dojde ke změně jeho pohybového stavu.
+- Tato změna se projeví změnou jeho polohy a rychlosti a tedy i hybnosti.
+- Změna hybnosti závisí nejen na síle $\vec F$, ale i na době, po kterou síla $\vec F$ působila.
+- Působením síly $\vec F$ na hmotný bod o hmotnosti $m$ v časovém intervalu $dt$ dochází podle druhého Newtonova pohybového zákona $\vec F=\frac{d\vec p}{dt}$ ke změně hybnosti:
+
+	$$
+	d\vec p=\vec F\,dt
+	$$
+
+- Změna hybnosti v časovém intervalu $\langle t_1,\, t_2\rangle$ potom bude:
+
+	$$
+	\Delta\vec p=\vec{p_2}-\vec{p_1}=\int\limits_{\vec{p_1}}^{\vec{p_2}}d\vec{p}=\int\limits_{t_1}^{t_2}\vec F\,dt=\vec I\Longrightarrow💡\vec I=\Delta\vec p
+	$$
+
+- Kde **impulz síly** $\vec I$ je definován jako:
+
+	$$
+	💡\vec I=\int\limits_{t_1}^{t_2}\vec F\,dt
+	$$
+
+- ==💡Impulz síly působící na hmotný bod v časovém intervalu $\langle t_1,\, t_2\rangle$ je roven změně jeho hybnosti v tomto časovém intervalu.==
+
+### Nárazové síly
+
+- Časový průběh **nárazových sil** je obecně složitou funkcí polohy a rychlostí těles před nárazem a po nárazu a fyzikálních vlastností povrchu a tím i složitou funkcí času.
+
+	![[../_assets/img/Pasted image 20250403203627.png|Pasted image 20250403203627.png]]
+
+- Často časový průběh nárazové síly nahrazujeme střední nárazovou silou:
+
+	$$
+	\bbox[olive]{\int_0^1 f(x)\;dx}
+	$$

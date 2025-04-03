@@ -503,6 +503,49 @@
     </span>
 </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanicky-vykon">
+<span class="md-ellipsis">
+      Mechanický výkon
+    </span>
+</a>
+<nav aria-label="Mechanický výkon" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stredni-hodnota-vykonu">
+<span class="md-ellipsis">
+      Střední hodnota výkonu
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#okamzity-vykon">
+<span class="md-ellipsis">
+      Okamžitý výkon
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanicka-energie">
+<span class="md-ellipsis">
+      Mechanická energie
+    </span>
+</a>
+<nav aria-label="Mechanická energie" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kineticka-energie">
+<span class="md-ellipsis">
+      Kinetická energie
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
 </ul>
 </nav>
 </li>
@@ -911,6 +954,49 @@
     </span>
 </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanicky-vykon">
+<span class="md-ellipsis">
+      Mechanický výkon
+    </span>
+</a>
+<nav aria-label="Mechanický výkon" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stredni-hodnota-vykonu">
+<span class="md-ellipsis">
+      Střední hodnota výkonu
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#okamzity-vykon">
+<span class="md-ellipsis">
+      Okamžitý výkon
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanicka-energie">
+<span class="md-ellipsis">
+      Mechanická energie
+    </span>
+</a>
+<nav aria-label="Mechanická energie" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kineticka-energie">
+<span class="md-ellipsis">
+      Kinetická energie
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
 </ul>
 </nav>
 </li>
@@ -1207,8 +1293,123 @@ dW=F\cos\alpha\,ds=F\cos\alpha\,|d\vec r|=\vec F\cdot d\vec r
 <li>
 <p>Celková práce pak je:</p>
 <div class="arithmatex">\[
-W=\int\limits_{\vec{r_1}}^{\vec{r_2}}\vec F\,d\vec r
+💡W=\int\limits_{\vec{r_1}}^{\vec{r_2}}\vec F\,d\vec r
 \]</div>
+<ul>
+<li><span class="arithmatex">\(\vec{r_1}\)</span> a <span class="arithmatex">\(\vec{r_2}\)</span> jsou polohové vektory počátečního a koncového bodu trajektorie při posunutí hmotného bodu</li>
+</ul>
+</li>
+<li>
+<p>Je-li <span class="arithmatex">\(\vec r=x\vec i + y\vec j+z\vec k\)</span>, je <span class="arithmatex">\(d\vec r=dx\vec i + y\vec j+dz\vec k\)</span>, platí:</p>
+<div class="arithmatex">\[
+\vec F\cdot d\vec r=(F_x\vec i+F_y\vec j+F_z\vec k)\cdot(dx\vec i + y\vec j+dz\vec k)=F_xdx+F_ydy+F_zdz
+\]</div>
+</li>
+<li>
+<p>Práce po dané trajektorii mezi body <span class="arithmatex">\(B_1\)</span> a <span class="arithmatex">\(B_2\)</span> je potom rovna:</p>
+<div class="arithmatex">\[
+W=\int\limits_{[x_1,\,y_1,\,z_1]}^{[x_1,\,y_1,\,z_1]}(F_xdx+F_ydy+F_zdz)
+\]</div>
+</li>
+<li>
+<p>Práce síly <span class="arithmatex">\(\vec F\)</span> je dána součtem prací jejich jednotlivých složek ve směru příslušných os.</p>
+</li>
+</ul>
+<h4 id="mechanicky-vykon">Mechanický výkon<a class="headerlink" href="#mechanicky-vykon" title="Permanent link">¶</a></h4>
+<h5 id="stredni-hodnota-vykonu">Střední hodnota výkonu<a class="headerlink" href="#stredni-hodnota-vykonu" title="Permanent link">¶</a></h5>
+<ul>
+<li>
+<p>Vykonala-li daná síla <span class="arithmatex">\(\vec F\)</span> v časovém intervalu <span class="arithmatex">\(\langle t,\, t + \Delta t\rangle\)</span> práci <span class="arithmatex">\(\Delta W\)</span>, je <strong>střední hodnota výkonu</strong> v tomto intervalu rovna:</p>
+<div class="arithmatex">\[
+P_s=\frac{\Delta W}{\Delta t}
+\]</div>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/Pasted%20image%2020250403164441.png"><img alt="Pasted image 20250403164441.png" src="../../_assets/img/Pasted%20image%2020250403164441.png" title="Pasted image 20250403164441.png"/></a></p>
+</li>
+</ul>
+<h5 id="okamzity-vykon">Okamžitý výkon<a class="headerlink" href="#okamzity-vykon" title="Permanent link">¶</a></h5>
+<ul>
+<li>
+<p>Definujeme okamžitou hodnotu výkonu <span class="arithmatex">\(P\)</span> jako limitu středního výkonu pro <span class="arithmatex">\(\Delta t \rightarrow 0\)</span>:</p>
+<div class="arithmatex">\[
+💡P=\lim_{\Delta t\rightarrow 0}\frac{\Delta W}{\Delta t}=\frac{dW}{dt}
+\]</div>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/Pasted%20image%2020250403164704.png"><img alt="Pasted image 20250403164704.png" src="../../_assets/img/Pasted%20image%2020250403164704.png" title="Pasted image 20250403164704.png"/></a></p>
+</li>
+<li>
+<p>Známe-li časový průběh výkonu <span class="arithmatex">\(P = P(t)\)</span>, můžeme stanovit práci, která je vykonána v časovém intervalu <span class="arithmatex">\(\langle t_1,\, t_2 \rangle\)</span>.</p>
+</li>
+<li>
+<p>Platí:</p>
+<div class="arithmatex">\[
+dW=Pdt
+\]</div>
+<div class="arithmatex">\[
+💡W=\int\limits_{t_1}^{t_2}P\,dt
+\]</div>
+</li>
+<li>
+<p>Velikost této práce je vyjádřena v příslušném měřítku plochou pod grafem funkce <span class="arithmatex">\(P = P(t)\)</span> v časovém intervalu <span class="arithmatex">\(\langle t_1,\, t_2 \rangle\)</span>.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/Pasted%20image%2020250403165025.png"><img alt="Pasted image 20250403165025.png" src="../../_assets/img/Pasted%20image%2020250403165025.png" title="Pasted image 20250403165025.png"/></a></p>
+</li>
+<li>
+<p>V případě konstantního výkonu <span class="arithmatex">\(P = \text{konst.}\)</span> dostaneme:</p>
+<div class="arithmatex">\[
+W=\int\limits_{t_1}^{t_2}P\,dt=P(t_2-t_1)
+\]</div>
+</li>
+</ul>
+<div class="admonition question">
+<p class="admonition-title">Příklad</p>
+<p>Síla <span class="arithmatex">\(\vec F=1\,\text N\cdot\text s^{-2}t^2\vec i+5\,\text N\vec j+4\,\text N\vec k\)</span>, jejíž působiště se posouvá po křivce dané polohovým vektorem <span class="arithmatex">\(\vec r=3\,\text m\cdot\text s^{-1}t\vec i-2\,\text m\cdot\text s^{-2}t^2\vec j+15\,\text m\cdot\text s^{-1}t\vec k\)</span>, koná práci v časovém intervalu <span class="arithmatex">\(\langle 2\,\text s,\, 10\,\text s \rangle\)</span>. </p>
+<p>Určete časovou závislost výkonu této síly <span class="arithmatex">\(P = P(t)\)</span> a práci vykonanou v daném časovém intervalu.</p>
+<div class="admonition success">
+<p class="admonition-title">Řešení</p>
+<p>Z definice okamžitého výkonu vyplývá:</p>
+<div class="arithmatex">\[P=\frac{dW}{dt}\]</div>
+<p>Elementární práce <span class="arithmatex">\(dW\)</span> je rovna:</p>
+<div class="arithmatex">\[dW=\vec F\cdot d\vec r\]</div>
+<p>Diferenciál polohového vektoru <span class="arithmatex">\(d\vec r\)</span> určíme diferencováním vektorové funkce <span class="arithmatex">\(\vec r=\vec r(t)\)</span>:</p>
+<div class="arithmatex">\[d\vec r=\frac{d\vec r}{dt}dt=(3\,\text m\cdot\text s^{-1}\vec i-4\,\text m\cdot\text s^{-2}t\vec j+15\,\text m\cdot\text s^{-1}\vec k)dt\]</div>
+<p>Elementární práce <span class="arithmatex">\(dW\)</span> je pak rovna:</p>
+<div class="arithmatex">\[dW=\vec F\cdot d\vec r=(\vec F=1\,\text N\cdot\text s^{-2}t^2\vec i+5\,\text N\vec j+4\,\text N\vec k)\cdot(3\,\text m\cdot\text s^{-1}\vec i-4\,\text m\cdot\text s^{-2}t\vec j+15\,\text m\cdot\text s^{-1}\vec k)dt =\]</div>
+<div class="arithmatex">\[= (3\,\text N\cdot\text m\cdot\text s^{-3}t^2-20\,\text N\cdot\text m\cdot\text s^{-2}t+60\,\text N\cdot\text m\cdot\text s^{-1})dt\]</div>
+<p>Okamžitý výkon je:</p>
+<div class="arithmatex">\[P=\frac{dW}{dt}=\underline{\underline{3\,\text W\cdot\text s^{-2}t^2-20\,\text W\cdot\text s^{-1}t+60\,\text W}}\]</div>
+<p>Práce vykonaná v časovém intervalu <span class="arithmatex">\(2\,\text s\)</span> až <span class="arithmatex">\(10\,\text s\)</span> je rovna:</p>
+<div class="arithmatex">\[W=\int\limits_{t_1}^{t_2}P\,dt=\int\limits_{2\,\text s}^{10\,\text s}(3\,\text W\cdot\text s^{-2}t^2-20\,\text W\cdot\text s^{-1}t+60\,\text W)\,dt=\]</div>
+<div class="arithmatex">\[=\left[ 1\,\text W\cdot\text s^{-2}t^3-10\,\text W\cdot\text s^{-1}t^2+60\,\text W\,t \right]_{2\,\text s}^{10\,\text s}=\underline{\underline{512\,\text J}}\]</div>
+</div>
+</div>
+<h4 id="mechanicka-energie">Mechanická energie<a class="headerlink" href="#mechanicka-energie" title="Permanent link">¶</a></h4>
+<h5 id="kineticka-energie">Kinetická energie<a class="headerlink" href="#kineticka-energie" title="Permanent link">¶</a></h5>
+<ul>
+<li>Zvolíme stav, v němž má hmotný bod v dané souřadnicové soustavě rychlost <span class="arithmatex">\(v = 0\)</span> za základní a přiřadíme mu hodnotu kinetické energie <span class="arithmatex">\(E_{k0}=0\)</span>.</li>
+<li>Kinetická energie stavu s rychlostí <span class="arithmatex">\(v\)</span> je pak dána prací <strong>výsledné síly</strong> <span class="arithmatex">\(\vec F\)</span> působící na <em>HB</em>.</li>
+<li>
+<p>Pro elementární práci <span class="arithmatex">\(dW\)</span> platí:</p>
+<div class="arithmatex">\[
+dW=F_tds=ma_tds=m\frac{dv}{dt}ds=m\frac{ds}{dt}dv=mvdv
+\]</div>
+<ul>
+<li><span class="arithmatex">\(F_t\)</span> je tečná složka síly <span class="arithmatex">\(\vec F\)</span></li>
+<li><span class="arithmatex">\(a_t\)</span> je tečné zrychlení</li>
+<li><span class="arithmatex">\(ds\)</span> je elementární délka dráhy</li>
+<li><span class="arithmatex">\(m\)</span> je hmotnost hmotného bodu</li>
+<li><span class="arithmatex">\(v\)</span> je velikost okamžité rychlosti</li>
+<li>Celková vykonaná práce pro počáteční rychlost <span class="arithmatex">\(v_1 = 0\)</span> a koncovou rychlost <span class="arithmatex">\(v_2 = v\)</span> je potom rovna:</li>
+</ul>
+<div class="arithmatex">\[
+W=\int\limits_{v_1}^{v_2}mv\,dv=m\left[\frac{v^2}{2}\right]_{v_1}^{v_2}=\frac{1}{2},v_2^2-\frac{1}{2}mv_1^1=\frac{1}{2}mv^2
+\]</div>
+</li>
+<li>
+<p>Platí tedy:</p>
+<div class="arithmatex">\[
+💡E_k = W = \frac{1}{2}mv^2
+\]</div>
+</li>
+<li>
+<p><mark>Kinetická energie tělesa závisí na volbě vztažné souřadnicové soustavy (různé rychlosti).</mark></p>
 </li>
 </ul>
 <!-- Source file information -->
@@ -1219,7 +1420,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <small>
 <!-- mkdocs-git-revision-date-localized-plugin -->
 <u>Last update</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2. dubna 2025</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">3. dubna 2025</span>
 <!-- mkdocs-git-revision-date-plugin -->
 <br/>
 <u>Created</u> :

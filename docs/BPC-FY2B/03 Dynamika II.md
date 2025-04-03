@@ -31,9 +31,9 @@ category: BPC-FY2B
 
 ### Newtonovy pohybové zákony
 
-1. 💡Každé těleso setrvává ve stavu klidu nebo rovnoměrného přímočarého pohybu, pokud není nuceno vnějšími silami tento stav měnit.
-2. 💡Časová změna hybnosti je úměrná vnější síle a má s ní stejný směr.
-3. 💡Každá akce způsobuje vždy stejně velikou reakci opačného směru, čili vzájemná působení dvou těles jsou stejně veliká a opačného směru.
+1. ==💡Každé těleso setrvává ve stavu klidu nebo rovnoměrného přímočarého pohybu, pokud není nuceno vnějšími silami tento stav měnit.==
+2. ==💡Časová změna hybnosti je úměrná vnější síle a má s ní stejný směr.==
+3. ==💡Každá akce způsobuje vždy stejně velikou reakci opačného směru, čili vzájemná působení dvou těles jsou stejně veliká a opačného směru.==
 
 #### Druhý pohybový zákon (Zákon síly) v inerciálních vztažných soustavách
 
@@ -375,4 +375,14 @@ Tato rovnice se nazývá **první pohybovou rovnicí**. Tato rovnice platí jen 
 	💡E_k = W = \frac{1}{2}mv^2
 	$$
 
-- ==Kinetická energie tělesa závisí na volbě vztažné souřadnicové soustavy (různé rychlosti).==
+- Kinetická energie tělesa závisí na volbě vztažné souřadnicové soustavy (různé rychlosti).
+
+#### Potenciální energie
+
+- Zvolme potenciální energii hmotného bodu v silovém poli vektoru $\vec{F_i}$ v bodě daném polohovým vektorem $\vec{r_0}$ rovnu $E_{p0} = 0$.
+- Potom je potenciální energie hmotného bodu v bodě o polohovém vektoru $\vec r$ dána prací $W$ síly $-\vec{F_i}$ po zvolené libovolné trajektorii mezi těmito body.
+- Je-li vnější síla $\vec{F_v}$ stále v rovnováze s vnitřní silou $\vec{F_i}$, tj. $\vec{F_v}=-\vec{F_i}$, je změna kinetické energie hmotného bodu nulová (výslednice $\vec{F}$ působící na hmotný bod je nulová) a práce síly $\vec{F_v}$ tedy udává pouze potenciální energii.
+
+$$
+	E_p(\vec{r})=W=\int\limits_{\vec{r_0}}^{\vec r}\left(-\vec{F_i}\right)\,d\vec r=\int\limits_{\vec{r}}^{\vec r_0}\vec{F_i}\,d\vec r=\int\limits_{\vec{r_0}}^{\vec r}\vec{F_v}\,d\vec r
+$$

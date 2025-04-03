@@ -19,6 +19,14 @@ body {
         color: #C7CEEA;
     }
 
+    strong {
+        color: #FFE4E1 !important;
+    }
+    em {
+        color: #FFE4E1 !important;
+    }
+
+
     /* Align Mermaid diagrams to center */
     div.mermaid {
         text-align: center;
@@ -32,11 +40,5 @@ body {
 
 .md-typeset mark {
     background-color: rgba(102, 0, 0, 0.4) !important;
-    color: #FFE4E1 !important;
-}
-.md-typeset strong {
-    color: #FFE4E1 !important;
-}
-.md-typeset em {
     color: #FFE4E1 !important;
 }

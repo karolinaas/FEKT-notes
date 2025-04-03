@@ -28,9 +28,9 @@ body {
     .MJX-TEX {
         color: #FFE4E1;
     }
+}
 
-    .md-typeset mark {
-      background-color: rgba(102, 0, 0, 0.4) !important;
-      color: #FFE4E1 !important;
-    }
+.md-typeset mark {
+  background-color: rgba(102, 0, 0, 0.4) !important;
+  color: #FFE4E1 !important;
 }

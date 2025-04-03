@@ -251,5 +251,128 @@ Tato rovnice se nazývá **první pohybovou rovnicí**. Tato rovnice platí jen 
 - Celková práce pak je:
 
 	$$
-	W=\int\limits_{\vec{r_1}}^{\vec{r_2}}\vec F\,d\vec r
+	💡W=\int\limits_{\vec{r_1}}^{\vec{r_2}}\vec F\,d\vec r
 	$$
+
+	- $\vec{r_1}$ a $\vec{r_2}$ jsou polohové vektory počátečního a koncového bodu trajektorie při posunutí hmotného bodu
+
+- Je-li $\vec r=x\vec i + y\vec j+z\vec k$, je $d\vec r=dx\vec i + y\vec j+dz\vec k$, platí:
+
+	$$
+	\vec F\cdot d\vec r=(F_x\vec i+F_y\vec j+F_z\vec k)\cdot(dx\vec i + y\vec j+dz\vec k)=F_xdx+F_ydy+F_zdz
+	$$
+
+- Práce po dané trajektorii mezi body $B_1$ a $B_2$ je potom rovna:
+
+	$$
+	W=\int\limits_{[x_1,\,y_1,\,z_1]}^{[x_1,\,y_1,\,z_1]}(F_xdx+F_ydy+F_zdz)
+	$$
+
+- Práce síly $\vec F$ je dána součtem prací jejich jednotlivých složek ve směru příslušných os.
+
+### Mechanický výkon
+
+#### Střední hodnota výkonu
+
+- Vykonala-li daná síla $\vec F$ v časovém intervalu $\langle t,\, t + \Delta t\rangle$ práci $\Delta W$, je **střední hodnota výkonu** v tomto intervalu rovna:
+
+	$$
+	P_s=\frac{\Delta W}{\Delta t}
+	$$
+
+	![[../_assets/img/Pasted image 20250403164441.png|Pasted image 20250403164441.png]]
+
+#### Okamžitý výkon
+
+- Definujeme okamžitou hodnotu výkonu $P$ jako limitu středního výkonu pro $\Delta t \rightarrow 0$:
+
+	$$
+	💡P=\lim_{\Delta t\rightarrow 0}\frac{\Delta W}{\Delta t}=\frac{dW}{dt}
+	$$
+
+	![[../_assets/img/Pasted image 20250403164704.png|Pasted image 20250403164704.png]]
+
+- Známe-li časový průběh výkonu $P = P(t)$, můžeme stanovit práci, která je vykonána v časovém intervalu $\langle t_1,\, t_2 \rangle$.
+- Platí:
+
+	$$
+	dW=Pdt
+	$$
+
+	$$
+	💡W=\int\limits_{t_1}^{t_2}P\,dt
+	$$
+
+- Velikost této práce je vyjádřena v příslušném měřítku plochou pod grafem funkce $P = P(t)$ v časovém intervalu $\langle t_1,\, t_2 \rangle$.
+
+	![[../_assets/img/Pasted image 20250403165025.png|Pasted image 20250403165025.png]]
+
+- V případě konstantního výkonu $P = \text{konst.}$ dostaneme:
+
+	$$
+	W=\int\limits_{t_1}^{t_2}P\,dt=P(t_2-t_1)
+	$$
+
+> [!question] Příklad
+> Síla $\vec F=1\,\text N\cdot\text s^{-2}t^2\vec i+5\,\text N\vec j+4\,\text N\vec k$, jejíž působiště se posouvá po křivce dané polohovým vektorem $\vec r=3\,\text m\cdot\text s^{-1}t\vec i-2\,\text m\cdot\text s^{-2}t^2\vec j+15\,\text m\cdot\text s^{-1}t\vec k$, koná práci v časovém intervalu $\langle 2\,\text s,\, 10\,\text s \rangle$. 
+>
+> Určete časovou závislost výkonu této síly $P = P(t)$ a práci vykonanou v daném časovém intervalu.
+> > [!success] Řešení
+> > Z definice okamžitého výkonu vyplývá:
+> >
+> > $$P=\frac{dW}{dt}$$
+> >
+> > Elementární práce $dW$ je rovna:
+> >
+> > $$dW=\vec F\cdot d\vec r$$
+> >
+> > Diferenciál polohového vektoru $d\vec r$ určíme diferencováním vektorové funkce $\vec r=\vec r(t)$:
+> >
+> > $$d\vec r=\frac{d\vec r}{dt}dt=(3\,\text m\cdot\text s^{-1}\vec i-4\,\text m\cdot\text s^{-2}t\vec j+15\,\text m\cdot\text s^{-1}\vec k)dt$$
+> >
+> > Elementární práce $dW$ je pak rovna:
+> >
+> > $$dW=\vec F\cdot d\vec r=(\vec F=1\,\text N\cdot\text s^{-2}t^2\vec i+5\,\text N\vec j+4\,\text N\vec k)\cdot(3\,\text m\cdot\text s^{-1}\vec i-4\,\text m\cdot\text s^{-2}t\vec j+15\,\text m\cdot\text s^{-1}\vec k)dt =$$
+> >
+> > $$= (3\,\text N\cdot\text m\cdot\text s^{-3}t^2-20\,\text N\cdot\text m\cdot\text s^{-2}t+60\,\text N\cdot\text m\cdot\text s^{-1})dt$$
+> >
+> > Okamžitý výkon je:
+> >
+> > $$P=\frac{dW}{dt}=\underline{\underline{3\,\text W\cdot\text s^{-2}t^2-20\,\text W\cdot\text s^{-1}t+60\,\text W}}$$
+> >
+> > Práce vykonaná v časovém intervalu $2\,\text s$ až $10\,\text s$ je rovna:
+> >
+> > $$W=\int\limits_{t_1}^{t_2}P\,dt=\int\limits_{2\,\text s}^{10\,\text s}(3\,\text W\cdot\text s^{-2}t^2-20\,\text W\cdot\text s^{-1}t+60\,\text W)\,dt=$$
+> >
+> > $$=\left[ 1\,\text W\cdot\text s^{-2}t^3-10\,\text W\cdot\text s^{-1}t^2+60\,\text W\,t \right]_{2\,\text s}^{10\,\text s}=\underline{\underline{512\,\text J}}$$
+
+### Mechanická energie
+
+#### Kinetická energie
+
+- Zvolíme stav, v němž má hmotný bod v dané souřadnicové soustavě rychlost $v = 0$ za základní a přiřadíme mu hodnotu kinetické energie $E_{k0}=0$.
+- Kinetická energie stavu s rychlostí $v$ je pak dána prací **výsledné síly** $\vec F$ působící na *HB*.
+- Pro elementární práci $dW$ platí:
+
+	$$
+	dW=F_tds=ma_tds=m\frac{dv}{dt}ds=m\frac{ds}{dt}dv=mvdv
+	$$
+
+	- $F_t$ je tečná složka síly $\vec F$
+	- $a_t$ je tečné zrychlení
+	- $ds$ je elementární délka dráhy
+	- $m$ je hmotnost hmotného bodu
+	- $v$ je velikost okamžité rychlosti
+- Celková vykonaná práce pro počáteční rychlost $v_1 = 0$ a koncovou rychlost $v_2 = v$ je potom rovna:
+
+	$$
+	W=\int\limits_{v_1}^{v_2}mv\,dv=m\left[\frac{v^2}{2}\right]_{v_1}^{v_2}=\frac{1}{2},v_2^2-\frac{1}{2}mv_1^1=\frac{1}{2}mv^2
+	$$
+
+- Platí tedy:
+
+	$$
+	💡E_k = W = \frac{1}{2}mv^2
+	$$
+
+- ==Kinetická energie tělesa závisí na volbě vztažné souřadnicové soustavy (různé rychlosti).==

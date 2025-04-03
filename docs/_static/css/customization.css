@@ -30,7 +30,7 @@ body {
     }
 
     mark {
-      background-color: rgba(102, 0, 0, 0.4);
-      color: #FFE4E1;
+      background-color: rgba(102, 0, 0, 0.4) !important;
+      color: #FFE4E1 !important;
     }
 }

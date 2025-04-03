@@ -40,7 +40,7 @@ category: BPC-FY2B
 - Vzájemný vztah mezi příčinou (tj. působící silou) a účinkem (tj. změnou pohybového stavu hmotného bodu) udává **druhý Newtonův pohybový zákon**:
 
 	$$
-	💡\vec F = \frac{d\vec p}{dt}
+	\colorbox{rgba(102, 0, 0, 0.4)}{$💡\vec F = \frac{d\vec p}{dt}$}
 	$$
 
 	- $\vec p = m\vec v$ - hybnost hmotného bodu
@@ -56,11 +56,11 @@ category: BPC-FY2B
 - Je-li hmotnost m nezávislá na čase, je její derivace podle času nulová a platí
 
 	$$
-	💡\vec F = m\vec a
+	\colorbox{rgba(102, 0, 0, 0.4)}{$💡\vec F = m\vec a$}
 	$$
 
 	$$
-	💡\vec F = m\frac{d^2\vec r}{dt^2}
+	\colorbox{rgba(102, 0, 0, 0.4)}{$💡\vec F = m\frac{d^2\vec r}{dt^2}$}
 	$$
 
 Tato rovnice se nazývá **první pohybovou rovnicí**. Tato rovnice platí jen v **inerciálních vztažných soustavách**.
@@ -157,12 +157,12 @@ Tato rovnice se nazývá **první pohybovou rovnicí**. Tato rovnice platí jen 
 > > - Obě tělesa jsou spojena neprotažitelným vláknem, budou se proto pohybovat společně, obě se stejným zrychlením o velikosti $a$. Protože se pohyb děje s použitím kladky, která způsobí změnu směru některých veličin, budou mít při tomto "souhlasném" pohybu zrychlení těles opačný směr.
 > >  - Pokud zavedeme kladnou orientaci osy směrem vzhůru a uvážíme, že je $M > m$, bude se těleso s hmotností $m$ pohybovat směrem vzhůru se zrychlením $\vec{a_1} = \vec a$ a těleso s hmotností $M$ směrem dolů se zrychlením $\vec{a_2} = -\vec a$, tedy platí:
 > >
-> > 	$$💡\vec{a_1} = -\vec{a_2} = \vec a$$
+> > 	$$\colorbox{rgba(102, 0, 0, 0.4)}{$💡\vec{a_1} = -\vec{a_2} = \vec a$}$$
 > >
 > > 	- kde orientaci $\vec a$ volíme ($+y$).
 > > - Vlákno působí na těleso $m$ tahovou silou $\vec{T_1} = \vec T$ směrem vzhůru. Podle Zákona akce a reakce působí toto těleso na vlákno silou $-\vec T$. Pokud je vlákno rovnoměrně napjaté, přenáší se tato tahová síla přes vlákno na kostku M a při uvážení otočení této síly v důsledku kladky pak vlákno působí na těleso $M$ tahovou silou $\vec{T_2} = \vec T$. Pro tahové síly působící na jednotlivá tělesa pak tedy platí:
 > >
-> >	$$💡\vec{T_1} = \vec{T_2} = \vec T$$
+> >	$$\colorbox{rgba(102, 0, 0, 0.4)}{$💡\vec{T_1} = \vec{T_2} = \vec T$}$$
 > >
 > >	- kde orientace $\vec T$ je ($+y$).
 > >- Nyní sestavíme vektorové pohybové rovnice pro jednotlivá tělesa s uvážením platnosti výše uvedených vztahů. Tyto rovnice dále přepíšeme do skalárního tvaru pro souřadnice vektorů v ose $y$. Zde použijeme znaménkovou konvenci, kdy souřadnice vektorů s orientací ($+y$) budou kladné a souřadnice vektorů s orientací ($–y$) budou záporné.
@@ -179,7 +179,7 @@ Tato rovnice se nazývá **první pohybovou rovnicí**. Tato rovnice platí jen 
 > >
 > >	$$-mg + T = ma$$
 > >
-> >	$$💡T = mg + ma$$
+> >	$$\colorbox{rgba(102, 0, 0, 0.4)}{$💡T = mg + ma$}$$
 > >
 > >	Pro těleso $M$ platí:
 > >
@@ -191,7 +191,7 @@ Tato rovnice se nazývá **první pohybovou rovnicí**. Tato rovnice platí jen 
 > >
 > >	$$-Mg + T = -Ma$$
 > >
-> >	$$💡T = Mg - Ma$$
+> >	$$\colorbox{rgba(102, 0, 0, 0.4)}{$💡T = Mg - Ma$}$$
 > >
 > >	Porovnáme pravé strany získaných rovnic pro tahové síly působící na jednotlivá tělesa:
 > >
@@ -199,17 +199,17 @@ Tato rovnice se nazývá **první pohybovou rovnicí**. Tato rovnice platí jen 
 > >
 > >	$$Ma+ma=Mg-mg$$
 > >
-> >	$$💡\underline{\underline{a=\frac{M-m}{M+m}g}}$$
+> >	$$\colorbox{rgba(102, 0, 0, 0.4)}{$💡\underline{\underline{a=\frac{M-m}{M+m}g}}$}$$
 > >
 > > 2. Velikost síly $T'$ napínající vlákno je rovna velikosti tahové síly $T$ působící na tělesa (akce-reakce). Podle výše uvedené rovnice pro velikost tahové síly působící na těleso $M$ (a tím i na těleso $m$) platí:
 > >
 > >	$$T'=T=Mg-Ma=Mg-M\frac{M-m}{M+m}g=Mg\left( 1-\frac{M-m}{M+m} \right)$$
 > >
-> >	$$💡\underline{\underline{T'=\frac{2Mm}{M+m}g}}$$
+> >	$$\colorbox{rgba(102, 0, 0, 0.4)}{$💡\underline{\underline{T'=\frac{2Mm}{M+m}g}}$}$$
 > >
 > > 3. Pokud $M = m$, platí pro velikost síly napínající vlákno:
 > >
-> >	$$💡\underline{\underline{T'=Mg=mg}}$$
+> >	$$\colorbox{rgba(102, 0, 0, 0.4)}{$💡\underline{\underline{T'=Mg=mg}}$}$$
 
 ### Mechanická práce (dráhový účinek síly) - obecná definice práce
 
@@ -251,7 +251,7 @@ Tato rovnice se nazývá **první pohybovou rovnicí**. Tato rovnice platí jen 
 - Celková práce pak je:
 
 	$$
-	💡W=\int\limits_{\vec{r_1}}^{\vec{r_2}}\vec F\,d\vec r
+	\colorbox{rgba(102, 0, 0, 0.4)}{$💡W=\int\limits_{\vec{r_1}}^{\vec{r_2}}\vec F\,d\vec r$}
 	$$
 
 	- $\vec{r_1}$ a $\vec{r_2}$ jsou polohové vektory počátečního a koncového bodu trajektorie při posunutí hmotného bodu
@@ -287,7 +287,7 @@ Tato rovnice se nazývá **první pohybovou rovnicí**. Tato rovnice platí jen 
 - Definujeme okamžitou hodnotu výkonu $P$ jako limitu středního výkonu pro $\Delta t \rightarrow 0$:
 
 	$$
-	💡P=\lim_{\Delta t\rightarrow 0}\frac{\Delta W}{\Delta t}=\frac{dW}{dt}
+	\colorbox{rgba(102, 0, 0, 0.4)}{$💡P=\lim_{\Delta t\rightarrow 0}\frac{\Delta W}{\Delta t}=\frac{dW}{dt}$}
 	$$
 
 	![[../_assets/img/Pasted image 20250403164704.png|Pasted image 20250403164704.png]]
@@ -300,7 +300,7 @@ Tato rovnice se nazývá **první pohybovou rovnicí**. Tato rovnice platí jen 
 	$$
 
 	$$
-	💡W=\int\limits_{t_1}^{t_2}P\,dt
+	\colorbox{rgba(102, 0, 0, 0.4)}{$💡W=\int\limits_{t_1}^{t_2}P\,dt$}
 	$$
 
 - Velikost této práce je vyjádřena v příslušném měřítku plochou pod grafem funkce $P = P(t)$ v časovém intervalu $\langle t_1,\, t_2 \rangle$.
@@ -372,7 +372,7 @@ Tato rovnice se nazývá **první pohybovou rovnicí**. Tato rovnice platí jen 
 - Platí tedy:
 
 	$$
-	💡E_k = W = \frac{1}{2}mv^2
+	\colorbox{rgba(102, 0, 0, 0.4)}{$💡E_k = W = \frac{1}{2}mv^2$}
 	$$
 
 - Kinetická energie tělesa závisí na volbě vztažné souřadnicové soustavy (různé rychlosti).
@@ -384,7 +384,7 @@ Tato rovnice se nazývá **první pohybovou rovnicí**. Tato rovnice platí jen 
 - Je-li vnější síla $\vec{F_v}$ stále v rovnováze s vnitřní silou $\vec{F_i}$, tj. $\vec{F_v}=-\vec{F_i}$, je změna kinetické energie hmotného bodu nulová (výslednice $\vec{F}$ působící na hmotný bod je nulová) a práce síly $\vec{F_v}$ tedy udává pouze potenciální energii.
 
 $$
-	💡E_p(\vec{r})=W=\int\limits_{\vec{r_0}}^{\vec r}\left(-\vec{F_i}\right)\,d\vec r=\int\limits_{\vec{r}}^{\vec r_0}\vec{F_i}\,d\vec r=\int\limits_{\vec{r_0}}^{\vec r}\vec{F_v}\,d\vec r
+	\colorbox{rgba(102, 0, 0, 0.4)}{$💡E_p(\vec{r})=W=\int\limits_{\vec{r_0}}^{\vec r}\left(-\vec{F_i}\right)\,d\vec r=\int\limits_{\vec{r}}^{\vec r_0}\vec{F_i}\,d\vec r=\int\limits_{\vec{r_0}}^{\vec r}\vec{F_v}\,d\vec r$}
 $$
 
 - ==💡Potenciální energie hmotného bodu v daném místě silového pole je dána prací vnější síly, která je stále v rovnováze s vnitřní silou, při posuvu hmotného bodu po dané trajektorii z místa nulové potenciální energie do daného bodu.==
@@ -404,13 +404,13 @@ $$
 - Změna hybnosti v časovém intervalu $\langle t_1,\, t_2\rangle$ potom bude:
 
 	$$
-	\Delta\vec p=\vec{p_2}-\vec{p_1}=\int\limits_{\vec{p_1}}^{\vec{p_2}}d\vec{p}=\int\limits_{t_1}^{t_2}\vec F\,dt=\vec I\Longrightarrow💡\vec I=\Delta\vec p
+	\Delta\vec p=\vec{p_2}-\vec{p_1}=\int\limits_{\vec{p_1}}^{\vec{p_2}}d\vec{p}=\int\limits_{t_1}^{t_2}\vec F\,dt=\vec I\Longrightarrow\colorbox{rgba(102, 0, 0, 0.4)}{$💡\vec I=\Delta\vec p$}
 	$$
 
 - Kde **impulz síly** $\vec I$ je definován jako:
 
 	$$
-	💡\vec I=\int\limits_{t_1}^{t_2}\vec F\,dt
+	\colorbox{rgba(102, 0, 0, 0.4)}{$💡\vec I=\int\limits_{t_1}^{t_2}\vec F\,dt$}
 	$$
 
 - ==💡Impulz síly působící na hmotný bod v časovém intervalu $\langle t_1,\, t_2\rangle$ je roven změně jeho hybnosti v tomto časovém intervalu.==
@@ -424,5 +424,7 @@ $$
 - Často časový průběh nárazové síly nahrazujeme střední nárazovou silou:
 
 	$$
-	\require{color} \left.x\right|_{x\gets\colorbox{olive}{$+2+h$}}
+	\colorbox{rgba(102, 0, 0, 0.4)}{$
+	💡\vec{F_s}=\frac{1}{\tau}\int\limits_t^{t+\tau}\vec F(t)\,dt
+	$}
 	$$

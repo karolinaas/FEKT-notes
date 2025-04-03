@@ -31,6 +31,12 @@ body {
 }
 
 .md-typeset mark {
-  background-color: rgba(102, 0, 0, 0.4) !important;
-  color: #FFE4E1 !important;
+    background-color: rgba(102, 0, 0, 0.4) !important;
+    color: #FFE4E1 !important;
+}
+.md-typeset strong {
+    color: #FFE4E1 !important;
+}
+.md-typeset em {
+    color: #FFE4E1 !important;
 }

@@ -187,6 +187,7 @@ category: BPC-FY2B
 	$$
 	E_k=\sum\limits_{i=1}^n\frac{1}{2}m_i(\omega r_i)^2=\frac{1}{2}\left(\sum\limits_{i=1}^nm_ir_i^2\right)\omega^2
 	$$
+
 	$$
 	\colorbox{rgba(102, 0, 0, 0.4)}{$
 	💡E_k=\frac{1}{2}J\omega^2

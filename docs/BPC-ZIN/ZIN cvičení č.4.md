@@ -1,0 +1,94 @@
+---
+share: "true"
+category: BPC-ZIN
+---
+
+### Prezentace
+#### Klasická kytara - Musil Matouš
+- drnkací nástroj, typický pro klasickou hudbu, flamenco a latinskoamerickou hudbu
+- používá se jak pro sólové skladby, tak jako doprovod ke zpěvu a jiným nástrojům
+- ###### Historie:
+	- předchůdce je [vihuela](https://en.wikipedia.org/wiki/Vihuela)
+		- https://www.youtube.com/watch?v=SYrxxhSYKXI
+	- vznik ve Španělsku v 16. století, dnešní podoba ze 17. století
+	- Než existoval nylon tak se na struny používaly přírodní materiály - hedvábí nebo materiály zvířecího původu
+- ###### Popis:
+	- Nylonové struny
+		- 3 melodické, celé z nylonu
+		- 3 basové, omotané kovovým drátkem
+	- Rozdíl oproti akustické kytaře je, že akustická má kovové struny, mohutnější tělo a hlasitější zvuk
+	- Rozdíl oproti flamencové kytaře je, že flamencová má menší tělo
+- ###### Způsob hraní:
+	- **Technika pravé ruky:**
+		- drnká se prstama, ne trsátkem
+			- techniky jako arpeggio, tremolo
+	- **Technika levé ruky**
+		- barré akordy, vibrato, legato, flažolety
+	- **Dynamika a výrazy ve hře**
+		- možnost velkého rozsahu dynamiky (největší rozdíl mezi hráči co hrát umí a co ne)
+	- Správné sezení
+- ###### Notace pro klasickou kytaru
+	- **Zápis v notách**
+		- v houslovém klíči
+		- označení prstokladů, barré úchyty (akordy)
+		- častá repetice, coda, změna taktu
+	- **Dynamika a artikulace**
+		- změna hlasitosti, legato staccato
+	- **Tabulatury**
+		- alternativní způsob zápisu pro začátečníky
+- ###### Významní hráči
+	- Andrés Segovia
+		- přinesl klasickou kytaru na koncertní pódia
+	- John Williams
+		- https://www.youtube.com/watch?v=GY5y4Rp3tU8
+	- Paco de Lucia
+		- https://www.youtube.com/watch?v=2oyhlad64-s
+- ###### Další ukázky:
+	- https://www.youtube.com/watch?v=xpRgR-tZEpk
+	- https://www.youtube.com/watch?v=mrHLyO0Mlu0
+	- Moderní ukázka: https://www.youtube.com/watch?v=0U5VdSQwkl4
+Zpětná vazba:
+- chybělo snímání
+#### Viola - Filip Švehla
+- ##### Základní informace
+	- smyčcový nástroj
+	- častý terč vtipů
+- ##### Historie
+	- Vyvinuta v 16. století v Itálii
+	- v baroku doprovodná role (harmonie)
+	- v klasicismu .... nestihla jsem
+- ##### Stavba
+	- "Větší housle" - trup 40-42cm
+	- Menší unifikace - každý nástroj je jiný
+	- 4 struny - c, g, d1, a1
+	- Technika hraní stejná jako u houslí
+	- Smyčec těžší než u houslí
+- ##### Technika hry
+	- oproti houslím větší tlak smyčcem
+- ##### Rozsah a notace
+	- od c do f2, ve flažoletech i víc
+	- violový klíč (alt)
+- ##### Rejstříky a barvy
+	- tři pomyslné rejstříky
+		- c-g - melancholický, temný, zrnitý
+		- d1-a1 - teplý, zpěvný, podobnější houslím
+		- nad a1 - jasný, ale ne tak výrazná
+	- Spektrogramy nejvyššího a nejnižšího tónu -> ukazuje vyšší harmonické
+- ##### Kde najdeme violu
+	- doprovodný nástroj, doplňuje mezeru mezi houslemi a violoncelem
+	- orchestry, smyčcové kvartety, jazz a folk, folklór
+#### Housle - Tomáš Popelka
+- ##### Popis nástroje
+	- smyčcový nástroj
+	- Čtyřstrunný - g, d1, a1, c2
+	- zapisujeme v houslovém klíči
+- ##### Konstrukce nástroje
+	- "to samý co viola"
+- ##### Historie
+	- první předchůdce je fidula (evropa), pak rebec (arábie) a lira da braccio (itálie)
+	- Moderní housle
+		- Itálie 16. století
+- ##### Ukázky:
+	- https://www.youtube.com/watch?v=8SbUC-UaAxE
+	- https://www.youtube.com/watch?v=0fC2rkhbVEM
+	- https://www.youtube.com/watch?v=du8EmmPK6p4

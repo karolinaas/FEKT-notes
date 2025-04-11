@@ -8,7 +8,7 @@ Dokumentace k funkcím napsaných v rámci CZS cvičení
 ---
 
 
-## [[./02 Úvod do Matlabu, 2. část|Funkce z cvičení č.2]]
+## Funkce z cvičení č.2: [[./02 Úvod do Matlabu, 2. část|Úvod do Matlabu, 2. část]]
 
 
 ### add_zeros
@@ -85,7 +85,7 @@ This function takes path to audio file and return the audio file's sample rate i
 
 ---
 
-## [[./03 Základy zpracování signálu|Funkce z cvičení č.3]]
+## Funkce z cvičení č.3 - [[./03 Základy zpracování signálu|Základy zpracování signálu]]
 
 ### generate_sine
 
@@ -210,3 +210,46 @@ Signal power $P$ is calculated using `mean` Matlab function.
 
 > [!info]+ `noise` - input noise signal
 > Sampled quantization noise of the input signal.
+
+---
+
+## Funkce z cvičení č.4 - [[04 Vlastnosti systémů a konvoluce | Vlastnosti systémů a konvoluce]]
+
+### custom_transform
+
+Transform vector using selected parameter
+
+#### Syntax
+
+<pre><code>output_vector = custom_transform(input_vector, transform)</code></pre>
+
+#### Description
+
+This function takes an input vector and applies a transform specified by the transform parameter to it.
+
+Available transforms (transform param) are:
+- `"multiply"`
+- `"addition"`
+- `"square"`
+- `"add_zero"`
+
+`input_vector` must be a row vector.
+
+#### Examples
+
+> [!example]+ Transform signal by adding a zero to it
+> ```matlab
+> x1 = [1 2 3];
+> transform = "add_zero";
+>
+> y1 = custom_transform(x1, transform);
+> ```
+
+#### Input Arguments
+
+> [!info]+ `input_vector` - input signal
+> Must be a row vector.
+
+> [!info]+ `transform` - selected transform type
+> Available transforms are: `"multiply"`, `"addition"`, `"square"`, `"add_zero"`
+

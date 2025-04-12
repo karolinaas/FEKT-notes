@@ -213,7 +213,7 @@ Signal power $P$ is calculated using `mean` Matlab function.
 
 ---
 
-## Funkce z cvičení č.4 - [[04 Vlastnosti systémů a konvoluce | Vlastnosti systémů a konvoluce]]
+## Funkce z cvičení č.4 - [[./04 Vlastnosti systémů a konvoluce|Vlastnosti systémů a konvoluce]]
 
 ### custom_transform
 
